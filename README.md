@@ -11,7 +11,7 @@ PCL is released under the terms of the BSD license, and thus free for commercial
 here's the 1.7 version of PCL
 ## RELIANCES
 ### install reliances
-```
+```shell
 sudo apt-get update
 sudo apt-get install git build-essential linux-libc-dev
 sudo apt-get install cmake cmake-gui
@@ -31,15 +31,15 @@ sudo apt-get install openjdk-8-jdk openjdk-8-jre
 ```
 ### install VTK6.2
 #### reliances for vtk6.2
-```
+```shell
 sudo apt-get install cmake-curses-gui
 sudo apt-get install freeglut3-dev
 ```
-#### vtk6.2
-[vtk6.2|https://github.com/731676158/lidar1/tree/main/src/lidar_localization/third_party/vtk-v6.2.0]
+#### build and installation for vtk6.2
+[vtk6.2](https://github.com/731676158/lidar1/tree/main/src/lidar_localization/third_party/vtk-v6.2.0)
 
 ## BUILD AND INSTALL AFTER RELIANCES SOLVED
-```
+```shell
 mkdir release
 cd release
 cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr \ -DBUILD_GPU=ON-DBUILD_apps=ON -DBUILD_examples=ON \ -DCMAKE_INSTALL_PREFIX=/usr ..
@@ -48,8 +48,8 @@ sudo gedit kdtree/CMakeFiles/pcl_kdtree.dir/link.txt
 sudo make -j8
 sudo make install
 ```
-if PCL cannot be found, we have to check to make sure that the path that cmake searched contains the lib and includes of PCL. If not, we have to make soft link to it. Like:
-```
+If PCL cannot be found, we have to check to make sure that the path that cmake searched contains the lib and includes of PCL. If not, we have to make soft link to it. Like:
+```shell
 sudo ln -s /usr/include/ /usr/lib/x86_64-linux-gnu/include/
 sudo ln -s /usr/lib/ /usr/lib/x86_64-linux-gnu/lib/
 ```
