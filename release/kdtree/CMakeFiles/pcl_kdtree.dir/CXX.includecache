@@ -364,7 +364,7 @@ boost/shared_array.hpp
 pcl/kdtree/impl/kdtree_flann.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree/src/kdtree_flann.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree/src/kdtree_flann.cpp
 pcl/kdtree/impl/kdtree_flann.hpp
 -
 pcl/impl/instantiate.hpp

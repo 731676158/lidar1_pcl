@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 # Include any dependencies generated for this target.
 include io/CMakeFiles/pcl_io.dir/depend.make
@@ -59,497 +59,497 @@ include io/CMakeFiles/pcl_io.dir/flags.make
 
 io/CMakeFiles/pcl_io.dir/src/debayer.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/debayer.cpp.o: ../io/src/debayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object io/CMakeFiles/pcl_io.dir/src/debayer.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/debayer.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/debayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object io/CMakeFiles/pcl_io.dir/src/debayer.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/debayer.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/debayer.cpp
 
 io/CMakeFiles/pcl_io.dir/src/debayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/debayer.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/debayer.cpp > CMakeFiles/pcl_io.dir/src/debayer.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/debayer.cpp > CMakeFiles/pcl_io.dir/src/debayer.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/debayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/debayer.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/debayer.cpp -o CMakeFiles/pcl_io.dir/src/debayer.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/debayer.cpp -o CMakeFiles/pcl_io.dir/src/debayer.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o: ../io/src/pcd_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/pcd_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/pcd_grabber.cpp
 
 io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/pcd_grabber.cpp > CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/pcd_grabber.cpp > CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/pcd_grabber.cpp -o CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/pcd_grabber.cpp -o CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o: ../io/src/pcd_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/pcd_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/pcd_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/pcd_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/pcd_io.cpp > CMakeFiles/pcl_io.dir/src/pcd_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/pcd_io.cpp > CMakeFiles/pcl_io.dir/src/pcd_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/pcd_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/pcd_io.cpp -o CMakeFiles/pcl_io.dir/src/pcd_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/pcd_io.cpp -o CMakeFiles/pcl_io.dir/src/pcd_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o: ../io/src/vtk_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/vtk_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/vtk_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/vtk_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/vtk_io.cpp > CMakeFiles/pcl_io.dir/src/vtk_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/vtk_io.cpp > CMakeFiles/pcl_io.dir/src/vtk_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/vtk_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/vtk_io.cpp -o CMakeFiles/pcl_io.dir/src/vtk_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/vtk_io.cpp -o CMakeFiles/pcl_io.dir/src/vtk_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.o: ../io/src/ply_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/ply_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ply_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/ply_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ply_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/ply_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ply_io.cpp > CMakeFiles/pcl_io.dir/src/ply_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ply_io.cpp > CMakeFiles/pcl_io.dir/src/ply_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/ply_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ply_io.cpp -o CMakeFiles/pcl_io.dir/src/ply_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ply_io.cpp -o CMakeFiles/pcl_io.dir/src/ply_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o: ../io/src/ascii_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ascii_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ascii_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/ascii_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ascii_io.cpp > CMakeFiles/pcl_io.dir/src/ascii_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ascii_io.cpp > CMakeFiles/pcl_io.dir/src/ascii_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/ascii_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ascii_io.cpp -o CMakeFiles/pcl_io.dir/src/ascii_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ascii_io.cpp -o CMakeFiles/pcl_io.dir/src/ascii_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/compression.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/compression.cpp.o: ../io/src/compression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object io/CMakeFiles/pcl_io.dir/src/compression.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/compression.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/compression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object io/CMakeFiles/pcl_io.dir/src/compression.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/compression.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/compression.cpp
 
 io/CMakeFiles/pcl_io.dir/src/compression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/compression.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/compression.cpp > CMakeFiles/pcl_io.dir/src/compression.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/compression.cpp > CMakeFiles/pcl_io.dir/src/compression.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/compression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/compression.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/compression.cpp -o CMakeFiles/pcl_io.dir/src/compression.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/compression.cpp -o CMakeFiles/pcl_io.dir/src/compression.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/lzf.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/lzf.cpp.o: ../io/src/lzf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object io/CMakeFiles/pcl_io.dir/src/lzf.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/lzf.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/lzf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object io/CMakeFiles/pcl_io.dir/src/lzf.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/lzf.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/lzf.cpp
 
 io/CMakeFiles/pcl_io.dir/src/lzf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/lzf.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/lzf.cpp > CMakeFiles/pcl_io.dir/src/lzf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/lzf.cpp > CMakeFiles/pcl_io.dir/src/lzf.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/lzf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/lzf.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/lzf.cpp -o CMakeFiles/pcl_io.dir/src/lzf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/lzf.cpp -o CMakeFiles/pcl_io.dir/src/lzf.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o: ../io/src/lzf_image_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/lzf_image_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/lzf_image_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/lzf_image_io.cpp > CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/lzf_image_io.cpp > CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/lzf_image_io.cpp -o CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/lzf_image_io.cpp -o CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.o: ../io/src/obj_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/obj_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/obj_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/obj_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/obj_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/obj_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/obj_io.cpp > CMakeFiles/pcl_io.dir/src/obj_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/obj_io.cpp > CMakeFiles/pcl_io.dir/src/obj_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/obj_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/obj_io.cpp -o CMakeFiles/pcl_io.dir/src/obj_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/obj_io.cpp -o CMakeFiles/pcl_io.dir/src/obj_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o: ../io/src/ifs_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ifs_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ifs_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/ifs_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ifs_io.cpp > CMakeFiles/pcl_io.dir/src/ifs_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ifs_io.cpp > CMakeFiles/pcl_io.dir/src/ifs_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/ifs_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ifs_io.cpp -o CMakeFiles/pcl_io.dir/src/ifs_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ifs_io.cpp -o CMakeFiles/pcl_io.dir/src/ifs_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o: ../io/src/image_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_grabber.cpp
 
 io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/image_grabber.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_grabber.cpp > CMakeFiles/pcl_io.dir/src/image_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_grabber.cpp > CMakeFiles/pcl_io.dir/src/image_grabber.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/image_grabber.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_grabber.cpp -o CMakeFiles/pcl_io.dir/src/image_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_grabber.cpp -o CMakeFiles/pcl_io.dir/src/image_grabber.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o: ../io/src/hdl_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/hdl_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/hdl_grabber.cpp
 
 io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/hdl_grabber.cpp > CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/hdl_grabber.cpp > CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/hdl_grabber.cpp -o CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/hdl_grabber.cpp -o CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o: ../io/src/robot_eye_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/robot_eye_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/robot_eye_grabber.cpp
 
 io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/robot_eye_grabber.cpp > CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/robot_eye_grabber.cpp > CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/robot_eye_grabber.cpp -o CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/robot_eye_grabber.cpp -o CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/file_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/file_io.cpp.o: ../io/src/file_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object io/CMakeFiles/pcl_io.dir/src/file_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/file_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/file_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object io/CMakeFiles/pcl_io.dir/src/file_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/file_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/file_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/file_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/file_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/file_io.cpp > CMakeFiles/pcl_io.dir/src/file_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/file_io.cpp > CMakeFiles/pcl_io.dir/src/file_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/file_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/file_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/file_io.cpp -o CMakeFiles/pcl_io.dir/src/file_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/file_io.cpp -o CMakeFiles/pcl_io.dir/src/file_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.o: ../io/src/io_exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/io_exception.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/io_exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/io_exception.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/io_exception.cpp
 
 io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/io_exception.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/io_exception.cpp > CMakeFiles/pcl_io.dir/src/io_exception.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/io_exception.cpp > CMakeFiles/pcl_io.dir/src/io_exception.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/io_exception.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/io_exception.cpp -o CMakeFiles/pcl_io.dir/src/io_exception.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/io_exception.cpp -o CMakeFiles/pcl_io.dir/src/io_exception.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o: ../io/src/vtk_lib_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/vtk_lib_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/vtk_lib_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/vtk_lib_io.cpp > CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/vtk_lib_io.cpp > CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/vtk_lib_io.cpp -o CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/vtk_lib_io.cpp -o CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/png_io.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/png_io.cpp.o: ../io/src/png_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object io/CMakeFiles/pcl_io.dir/src/png_io.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/png_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/png_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object io/CMakeFiles/pcl_io.dir/src/png_io.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/png_io.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/png_io.cpp
 
 io/CMakeFiles/pcl_io.dir/src/png_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/png_io.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/png_io.cpp > CMakeFiles/pcl_io.dir/src/png_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/png_io.cpp > CMakeFiles/pcl_io.dir/src/png_io.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/png_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/png_io.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/png_io.cpp -o CMakeFiles/pcl_io.dir/src/png_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/png_io.cpp -o CMakeFiles/pcl_io.dir/src/png_io.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o: ../io/src/openni_camera/openni_device.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o: ../io/src/openni_camera/openni_device_primesense.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_primesense.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_primesense.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_primesense.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_primesense.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_primesense.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_primesense.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o: ../io/src/openni_camera/openni_image_bayer_grbg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_bayer_grbg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_bayer_grbg.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_bayer_grbg.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_bayer_grbg.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_bayer_grbg.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_bayer_grbg.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o: ../io/src/openni_camera/openni_depth_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_depth_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_depth_image.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_depth_image.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_depth_image.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_depth_image.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_depth_image.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o: ../io/src/openni_camera/openni_ir_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_ir_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_ir_image.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_ir_image.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_ir_image.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_ir_image.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_ir_image.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o: ../io/src/openni_camera/openni_device_kinect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_kinect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_kinect.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_kinect.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_kinect.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_kinect.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_kinect.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o: ../io/src/openni_camera/openni_device_xtion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_xtion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_xtion.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_xtion.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_xtion.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_xtion.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_xtion.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o: ../io/src/openni_camera/openni_device_oni.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_oni.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_oni.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_oni.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_oni.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_device_oni.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_device_oni.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o: ../io/src/openni_camera/openni_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_driver.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_driver.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_driver.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_driver.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_driver.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o: ../io/src/openni_camera/openni_exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_exception.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_exception.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_exception.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_exception.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_exception.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o: ../io/src/openni_camera/openni_image_yuv_422.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_yuv_422.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_yuv_422.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_yuv_422.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_yuv_422.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_yuv_422.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_yuv_422.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o: ../io/src/openni_camera/openni_image_rgb24.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_rgb24.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_rgb24.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_rgb24.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_rgb24.cpp > CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_camera/openni_image_rgb24.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_camera/openni_image_rgb24.cpp -o CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o: ../io/src/openni_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_grabber.cpp
 
 io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_grabber.cpp > CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_grabber.cpp > CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/openni_grabber.cpp -o CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/openni_grabber.cpp -o CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o: ../io/src/oni_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/oni_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/oni_grabber.cpp
 
 io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/oni_grabber.cpp > CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/oni_grabber.cpp > CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/oni_grabber.cpp -o CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/oni_grabber.cpp -o CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o: ../io/src/image_rgb24.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_rgb24.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_rgb24.cpp
 
 io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_rgb24.cpp > CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_rgb24.cpp > CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_rgb24.cpp -o CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_rgb24.cpp -o CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o: ../io/src/image_yuv422.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_yuv422.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_yuv422.cpp
 
 io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_yuv422.cpp > CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_yuv422.cpp > CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_yuv422.cpp -o CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_yuv422.cpp -o CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.o: ../io/src/image_ir.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_ir.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_ir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_ir.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_ir.cpp
 
 io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/image_ir.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_ir.cpp > CMakeFiles/pcl_io.dir/src/image_ir.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_ir.cpp > CMakeFiles/pcl_io.dir/src/image_ir.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/image_ir.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_ir.cpp -o CMakeFiles/pcl_io.dir/src/image_ir.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_ir.cpp -o CMakeFiles/pcl_io.dir/src/image_ir.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.o: ../io/src/image_depth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_depth.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_depth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/image_depth.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_depth.cpp
 
 io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/image_depth.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_depth.cpp > CMakeFiles/pcl_io.dir/src/image_depth.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_depth.cpp > CMakeFiles/pcl_io.dir/src/image_depth.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/image_depth.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/image_depth.cpp -o CMakeFiles/pcl_io.dir/src/image_depth.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/image_depth.cpp -o CMakeFiles/pcl_io.dir/src/image_depth.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o: ../io/src/dinast_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/dinast_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/dinast_grabber.cpp
 
 io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/dinast_grabber.cpp > CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/dinast_grabber.cpp > CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/dinast_grabber.cpp -o CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/dinast_grabber.cpp -o CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.s
 
 io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o: io/CMakeFiles/pcl_io.dir/flags.make
 io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o: ../io/src/libpng_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/libpng_wrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/libpng_wrapper.cpp
 
 io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/libpng_wrapper.cpp > CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/libpng_wrapper.cpp > CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.i
 
 io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/libpng_wrapper.cpp -o CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/libpng_wrapper.cpp -o CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.s
 
 # Object files for target pcl_io
 pcl_io_OBJECTS = \
@@ -772,9 +772,9 @@ lib/libpcl_io.so.1.7.2: /usr/local/lib/libvtkfreetype-6.2.so.1
 lib/libpcl_io.so.1.7.2: /usr/local/lib/libvtkzlib-6.2.so.1
 lib/libpcl_io.so.1.7.2: /usr/lib/x86_64-linux-gnu/libGL.so
 lib/libpcl_io.so.1.7.2: io/CMakeFiles/pcl_io.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX shared library ../lib/libpcl_io.so"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_io.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_io.so.1.7.2 ../lib/libpcl_io.so.1.7 ../lib/libpcl_io.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX shared library ../lib/libpcl_io.so"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_io.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_io.so.1.7.2 ../lib/libpcl_io.so.1.7 ../lib/libpcl_io.so
 
 lib/libpcl_io.so.1.7: lib/libpcl_io.so.1.7.2
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libpcl_io.so.1.7
@@ -788,10 +788,10 @@ io/CMakeFiles/pcl_io.dir/build: lib/libpcl_io.so
 .PHONY : io/CMakeFiles/pcl_io.dir/build
 
 io/CMakeFiles/pcl_io.dir/clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io && $(CMAKE_COMMAND) -P CMakeFiles/pcl_io.dir/cmake_clean.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io && $(CMAKE_COMMAND) -P CMakeFiles/pcl_io.dir/cmake_clean.cmake
 .PHONY : io/CMakeFiles/pcl_io.dir/clean
 
 io/CMakeFiles/pcl_io.dir/depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/CMakeFiles/pcl_io.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/CMakeFiles/pcl_io.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : io/CMakeFiles/pcl_io.dir/depend
 

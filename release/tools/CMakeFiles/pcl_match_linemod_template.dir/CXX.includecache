@@ -944,7 +944,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/match_linemod_template.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/match_linemod_template.cpp
 pcl/point_cloud.h
 -
 pcl/point_types.h

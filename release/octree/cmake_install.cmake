@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_octreex" OR NOT CMAKE_INSTALL_C
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_octree.so.1.7.2"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_octree.so.1.7"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_octree.so.1.7.2"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_octree.so.1.7"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_octree.so.1.7.2"
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_octreex" OR NOT CMAKE_INSTALL_C
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_octree.so"
          RPATH "/usr/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_octree.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_octree.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_octree.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_octree.so")
     file(RPATH_CHANGE
@@ -91,42 +91,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_octreex" OR NOT CMAKE_INSTALL_C
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_octreex" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/octree/pcl_octree-1.7.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/octree/pcl_octree-1.7.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_octreex" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/octree" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/boost.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_base.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_container.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_impl.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_nodes.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_key.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_density.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_occupancy.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_singlepoint.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_pointvector.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_changedetector.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_voxelcentroid.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_iterator.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_search.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree2buf_base.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_adjacency.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/octree_pointcloud_adjacency_container.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/boost.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_base.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_container.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_impl.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_nodes.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_key.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_density.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_occupancy.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_singlepoint.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_pointvector.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_changedetector.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_voxelcentroid.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_iterator.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_search.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree2buf_base.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_adjacency.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/octree_pointcloud_adjacency_container.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_octreex" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/octree/impl" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/impl/octree_base.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/impl/octree_pointcloud.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/impl/octree2buf_base.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/impl/octree_iterator.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/impl/octree_search.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/impl/octree_pointcloud_voxelcentroid.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/include/pcl/octree/impl/octree_pointcloud_adjacency.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/impl/octree_base.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/impl/octree_pointcloud.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/impl/octree2buf_base.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/impl/octree_iterator.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/impl/octree_search.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/impl/octree_pointcloud_voxelcentroid.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/include/pcl/octree/impl/octree_pointcloud_adjacency.hpp"
     )
 endif()
 

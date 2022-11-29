@@ -914,7 +914,7 @@ vector
 vtkCommand.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/mesh2pcd.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/mesh2pcd.cpp
 pcl/visualization/pcl_visualizer.h
 -
 pcl/io/pcd_io.h

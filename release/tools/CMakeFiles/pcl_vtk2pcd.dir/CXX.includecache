@@ -702,7 +702,7 @@ vtkPolyDataNormals.h
 pcl/io/impl/vtk_lib_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/vtk2pcd.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/vtk2pcd.cpp
 pcl/io/pcd_io.h
 -
 pcl/io/vtk_lib_io.h

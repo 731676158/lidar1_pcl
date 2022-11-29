@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pc
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/uninstall_target.cmake
+	/usr/bin/cmake -P /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/uninstall_target.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

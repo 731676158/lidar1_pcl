@@ -266,7 +266,7 @@ string
 queue
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/hdl_grabber_example.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/hdl_grabber_example.cpp
 string
 -
 iostream

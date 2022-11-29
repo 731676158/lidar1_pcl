@@ -1150,7 +1150,7 @@ vtkImageReader2.h
 vtkImageData.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/boost.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/boost.h
 boost/random.hpp
 -
 boost/random/normal_distribution.hpp
@@ -1170,7 +1170,7 @@ boost/date_time/posix_time/posix_time_types.hpp
 boost/thread/thread.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/openni_save_image.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/openni_save_image.cpp
 pcl/common/time.h
 -
 pcl/io/openni_grabber.h
@@ -1188,7 +1188,7 @@ pcl/visualization/vtk.h
 pcl/visualization/pcl_visualizer.h
 -
 boost.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/boost.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/boost.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

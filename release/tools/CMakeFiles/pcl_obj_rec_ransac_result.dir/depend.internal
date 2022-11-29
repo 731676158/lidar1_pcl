@@ -149,7 +149,7 @@ tools/CMakeFiles/pcl_obj_rec_ransac_result.dir/obj_rec_ransac_result.cpp.o
  ../visualization/include/pcl/visualization/point_cloud_geometry_handlers.h
  ../visualization/include/pcl/visualization/point_cloud_handlers.h
  ../visualization/include/pcl/visualization/point_picking_event.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/obj_rec_ransac_result.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/obj_rec_ransac_result.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

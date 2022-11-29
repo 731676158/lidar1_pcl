@@ -44,7 +44,7 @@ tools/CMakeFiles/pcl_compute_cloud_error.dir/compute_cloud_error.cpp.o
  ../kdtree/include/pcl/kdtree/impl/kdtree_flann.hpp
  ../kdtree/include/pcl/kdtree/kdtree.h
  ../kdtree/include/pcl/kdtree/kdtree_flann.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/compute_cloud_error.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/compute_cloud_error.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/features/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 features/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/features/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 features/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 features/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 features/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 features/CMakeFiles/pcl_features.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/pcl_features.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/pcl_features.dir/rule
 .PHONY : features/CMakeFiles/pcl_features.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ pcl_features: features/CMakeFiles/pcl_features.dir/rule
 
 # fast build rule for target.
 pcl_features/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/build
 .PHONY : pcl_features/fast
 
 src/3dsc.o: src/3dsc.cpp.o
@@ -210,7 +210,7 @@ src/3dsc.o: src/3dsc.cpp.o
 
 # target to build an object file
 src/3dsc.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/3dsc.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/3dsc.cpp.o
 .PHONY : src/3dsc.cpp.o
 
 src/3dsc.i: src/3dsc.cpp.i
@@ -219,7 +219,7 @@ src/3dsc.i: src/3dsc.cpp.i
 
 # target to preprocess a source file
 src/3dsc.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/3dsc.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/3dsc.cpp.i
 .PHONY : src/3dsc.cpp.i
 
 src/3dsc.s: src/3dsc.cpp.s
@@ -228,7 +228,7 @@ src/3dsc.s: src/3dsc.cpp.s
 
 # target to generate assembly for a file
 src/3dsc.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/3dsc.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/3dsc.cpp.s
 .PHONY : src/3dsc.cpp.s
 
 src/board.o: src/board.cpp.o
@@ -237,7 +237,7 @@ src/board.o: src/board.cpp.o
 
 # target to build an object file
 src/board.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/board.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/board.cpp.o
 .PHONY : src/board.cpp.o
 
 src/board.i: src/board.cpp.i
@@ -246,7 +246,7 @@ src/board.i: src/board.cpp.i
 
 # target to preprocess a source file
 src/board.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/board.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/board.cpp.i
 .PHONY : src/board.cpp.i
 
 src/board.s: src/board.cpp.s
@@ -255,7 +255,7 @@ src/board.s: src/board.cpp.s
 
 # target to generate assembly for a file
 src/board.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/board.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/board.cpp.s
 .PHONY : src/board.cpp.s
 
 src/boundary.o: src/boundary.cpp.o
@@ -264,7 +264,7 @@ src/boundary.o: src/boundary.cpp.o
 
 # target to build an object file
 src/boundary.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/boundary.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/boundary.cpp.o
 .PHONY : src/boundary.cpp.o
 
 src/boundary.i: src/boundary.cpp.i
@@ -273,7 +273,7 @@ src/boundary.i: src/boundary.cpp.i
 
 # target to preprocess a source file
 src/boundary.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/boundary.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/boundary.cpp.i
 .PHONY : src/boundary.cpp.i
 
 src/boundary.s: src/boundary.cpp.s
@@ -282,7 +282,7 @@ src/boundary.s: src/boundary.cpp.s
 
 # target to generate assembly for a file
 src/boundary.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/boundary.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/boundary.cpp.s
 .PHONY : src/boundary.cpp.s
 
 src/cppf.o: src/cppf.cpp.o
@@ -291,7 +291,7 @@ src/cppf.o: src/cppf.cpp.o
 
 # target to build an object file
 src/cppf.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cppf.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cppf.cpp.o
 .PHONY : src/cppf.cpp.o
 
 src/cppf.i: src/cppf.cpp.i
@@ -300,7 +300,7 @@ src/cppf.i: src/cppf.cpp.i
 
 # target to preprocess a source file
 src/cppf.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cppf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cppf.cpp.i
 .PHONY : src/cppf.cpp.i
 
 src/cppf.s: src/cppf.cpp.s
@@ -309,7 +309,7 @@ src/cppf.s: src/cppf.cpp.s
 
 # target to generate assembly for a file
 src/cppf.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cppf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cppf.cpp.s
 .PHONY : src/cppf.cpp.s
 
 src/crh.o: src/crh.cpp.o
@@ -318,7 +318,7 @@ src/crh.o: src/crh.cpp.o
 
 # target to build an object file
 src/crh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/crh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/crh.cpp.o
 .PHONY : src/crh.cpp.o
 
 src/crh.i: src/crh.cpp.i
@@ -327,7 +327,7 @@ src/crh.i: src/crh.cpp.i
 
 # target to preprocess a source file
 src/crh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/crh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/crh.cpp.i
 .PHONY : src/crh.cpp.i
 
 src/crh.s: src/crh.cpp.s
@@ -336,7 +336,7 @@ src/crh.s: src/crh.cpp.s
 
 # target to generate assembly for a file
 src/crh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/crh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/crh.cpp.s
 .PHONY : src/crh.cpp.s
 
 src/cvfh.o: src/cvfh.cpp.o
@@ -345,7 +345,7 @@ src/cvfh.o: src/cvfh.cpp.o
 
 # target to build an object file
 src/cvfh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cvfh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cvfh.cpp.o
 .PHONY : src/cvfh.cpp.o
 
 src/cvfh.i: src/cvfh.cpp.i
@@ -354,7 +354,7 @@ src/cvfh.i: src/cvfh.cpp.i
 
 # target to preprocess a source file
 src/cvfh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cvfh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cvfh.cpp.i
 .PHONY : src/cvfh.cpp.i
 
 src/cvfh.s: src/cvfh.cpp.s
@@ -363,7 +363,7 @@ src/cvfh.s: src/cvfh.cpp.s
 
 # target to generate assembly for a file
 src/cvfh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cvfh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/cvfh.cpp.s
 .PHONY : src/cvfh.cpp.s
 
 src/don.o: src/don.cpp.o
@@ -372,7 +372,7 @@ src/don.o: src/don.cpp.o
 
 # target to build an object file
 src/don.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/don.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/don.cpp.o
 .PHONY : src/don.cpp.o
 
 src/don.i: src/don.cpp.i
@@ -381,7 +381,7 @@ src/don.i: src/don.cpp.i
 
 # target to preprocess a source file
 src/don.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/don.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/don.cpp.i
 .PHONY : src/don.cpp.i
 
 src/don.s: src/don.cpp.s
@@ -390,7 +390,7 @@ src/don.s: src/don.cpp.s
 
 # target to generate assembly for a file
 src/don.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/don.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/don.cpp.s
 .PHONY : src/don.cpp.s
 
 src/esf.o: src/esf.cpp.o
@@ -399,7 +399,7 @@ src/esf.o: src/esf.cpp.o
 
 # target to build an object file
 src/esf.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/esf.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/esf.cpp.o
 .PHONY : src/esf.cpp.o
 
 src/esf.i: src/esf.cpp.i
@@ -408,7 +408,7 @@ src/esf.i: src/esf.cpp.i
 
 # target to preprocess a source file
 src/esf.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/esf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/esf.cpp.i
 .PHONY : src/esf.cpp.i
 
 src/esf.s: src/esf.cpp.s
@@ -417,7 +417,7 @@ src/esf.s: src/esf.cpp.s
 
 # target to generate assembly for a file
 src/esf.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/esf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/esf.cpp.s
 .PHONY : src/esf.cpp.s
 
 src/fpfh.o: src/fpfh.cpp.o
@@ -426,7 +426,7 @@ src/fpfh.o: src/fpfh.cpp.o
 
 # target to build an object file
 src/fpfh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/fpfh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/fpfh.cpp.o
 .PHONY : src/fpfh.cpp.o
 
 src/fpfh.i: src/fpfh.cpp.i
@@ -435,7 +435,7 @@ src/fpfh.i: src/fpfh.cpp.i
 
 # target to preprocess a source file
 src/fpfh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/fpfh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/fpfh.cpp.i
 .PHONY : src/fpfh.cpp.i
 
 src/fpfh.s: src/fpfh.cpp.s
@@ -444,7 +444,7 @@ src/fpfh.s: src/fpfh.cpp.s
 
 # target to generate assembly for a file
 src/fpfh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/fpfh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/fpfh.cpp.s
 .PHONY : src/fpfh.cpp.s
 
 src/gfpfh.o: src/gfpfh.cpp.o
@@ -453,7 +453,7 @@ src/gfpfh.o: src/gfpfh.cpp.o
 
 # target to build an object file
 src/gfpfh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/gfpfh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/gfpfh.cpp.o
 .PHONY : src/gfpfh.cpp.o
 
 src/gfpfh.i: src/gfpfh.cpp.i
@@ -462,7 +462,7 @@ src/gfpfh.i: src/gfpfh.cpp.i
 
 # target to preprocess a source file
 src/gfpfh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/gfpfh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/gfpfh.cpp.i
 .PHONY : src/gfpfh.cpp.i
 
 src/gfpfh.s: src/gfpfh.cpp.s
@@ -471,7 +471,7 @@ src/gfpfh.s: src/gfpfh.cpp.s
 
 # target to generate assembly for a file
 src/gfpfh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/gfpfh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/gfpfh.cpp.s
 .PHONY : src/gfpfh.cpp.s
 
 src/integral_image_normal.o: src/integral_image_normal.cpp.o
@@ -480,7 +480,7 @@ src/integral_image_normal.o: src/integral_image_normal.cpp.o
 
 # target to build an object file
 src/integral_image_normal.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/integral_image_normal.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/integral_image_normal.cpp.o
 .PHONY : src/integral_image_normal.cpp.o
 
 src/integral_image_normal.i: src/integral_image_normal.cpp.i
@@ -489,7 +489,7 @@ src/integral_image_normal.i: src/integral_image_normal.cpp.i
 
 # target to preprocess a source file
 src/integral_image_normal.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/integral_image_normal.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/integral_image_normal.cpp.i
 .PHONY : src/integral_image_normal.cpp.i
 
 src/integral_image_normal.s: src/integral_image_normal.cpp.s
@@ -498,7 +498,7 @@ src/integral_image_normal.s: src/integral_image_normal.cpp.s
 
 # target to generate assembly for a file
 src/integral_image_normal.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/integral_image_normal.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/integral_image_normal.cpp.s
 .PHONY : src/integral_image_normal.cpp.s
 
 src/intensity_gradient.o: src/intensity_gradient.cpp.o
@@ -507,7 +507,7 @@ src/intensity_gradient.o: src/intensity_gradient.cpp.o
 
 # target to build an object file
 src/intensity_gradient.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_gradient.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_gradient.cpp.o
 .PHONY : src/intensity_gradient.cpp.o
 
 src/intensity_gradient.i: src/intensity_gradient.cpp.i
@@ -516,7 +516,7 @@ src/intensity_gradient.i: src/intensity_gradient.cpp.i
 
 # target to preprocess a source file
 src/intensity_gradient.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_gradient.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_gradient.cpp.i
 .PHONY : src/intensity_gradient.cpp.i
 
 src/intensity_gradient.s: src/intensity_gradient.cpp.s
@@ -525,7 +525,7 @@ src/intensity_gradient.s: src/intensity_gradient.cpp.s
 
 # target to generate assembly for a file
 src/intensity_gradient.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_gradient.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_gradient.cpp.s
 .PHONY : src/intensity_gradient.cpp.s
 
 src/intensity_spin.o: src/intensity_spin.cpp.o
@@ -534,7 +534,7 @@ src/intensity_spin.o: src/intensity_spin.cpp.o
 
 # target to build an object file
 src/intensity_spin.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_spin.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_spin.cpp.o
 .PHONY : src/intensity_spin.cpp.o
 
 src/intensity_spin.i: src/intensity_spin.cpp.i
@@ -543,7 +543,7 @@ src/intensity_spin.i: src/intensity_spin.cpp.i
 
 # target to preprocess a source file
 src/intensity_spin.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_spin.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_spin.cpp.i
 .PHONY : src/intensity_spin.cpp.i
 
 src/intensity_spin.s: src/intensity_spin.cpp.s
@@ -552,7 +552,7 @@ src/intensity_spin.s: src/intensity_spin.cpp.s
 
 # target to generate assembly for a file
 src/intensity_spin.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_spin.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/intensity_spin.cpp.s
 .PHONY : src/intensity_spin.cpp.s
 
 src/linear_least_squares_normal.o: src/linear_least_squares_normal.cpp.o
@@ -561,7 +561,7 @@ src/linear_least_squares_normal.o: src/linear_least_squares_normal.cpp.o
 
 # target to build an object file
 src/linear_least_squares_normal.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/linear_least_squares_normal.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/linear_least_squares_normal.cpp.o
 .PHONY : src/linear_least_squares_normal.cpp.o
 
 src/linear_least_squares_normal.i: src/linear_least_squares_normal.cpp.i
@@ -570,7 +570,7 @@ src/linear_least_squares_normal.i: src/linear_least_squares_normal.cpp.i
 
 # target to preprocess a source file
 src/linear_least_squares_normal.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/linear_least_squares_normal.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/linear_least_squares_normal.cpp.i
 .PHONY : src/linear_least_squares_normal.cpp.i
 
 src/linear_least_squares_normal.s: src/linear_least_squares_normal.cpp.s
@@ -579,7 +579,7 @@ src/linear_least_squares_normal.s: src/linear_least_squares_normal.cpp.s
 
 # target to generate assembly for a file
 src/linear_least_squares_normal.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/linear_least_squares_normal.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/linear_least_squares_normal.cpp.s
 .PHONY : src/linear_least_squares_normal.cpp.s
 
 src/moment_invariants.o: src/moment_invariants.cpp.o
@@ -588,7 +588,7 @@ src/moment_invariants.o: src/moment_invariants.cpp.o
 
 # target to build an object file
 src/moment_invariants.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_invariants.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_invariants.cpp.o
 .PHONY : src/moment_invariants.cpp.o
 
 src/moment_invariants.i: src/moment_invariants.cpp.i
@@ -597,7 +597,7 @@ src/moment_invariants.i: src/moment_invariants.cpp.i
 
 # target to preprocess a source file
 src/moment_invariants.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_invariants.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_invariants.cpp.i
 .PHONY : src/moment_invariants.cpp.i
 
 src/moment_invariants.s: src/moment_invariants.cpp.s
@@ -606,7 +606,7 @@ src/moment_invariants.s: src/moment_invariants.cpp.s
 
 # target to generate assembly for a file
 src/moment_invariants.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_invariants.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_invariants.cpp.s
 .PHONY : src/moment_invariants.cpp.s
 
 src/moment_of_inertia_estimation.o: src/moment_of_inertia_estimation.cpp.o
@@ -615,7 +615,7 @@ src/moment_of_inertia_estimation.o: src/moment_of_inertia_estimation.cpp.o
 
 # target to build an object file
 src/moment_of_inertia_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_of_inertia_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_of_inertia_estimation.cpp.o
 .PHONY : src/moment_of_inertia_estimation.cpp.o
 
 src/moment_of_inertia_estimation.i: src/moment_of_inertia_estimation.cpp.i
@@ -624,7 +624,7 @@ src/moment_of_inertia_estimation.i: src/moment_of_inertia_estimation.cpp.i
 
 # target to preprocess a source file
 src/moment_of_inertia_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_of_inertia_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_of_inertia_estimation.cpp.i
 .PHONY : src/moment_of_inertia_estimation.cpp.i
 
 src/moment_of_inertia_estimation.s: src/moment_of_inertia_estimation.cpp.s
@@ -633,7 +633,7 @@ src/moment_of_inertia_estimation.s: src/moment_of_inertia_estimation.cpp.s
 
 # target to generate assembly for a file
 src/moment_of_inertia_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_of_inertia_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/moment_of_inertia_estimation.cpp.s
 .PHONY : src/moment_of_inertia_estimation.cpp.s
 
 src/multiscale_feature_persistence.o: src/multiscale_feature_persistence.cpp.o
@@ -642,7 +642,7 @@ src/multiscale_feature_persistence.o: src/multiscale_feature_persistence.cpp.o
 
 # target to build an object file
 src/multiscale_feature_persistence.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/multiscale_feature_persistence.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/multiscale_feature_persistence.cpp.o
 .PHONY : src/multiscale_feature_persistence.cpp.o
 
 src/multiscale_feature_persistence.i: src/multiscale_feature_persistence.cpp.i
@@ -651,7 +651,7 @@ src/multiscale_feature_persistence.i: src/multiscale_feature_persistence.cpp.i
 
 # target to preprocess a source file
 src/multiscale_feature_persistence.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/multiscale_feature_persistence.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/multiscale_feature_persistence.cpp.i
 .PHONY : src/multiscale_feature_persistence.cpp.i
 
 src/multiscale_feature_persistence.s: src/multiscale_feature_persistence.cpp.s
@@ -660,7 +660,7 @@ src/multiscale_feature_persistence.s: src/multiscale_feature_persistence.cpp.s
 
 # target to generate assembly for a file
 src/multiscale_feature_persistence.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/multiscale_feature_persistence.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/multiscale_feature_persistence.cpp.s
 .PHONY : src/multiscale_feature_persistence.cpp.s
 
 src/narf.o: src/narf.cpp.o
@@ -669,7 +669,7 @@ src/narf.o: src/narf.cpp.o
 
 # target to build an object file
 src/narf.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/narf.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/narf.cpp.o
 .PHONY : src/narf.cpp.o
 
 src/narf.i: src/narf.cpp.i
@@ -678,7 +678,7 @@ src/narf.i: src/narf.cpp.i
 
 # target to preprocess a source file
 src/narf.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/narf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/narf.cpp.i
 .PHONY : src/narf.cpp.i
 
 src/narf.s: src/narf.cpp.s
@@ -687,7 +687,7 @@ src/narf.s: src/narf.cpp.s
 
 # target to generate assembly for a file
 src/narf.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/narf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/narf.cpp.s
 .PHONY : src/narf.cpp.s
 
 src/normal_3d.o: src/normal_3d.cpp.o
@@ -696,7 +696,7 @@ src/normal_3d.o: src/normal_3d.cpp.o
 
 # target to build an object file
 src/normal_3d.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_3d.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_3d.cpp.o
 .PHONY : src/normal_3d.cpp.o
 
 src/normal_3d.i: src/normal_3d.cpp.i
@@ -705,7 +705,7 @@ src/normal_3d.i: src/normal_3d.cpp.i
 
 # target to preprocess a source file
 src/normal_3d.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_3d.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_3d.cpp.i
 .PHONY : src/normal_3d.cpp.i
 
 src/normal_3d.s: src/normal_3d.cpp.s
@@ -714,7 +714,7 @@ src/normal_3d.s: src/normal_3d.cpp.s
 
 # target to generate assembly for a file
 src/normal_3d.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_3d.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_3d.cpp.s
 .PHONY : src/normal_3d.cpp.s
 
 src/normal_based_signature.o: src/normal_based_signature.cpp.o
@@ -723,7 +723,7 @@ src/normal_based_signature.o: src/normal_based_signature.cpp.o
 
 # target to build an object file
 src/normal_based_signature.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_based_signature.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_based_signature.cpp.o
 .PHONY : src/normal_based_signature.cpp.o
 
 src/normal_based_signature.i: src/normal_based_signature.cpp.i
@@ -732,7 +732,7 @@ src/normal_based_signature.i: src/normal_based_signature.cpp.i
 
 # target to preprocess a source file
 src/normal_based_signature.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_based_signature.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_based_signature.cpp.i
 .PHONY : src/normal_based_signature.cpp.i
 
 src/normal_based_signature.s: src/normal_based_signature.cpp.s
@@ -741,7 +741,7 @@ src/normal_based_signature.s: src/normal_based_signature.cpp.s
 
 # target to generate assembly for a file
 src/normal_based_signature.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_based_signature.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/normal_based_signature.cpp.s
 .PHONY : src/normal_based_signature.cpp.s
 
 src/our_cvfh.o: src/our_cvfh.cpp.o
@@ -750,7 +750,7 @@ src/our_cvfh.o: src/our_cvfh.cpp.o
 
 # target to build an object file
 src/our_cvfh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/our_cvfh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/our_cvfh.cpp.o
 .PHONY : src/our_cvfh.cpp.o
 
 src/our_cvfh.i: src/our_cvfh.cpp.i
@@ -759,7 +759,7 @@ src/our_cvfh.i: src/our_cvfh.cpp.i
 
 # target to preprocess a source file
 src/our_cvfh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/our_cvfh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/our_cvfh.cpp.i
 .PHONY : src/our_cvfh.cpp.i
 
 src/our_cvfh.s: src/our_cvfh.cpp.s
@@ -768,7 +768,7 @@ src/our_cvfh.s: src/our_cvfh.cpp.s
 
 # target to generate assembly for a file
 src/our_cvfh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/our_cvfh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/our_cvfh.cpp.s
 .PHONY : src/our_cvfh.cpp.s
 
 src/pfh.o: src/pfh.cpp.o
@@ -777,7 +777,7 @@ src/pfh.o: src/pfh.cpp.o
 
 # target to build an object file
 src/pfh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/pfh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/pfh.cpp.o
 .PHONY : src/pfh.cpp.o
 
 src/pfh.i: src/pfh.cpp.i
@@ -786,7 +786,7 @@ src/pfh.i: src/pfh.cpp.i
 
 # target to preprocess a source file
 src/pfh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/pfh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/pfh.cpp.i
 .PHONY : src/pfh.cpp.i
 
 src/pfh.s: src/pfh.cpp.s
@@ -795,7 +795,7 @@ src/pfh.s: src/pfh.cpp.s
 
 # target to generate assembly for a file
 src/pfh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/pfh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/pfh.cpp.s
 .PHONY : src/pfh.cpp.s
 
 src/ppf.o: src/ppf.cpp.o
@@ -804,7 +804,7 @@ src/ppf.o: src/ppf.cpp.o
 
 # target to build an object file
 src/ppf.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/ppf.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/ppf.cpp.o
 .PHONY : src/ppf.cpp.o
 
 src/ppf.i: src/ppf.cpp.i
@@ -813,7 +813,7 @@ src/ppf.i: src/ppf.cpp.i
 
 # target to preprocess a source file
 src/ppf.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/ppf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/ppf.cpp.i
 .PHONY : src/ppf.cpp.i
 
 src/ppf.s: src/ppf.cpp.s
@@ -822,7 +822,7 @@ src/ppf.s: src/ppf.cpp.s
 
 # target to generate assembly for a file
 src/ppf.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/ppf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/ppf.cpp.s
 .PHONY : src/ppf.cpp.s
 
 src/principal_curvatures.o: src/principal_curvatures.cpp.o
@@ -831,7 +831,7 @@ src/principal_curvatures.o: src/principal_curvatures.cpp.o
 
 # target to build an object file
 src/principal_curvatures.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/principal_curvatures.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/principal_curvatures.cpp.o
 .PHONY : src/principal_curvatures.cpp.o
 
 src/principal_curvatures.i: src/principal_curvatures.cpp.i
@@ -840,7 +840,7 @@ src/principal_curvatures.i: src/principal_curvatures.cpp.i
 
 # target to preprocess a source file
 src/principal_curvatures.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/principal_curvatures.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/principal_curvatures.cpp.i
 .PHONY : src/principal_curvatures.cpp.i
 
 src/principal_curvatures.s: src/principal_curvatures.cpp.s
@@ -849,7 +849,7 @@ src/principal_curvatures.s: src/principal_curvatures.cpp.s
 
 # target to generate assembly for a file
 src/principal_curvatures.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/principal_curvatures.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/principal_curvatures.cpp.s
 .PHONY : src/principal_curvatures.cpp.s
 
 src/range_image_border_extractor.o: src/range_image_border_extractor.cpp.o
@@ -858,7 +858,7 @@ src/range_image_border_extractor.o: src/range_image_border_extractor.cpp.o
 
 # target to build an object file
 src/range_image_border_extractor.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/range_image_border_extractor.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/range_image_border_extractor.cpp.o
 .PHONY : src/range_image_border_extractor.cpp.o
 
 src/range_image_border_extractor.i: src/range_image_border_extractor.cpp.i
@@ -867,7 +867,7 @@ src/range_image_border_extractor.i: src/range_image_border_extractor.cpp.i
 
 # target to preprocess a source file
 src/range_image_border_extractor.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/range_image_border_extractor.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/range_image_border_extractor.cpp.i
 .PHONY : src/range_image_border_extractor.cpp.i
 
 src/range_image_border_extractor.s: src/range_image_border_extractor.cpp.s
@@ -876,7 +876,7 @@ src/range_image_border_extractor.s: src/range_image_border_extractor.cpp.s
 
 # target to generate assembly for a file
 src/range_image_border_extractor.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/range_image_border_extractor.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/range_image_border_extractor.cpp.s
 .PHONY : src/range_image_border_extractor.cpp.s
 
 src/rift.o: src/rift.cpp.o
@@ -885,7 +885,7 @@ src/rift.o: src/rift.cpp.o
 
 # target to build an object file
 src/rift.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rift.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rift.cpp.o
 .PHONY : src/rift.cpp.o
 
 src/rift.i: src/rift.cpp.i
@@ -894,7 +894,7 @@ src/rift.i: src/rift.cpp.i
 
 # target to preprocess a source file
 src/rift.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rift.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rift.cpp.i
 .PHONY : src/rift.cpp.i
 
 src/rift.s: src/rift.cpp.s
@@ -903,7 +903,7 @@ src/rift.s: src/rift.cpp.s
 
 # target to generate assembly for a file
 src/rift.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rift.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rift.cpp.s
 .PHONY : src/rift.cpp.s
 
 src/rops_estimation.o: src/rops_estimation.cpp.o
@@ -912,7 +912,7 @@ src/rops_estimation.o: src/rops_estimation.cpp.o
 
 # target to build an object file
 src/rops_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rops_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rops_estimation.cpp.o
 .PHONY : src/rops_estimation.cpp.o
 
 src/rops_estimation.i: src/rops_estimation.cpp.i
@@ -921,7 +921,7 @@ src/rops_estimation.i: src/rops_estimation.cpp.i
 
 # target to preprocess a source file
 src/rops_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rops_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rops_estimation.cpp.i
 .PHONY : src/rops_estimation.cpp.i
 
 src/rops_estimation.s: src/rops_estimation.cpp.s
@@ -930,7 +930,7 @@ src/rops_estimation.s: src/rops_estimation.cpp.s
 
 # target to generate assembly for a file
 src/rops_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rops_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/rops_estimation.cpp.s
 .PHONY : src/rops_estimation.cpp.s
 
 src/shot.o: src/shot.cpp.o
@@ -939,7 +939,7 @@ src/shot.o: src/shot.cpp.o
 
 # target to build an object file
 src/shot.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot.cpp.o
 .PHONY : src/shot.cpp.o
 
 src/shot.i: src/shot.cpp.i
@@ -948,7 +948,7 @@ src/shot.i: src/shot.cpp.i
 
 # target to preprocess a source file
 src/shot.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot.cpp.i
 .PHONY : src/shot.cpp.i
 
 src/shot.s: src/shot.cpp.s
@@ -957,7 +957,7 @@ src/shot.s: src/shot.cpp.s
 
 # target to generate assembly for a file
 src/shot.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot.cpp.s
 .PHONY : src/shot.cpp.s
 
 src/shot_lrf.o: src/shot_lrf.cpp.o
@@ -966,7 +966,7 @@ src/shot_lrf.o: src/shot_lrf.cpp.o
 
 # target to build an object file
 src/shot_lrf.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot_lrf.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot_lrf.cpp.o
 .PHONY : src/shot_lrf.cpp.o
 
 src/shot_lrf.i: src/shot_lrf.cpp.i
@@ -975,7 +975,7 @@ src/shot_lrf.i: src/shot_lrf.cpp.i
 
 # target to preprocess a source file
 src/shot_lrf.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot_lrf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot_lrf.cpp.i
 .PHONY : src/shot_lrf.cpp.i
 
 src/shot_lrf.s: src/shot_lrf.cpp.s
@@ -984,7 +984,7 @@ src/shot_lrf.s: src/shot_lrf.cpp.s
 
 # target to generate assembly for a file
 src/shot_lrf.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot_lrf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/shot_lrf.cpp.s
 .PHONY : src/shot_lrf.cpp.s
 
 src/spin_image.o: src/spin_image.cpp.o
@@ -993,7 +993,7 @@ src/spin_image.o: src/spin_image.cpp.o
 
 # target to build an object file
 src/spin_image.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/spin_image.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/spin_image.cpp.o
 .PHONY : src/spin_image.cpp.o
 
 src/spin_image.i: src/spin_image.cpp.i
@@ -1002,7 +1002,7 @@ src/spin_image.i: src/spin_image.cpp.i
 
 # target to preprocess a source file
 src/spin_image.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/spin_image.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/spin_image.cpp.i
 .PHONY : src/spin_image.cpp.i
 
 src/spin_image.s: src/spin_image.cpp.s
@@ -1011,7 +1011,7 @@ src/spin_image.s: src/spin_image.cpp.s
 
 # target to generate assembly for a file
 src/spin_image.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/spin_image.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/spin_image.cpp.s
 .PHONY : src/spin_image.cpp.s
 
 src/statistical_multiscale_interest_region_extraction.o: src/statistical_multiscale_interest_region_extraction.cpp.o
@@ -1020,7 +1020,7 @@ src/statistical_multiscale_interest_region_extraction.o: src/statistical_multisc
 
 # target to build an object file
 src/statistical_multiscale_interest_region_extraction.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/statistical_multiscale_interest_region_extraction.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/statistical_multiscale_interest_region_extraction.cpp.o
 .PHONY : src/statistical_multiscale_interest_region_extraction.cpp.o
 
 src/statistical_multiscale_interest_region_extraction.i: src/statistical_multiscale_interest_region_extraction.cpp.i
@@ -1029,7 +1029,7 @@ src/statistical_multiscale_interest_region_extraction.i: src/statistical_multisc
 
 # target to preprocess a source file
 src/statistical_multiscale_interest_region_extraction.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/statistical_multiscale_interest_region_extraction.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/statistical_multiscale_interest_region_extraction.cpp.i
 .PHONY : src/statistical_multiscale_interest_region_extraction.cpp.i
 
 src/statistical_multiscale_interest_region_extraction.s: src/statistical_multiscale_interest_region_extraction.cpp.s
@@ -1038,7 +1038,7 @@ src/statistical_multiscale_interest_region_extraction.s: src/statistical_multisc
 
 # target to generate assembly for a file
 src/statistical_multiscale_interest_region_extraction.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/statistical_multiscale_interest_region_extraction.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/statistical_multiscale_interest_region_extraction.cpp.s
 .PHONY : src/statistical_multiscale_interest_region_extraction.cpp.s
 
 src/usc.o: src/usc.cpp.o
@@ -1047,7 +1047,7 @@ src/usc.o: src/usc.cpp.o
 
 # target to build an object file
 src/usc.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/usc.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/usc.cpp.o
 .PHONY : src/usc.cpp.o
 
 src/usc.i: src/usc.cpp.i
@@ -1056,7 +1056,7 @@ src/usc.i: src/usc.cpp.i
 
 # target to preprocess a source file
 src/usc.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/usc.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/usc.cpp.i
 .PHONY : src/usc.cpp.i
 
 src/usc.s: src/usc.cpp.s
@@ -1065,7 +1065,7 @@ src/usc.s: src/usc.cpp.s
 
 # target to generate assembly for a file
 src/usc.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/usc.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/usc.cpp.s
 .PHONY : src/usc.cpp.s
 
 src/vfh.o: src/vfh.cpp.o
@@ -1074,7 +1074,7 @@ src/vfh.o: src/vfh.cpp.o
 
 # target to build an object file
 src/vfh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/vfh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/vfh.cpp.o
 .PHONY : src/vfh.cpp.o
 
 src/vfh.i: src/vfh.cpp.i
@@ -1083,7 +1083,7 @@ src/vfh.i: src/vfh.cpp.i
 
 # target to preprocess a source file
 src/vfh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/vfh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/vfh.cpp.i
 .PHONY : src/vfh.cpp.i
 
 src/vfh.s: src/vfh.cpp.s
@@ -1092,7 +1092,7 @@ src/vfh.s: src/vfh.cpp.s
 
 # target to generate assembly for a file
 src/vfh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/vfh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f features/CMakeFiles/pcl_features.dir/build.make features/CMakeFiles/pcl_features.dir/src/vfh.cpp.s
 .PHONY : src/vfh.cpp.s
 
 # Help Target
@@ -1221,6 +1221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

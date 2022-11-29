@@ -858,7 +858,7 @@ pcl/surface/boost.h
 pcl/surface/impl/reconstruction.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/gp3_surface.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/gp3_surface.cpp
 pcl/io/pcd_io.h
 -
 pcl/io/vtk_io.h

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,7 +137,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/keypoints/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/keypoints/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 keypoints/CMakeFiles/pcl_keypoints.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/CMakeFiles/pcl_keypoints.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 keypoints/CMakeFiles/pcl_keypoints.dir/rule
 .PHONY : keypoints/CMakeFiles/pcl_keypoints.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ pcl_keypoints: keypoints/CMakeFiles/pcl_keypoints.dir/rule
 
 # fast build rule for target.
 pcl_keypoints/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/build
 .PHONY : pcl_keypoints/fast
 
 src/agast_2d.o: src/agast_2d.cpp.o
@@ -210,7 +210,7 @@ src/agast_2d.o: src/agast_2d.cpp.o
 
 # target to build an object file
 src/agast_2d.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/agast_2d.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/agast_2d.cpp.o
 .PHONY : src/agast_2d.cpp.o
 
 src/agast_2d.i: src/agast_2d.cpp.i
@@ -219,7 +219,7 @@ src/agast_2d.i: src/agast_2d.cpp.i
 
 # target to preprocess a source file
 src/agast_2d.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/agast_2d.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/agast_2d.cpp.i
 .PHONY : src/agast_2d.cpp.i
 
 src/agast_2d.s: src/agast_2d.cpp.s
@@ -228,7 +228,7 @@ src/agast_2d.s: src/agast_2d.cpp.s
 
 # target to generate assembly for a file
 src/agast_2d.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/agast_2d.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/agast_2d.cpp.s
 .PHONY : src/agast_2d.cpp.s
 
 src/harris_3d.o: src/harris_3d.cpp.o
@@ -237,7 +237,7 @@ src/harris_3d.o: src/harris_3d.cpp.o
 
 # target to build an object file
 src/harris_3d.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_3d.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_3d.cpp.o
 .PHONY : src/harris_3d.cpp.o
 
 src/harris_3d.i: src/harris_3d.cpp.i
@@ -246,7 +246,7 @@ src/harris_3d.i: src/harris_3d.cpp.i
 
 # target to preprocess a source file
 src/harris_3d.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_3d.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_3d.cpp.i
 .PHONY : src/harris_3d.cpp.i
 
 src/harris_3d.s: src/harris_3d.cpp.s
@@ -255,7 +255,7 @@ src/harris_3d.s: src/harris_3d.cpp.s
 
 # target to generate assembly for a file
 src/harris_3d.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_3d.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_3d.cpp.s
 .PHONY : src/harris_3d.cpp.s
 
 src/harris_6d.o: src/harris_6d.cpp.o
@@ -264,7 +264,7 @@ src/harris_6d.o: src/harris_6d.cpp.o
 
 # target to build an object file
 src/harris_6d.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_6d.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_6d.cpp.o
 .PHONY : src/harris_6d.cpp.o
 
 src/harris_6d.i: src/harris_6d.cpp.i
@@ -273,7 +273,7 @@ src/harris_6d.i: src/harris_6d.cpp.i
 
 # target to preprocess a source file
 src/harris_6d.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_6d.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_6d.cpp.i
 .PHONY : src/harris_6d.cpp.i
 
 src/harris_6d.s: src/harris_6d.cpp.s
@@ -282,7 +282,7 @@ src/harris_6d.s: src/harris_6d.cpp.s
 
 # target to generate assembly for a file
 src/harris_6d.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_6d.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/harris_6d.cpp.s
 .PHONY : src/harris_6d.cpp.s
 
 src/iss_3d.o: src/iss_3d.cpp.o
@@ -291,7 +291,7 @@ src/iss_3d.o: src/iss_3d.cpp.o
 
 # target to build an object file
 src/iss_3d.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/iss_3d.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/iss_3d.cpp.o
 .PHONY : src/iss_3d.cpp.o
 
 src/iss_3d.i: src/iss_3d.cpp.i
@@ -300,7 +300,7 @@ src/iss_3d.i: src/iss_3d.cpp.i
 
 # target to preprocess a source file
 src/iss_3d.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/iss_3d.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/iss_3d.cpp.i
 .PHONY : src/iss_3d.cpp.i
 
 src/iss_3d.s: src/iss_3d.cpp.s
@@ -309,7 +309,7 @@ src/iss_3d.s: src/iss_3d.cpp.s
 
 # target to generate assembly for a file
 src/iss_3d.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/iss_3d.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/iss_3d.cpp.s
 .PHONY : src/iss_3d.cpp.s
 
 src/narf_keypoint.o: src/narf_keypoint.cpp.o
@@ -318,7 +318,7 @@ src/narf_keypoint.o: src/narf_keypoint.cpp.o
 
 # target to build an object file
 src/narf_keypoint.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/narf_keypoint.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/narf_keypoint.cpp.o
 .PHONY : src/narf_keypoint.cpp.o
 
 src/narf_keypoint.i: src/narf_keypoint.cpp.i
@@ -327,7 +327,7 @@ src/narf_keypoint.i: src/narf_keypoint.cpp.i
 
 # target to preprocess a source file
 src/narf_keypoint.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/narf_keypoint.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/narf_keypoint.cpp.i
 .PHONY : src/narf_keypoint.cpp.i
 
 src/narf_keypoint.s: src/narf_keypoint.cpp.s
@@ -336,7 +336,7 @@ src/narf_keypoint.s: src/narf_keypoint.cpp.s
 
 # target to generate assembly for a file
 src/narf_keypoint.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/narf_keypoint.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/narf_keypoint.cpp.s
 .PHONY : src/narf_keypoint.cpp.s
 
 src/sift_keypoint.o: src/sift_keypoint.cpp.o
@@ -345,7 +345,7 @@ src/sift_keypoint.o: src/sift_keypoint.cpp.o
 
 # target to build an object file
 src/sift_keypoint.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/sift_keypoint.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/sift_keypoint.cpp.o
 .PHONY : src/sift_keypoint.cpp.o
 
 src/sift_keypoint.i: src/sift_keypoint.cpp.i
@@ -354,7 +354,7 @@ src/sift_keypoint.i: src/sift_keypoint.cpp.i
 
 # target to preprocess a source file
 src/sift_keypoint.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/sift_keypoint.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/sift_keypoint.cpp.i
 .PHONY : src/sift_keypoint.cpp.i
 
 src/sift_keypoint.s: src/sift_keypoint.cpp.s
@@ -363,7 +363,7 @@ src/sift_keypoint.s: src/sift_keypoint.cpp.s
 
 # target to generate assembly for a file
 src/sift_keypoint.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/sift_keypoint.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/sift_keypoint.cpp.s
 .PHONY : src/sift_keypoint.cpp.s
 
 src/smoothed_surfaces_keypoint.o: src/smoothed_surfaces_keypoint.cpp.o
@@ -372,7 +372,7 @@ src/smoothed_surfaces_keypoint.o: src/smoothed_surfaces_keypoint.cpp.o
 
 # target to build an object file
 src/smoothed_surfaces_keypoint.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/smoothed_surfaces_keypoint.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/smoothed_surfaces_keypoint.cpp.o
 .PHONY : src/smoothed_surfaces_keypoint.cpp.o
 
 src/smoothed_surfaces_keypoint.i: src/smoothed_surfaces_keypoint.cpp.i
@@ -381,7 +381,7 @@ src/smoothed_surfaces_keypoint.i: src/smoothed_surfaces_keypoint.cpp.i
 
 # target to preprocess a source file
 src/smoothed_surfaces_keypoint.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/smoothed_surfaces_keypoint.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/smoothed_surfaces_keypoint.cpp.i
 .PHONY : src/smoothed_surfaces_keypoint.cpp.i
 
 src/smoothed_surfaces_keypoint.s: src/smoothed_surfaces_keypoint.cpp.s
@@ -390,7 +390,7 @@ src/smoothed_surfaces_keypoint.s: src/smoothed_surfaces_keypoint.cpp.s
 
 # target to generate assembly for a file
 src/smoothed_surfaces_keypoint.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/smoothed_surfaces_keypoint.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/smoothed_surfaces_keypoint.cpp.s
 .PHONY : src/smoothed_surfaces_keypoint.cpp.s
 
 src/susan.o: src/susan.cpp.o
@@ -399,7 +399,7 @@ src/susan.o: src/susan.cpp.o
 
 # target to build an object file
 src/susan.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/susan.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/susan.cpp.o
 .PHONY : src/susan.cpp.o
 
 src/susan.i: src/susan.cpp.i
@@ -408,7 +408,7 @@ src/susan.i: src/susan.cpp.i
 
 # target to preprocess a source file
 src/susan.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/susan.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/susan.cpp.i
 .PHONY : src/susan.cpp.i
 
 src/susan.s: src/susan.cpp.s
@@ -417,7 +417,7 @@ src/susan.s: src/susan.cpp.s
 
 # target to generate assembly for a file
 src/susan.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/susan.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/susan.cpp.s
 .PHONY : src/susan.cpp.s
 
 src/uniform_sampling.o: src/uniform_sampling.cpp.o
@@ -426,7 +426,7 @@ src/uniform_sampling.o: src/uniform_sampling.cpp.o
 
 # target to build an object file
 src/uniform_sampling.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/uniform_sampling.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/uniform_sampling.cpp.o
 .PHONY : src/uniform_sampling.cpp.o
 
 src/uniform_sampling.i: src/uniform_sampling.cpp.i
@@ -435,7 +435,7 @@ src/uniform_sampling.i: src/uniform_sampling.cpp.i
 
 # target to preprocess a source file
 src/uniform_sampling.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/uniform_sampling.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/uniform_sampling.cpp.i
 .PHONY : src/uniform_sampling.cpp.i
 
 src/uniform_sampling.s: src/uniform_sampling.cpp.s
@@ -444,7 +444,7 @@ src/uniform_sampling.s: src/uniform_sampling.cpp.s
 
 # target to generate assembly for a file
 src/uniform_sampling.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/uniform_sampling.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f keypoints/CMakeFiles/pcl_keypoints.dir/build.make keypoints/CMakeFiles/pcl_keypoints.dir/src/uniform_sampling.cpp.s
 .PHONY : src/uniform_sampling.cpp.s
 
 # Help Target
@@ -501,6 +501,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

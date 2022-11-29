@@ -450,7 +450,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/convert_pcd_ascii_binary.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/convert_pcd_ascii_binary.cpp
 iostream
 -
 pcl/common/io.h

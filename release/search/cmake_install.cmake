@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_searchx" OR NOT CMAKE_INSTALL_C
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_search.so.1.7.2"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_search.so.1.7"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_search.so.1.7.2"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_search.so.1.7"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_search.so.1.7.2"
@@ -61,7 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_searchx" OR NOT CMAKE_INSTALL_C
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:"
+           OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:"
            NEW_RPATH "/usr/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -77,12 +77,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_searchx" OR NOT CMAKE_INSTALL_C
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_search.so"
          RPATH "/usr/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_search.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_search.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_search.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_search.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_search.so"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:"
          NEW_RPATH "/usr/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_search.so")
@@ -91,28 +91,28 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_searchx" OR NOT CMAKE_INSTALL_C
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_searchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/search/pcl_search-1.7.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/search/pcl_search-1.7.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_searchx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/search" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/search.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/kdtree.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/brute_force.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/organized.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/octree.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/flann_search.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/pcl_search.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/search.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/kdtree.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/brute_force.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/organized.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/octree.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/flann_search.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/pcl_search.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_searchx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/search/impl" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/impl/search.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/impl/kdtree.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/impl/flann_search.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/impl/brute_force.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/include/pcl/search/impl/organized.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/impl/search.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/impl/kdtree.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/impl/flann_search.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/impl/brute_force.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/include/pcl/search/impl/organized.hpp"
     )
 endif()
 

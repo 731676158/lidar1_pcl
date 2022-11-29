@@ -77,7 +77,7 @@ outofcore/tools/CMakeFiles/pcl_outofcore_process.dir/outofcore_process.cpp.o
  ../visualization/include/pcl/visualization/common/common.h
  ../visualization/include/pcl/visualization/common/impl/common.hpp
  ../visualization/include/pcl/visualization/eigen.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/outofcore/tools/outofcore_process.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/outofcore/tools/outofcore_process.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

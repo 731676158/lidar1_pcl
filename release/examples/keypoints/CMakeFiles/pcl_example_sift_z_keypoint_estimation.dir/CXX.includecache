@@ -934,7 +934,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/keypoints/example_sift_z_keypoint_estimation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/keypoints/example_sift_z_keypoint_estimation.cpp
 iostream
 -
 pcl/io/pcd_io.h

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,7 +137,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 io/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 io/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 io/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 io/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 io/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 io/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 io/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 io/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 io/CMakeFiles/pcl_io.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 io/CMakeFiles/pcl_io.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 io/CMakeFiles/pcl_io.dir/rule
 .PHONY : io/CMakeFiles/pcl_io.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ pcl_io: io/CMakeFiles/pcl_io.dir/rule
 
 # fast build rule for target.
 pcl_io/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/build
 .PHONY : pcl_io/fast
 
 # Convenience name for target.
 io/CMakeFiles/pcl_io_ply.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 io/CMakeFiles/pcl_io_ply.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 io/CMakeFiles/pcl_io_ply.dir/rule
 .PHONY : io/CMakeFiles/pcl_io_ply.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ pcl_io_ply: io/CMakeFiles/pcl_io_ply.dir/rule
 
 # fast build rule for target.
 pcl_io_ply/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/build
 .PHONY : pcl_io_ply/fast
 
 src/ascii_io.o: src/ascii_io.cpp.o
@@ -225,7 +225,7 @@ src/ascii_io.o: src/ascii_io.cpp.o
 
 # target to build an object file
 src/ascii_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o
 .PHONY : src/ascii_io.cpp.o
 
 src/ascii_io.i: src/ascii_io.cpp.i
@@ -234,7 +234,7 @@ src/ascii_io.i: src/ascii_io.cpp.i
 
 # target to preprocess a source file
 src/ascii_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.i
 .PHONY : src/ascii_io.cpp.i
 
 src/ascii_io.s: src/ascii_io.cpp.s
@@ -243,7 +243,7 @@ src/ascii_io.s: src/ascii_io.cpp.s
 
 # target to generate assembly for a file
 src/ascii_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.s
 .PHONY : src/ascii_io.cpp.s
 
 src/compression.o: src/compression.cpp.o
@@ -252,7 +252,7 @@ src/compression.o: src/compression.cpp.o
 
 # target to build an object file
 src/compression.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/compression.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/compression.cpp.o
 .PHONY : src/compression.cpp.o
 
 src/compression.i: src/compression.cpp.i
@@ -261,7 +261,7 @@ src/compression.i: src/compression.cpp.i
 
 # target to preprocess a source file
 src/compression.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/compression.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/compression.cpp.i
 .PHONY : src/compression.cpp.i
 
 src/compression.s: src/compression.cpp.s
@@ -270,7 +270,7 @@ src/compression.s: src/compression.cpp.s
 
 # target to generate assembly for a file
 src/compression.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/compression.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/compression.cpp.s
 .PHONY : src/compression.cpp.s
 
 src/debayer.o: src/debayer.cpp.o
@@ -279,7 +279,7 @@ src/debayer.o: src/debayer.cpp.o
 
 # target to build an object file
 src/debayer.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/debayer.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/debayer.cpp.o
 .PHONY : src/debayer.cpp.o
 
 src/debayer.i: src/debayer.cpp.i
@@ -288,7 +288,7 @@ src/debayer.i: src/debayer.cpp.i
 
 # target to preprocess a source file
 src/debayer.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/debayer.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/debayer.cpp.i
 .PHONY : src/debayer.cpp.i
 
 src/debayer.s: src/debayer.cpp.s
@@ -297,7 +297,7 @@ src/debayer.s: src/debayer.cpp.s
 
 # target to generate assembly for a file
 src/debayer.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/debayer.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/debayer.cpp.s
 .PHONY : src/debayer.cpp.s
 
 src/dinast_grabber.o: src/dinast_grabber.cpp.o
@@ -306,7 +306,7 @@ src/dinast_grabber.o: src/dinast_grabber.cpp.o
 
 # target to build an object file
 src/dinast_grabber.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.o
 .PHONY : src/dinast_grabber.cpp.o
 
 src/dinast_grabber.i: src/dinast_grabber.cpp.i
@@ -315,7 +315,7 @@ src/dinast_grabber.i: src/dinast_grabber.cpp.i
 
 # target to preprocess a source file
 src/dinast_grabber.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.i
 .PHONY : src/dinast_grabber.cpp.i
 
 src/dinast_grabber.s: src/dinast_grabber.cpp.s
@@ -324,7 +324,7 @@ src/dinast_grabber.s: src/dinast_grabber.cpp.s
 
 # target to generate assembly for a file
 src/dinast_grabber.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/dinast_grabber.cpp.s
 .PHONY : src/dinast_grabber.cpp.s
 
 src/file_io.o: src/file_io.cpp.o
@@ -333,7 +333,7 @@ src/file_io.o: src/file_io.cpp.o
 
 # target to build an object file
 src/file_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/file_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/file_io.cpp.o
 .PHONY : src/file_io.cpp.o
 
 src/file_io.i: src/file_io.cpp.i
@@ -342,7 +342,7 @@ src/file_io.i: src/file_io.cpp.i
 
 # target to preprocess a source file
 src/file_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/file_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/file_io.cpp.i
 .PHONY : src/file_io.cpp.i
 
 src/file_io.s: src/file_io.cpp.s
@@ -351,7 +351,7 @@ src/file_io.s: src/file_io.cpp.s
 
 # target to generate assembly for a file
 src/file_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/file_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/file_io.cpp.s
 .PHONY : src/file_io.cpp.s
 
 src/hdl_grabber.o: src/hdl_grabber.cpp.o
@@ -360,7 +360,7 @@ src/hdl_grabber.o: src/hdl_grabber.cpp.o
 
 # target to build an object file
 src/hdl_grabber.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o
 .PHONY : src/hdl_grabber.cpp.o
 
 src/hdl_grabber.i: src/hdl_grabber.cpp.i
@@ -369,7 +369,7 @@ src/hdl_grabber.i: src/hdl_grabber.cpp.i
 
 # target to preprocess a source file
 src/hdl_grabber.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.i
 .PHONY : src/hdl_grabber.cpp.i
 
 src/hdl_grabber.s: src/hdl_grabber.cpp.s
@@ -378,7 +378,7 @@ src/hdl_grabber.s: src/hdl_grabber.cpp.s
 
 # target to generate assembly for a file
 src/hdl_grabber.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.s
 .PHONY : src/hdl_grabber.cpp.s
 
 src/ifs_io.o: src/ifs_io.cpp.o
@@ -387,7 +387,7 @@ src/ifs_io.o: src/ifs_io.cpp.o
 
 # target to build an object file
 src/ifs_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o
 .PHONY : src/ifs_io.cpp.o
 
 src/ifs_io.i: src/ifs_io.cpp.i
@@ -396,7 +396,7 @@ src/ifs_io.i: src/ifs_io.cpp.i
 
 # target to preprocess a source file
 src/ifs_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.i
 .PHONY : src/ifs_io.cpp.i
 
 src/ifs_io.s: src/ifs_io.cpp.s
@@ -405,7 +405,7 @@ src/ifs_io.s: src/ifs_io.cpp.s
 
 # target to generate assembly for a file
 src/ifs_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.s
 .PHONY : src/ifs_io.cpp.s
 
 src/image_depth.o: src/image_depth.cpp.o
@@ -414,7 +414,7 @@ src/image_depth.o: src/image_depth.cpp.o
 
 # target to build an object file
 src/image_depth.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.o
 .PHONY : src/image_depth.cpp.o
 
 src/image_depth.i: src/image_depth.cpp.i
@@ -423,7 +423,7 @@ src/image_depth.i: src/image_depth.cpp.i
 
 # target to preprocess a source file
 src/image_depth.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.i
 .PHONY : src/image_depth.cpp.i
 
 src/image_depth.s: src/image_depth.cpp.s
@@ -432,7 +432,7 @@ src/image_depth.s: src/image_depth.cpp.s
 
 # target to generate assembly for a file
 src/image_depth.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_depth.cpp.s
 .PHONY : src/image_depth.cpp.s
 
 src/image_grabber.o: src/image_grabber.cpp.o
@@ -441,7 +441,7 @@ src/image_grabber.o: src/image_grabber.cpp.o
 
 # target to build an object file
 src/image_grabber.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o
 .PHONY : src/image_grabber.cpp.o
 
 src/image_grabber.i: src/image_grabber.cpp.i
@@ -450,7 +450,7 @@ src/image_grabber.i: src/image_grabber.cpp.i
 
 # target to preprocess a source file
 src/image_grabber.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.i
 .PHONY : src/image_grabber.cpp.i
 
 src/image_grabber.s: src/image_grabber.cpp.s
@@ -459,7 +459,7 @@ src/image_grabber.s: src/image_grabber.cpp.s
 
 # target to generate assembly for a file
 src/image_grabber.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.s
 .PHONY : src/image_grabber.cpp.s
 
 src/image_ir.o: src/image_ir.cpp.o
@@ -468,7 +468,7 @@ src/image_ir.o: src/image_ir.cpp.o
 
 # target to build an object file
 src/image_ir.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.o
 .PHONY : src/image_ir.cpp.o
 
 src/image_ir.i: src/image_ir.cpp.i
@@ -477,7 +477,7 @@ src/image_ir.i: src/image_ir.cpp.i
 
 # target to preprocess a source file
 src/image_ir.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.i
 .PHONY : src/image_ir.cpp.i
 
 src/image_ir.s: src/image_ir.cpp.s
@@ -486,7 +486,7 @@ src/image_ir.s: src/image_ir.cpp.s
 
 # target to generate assembly for a file
 src/image_ir.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_ir.cpp.s
 .PHONY : src/image_ir.cpp.s
 
 src/image_rgb24.o: src/image_rgb24.cpp.o
@@ -495,7 +495,7 @@ src/image_rgb24.o: src/image_rgb24.cpp.o
 
 # target to build an object file
 src/image_rgb24.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.o
 .PHONY : src/image_rgb24.cpp.o
 
 src/image_rgb24.i: src/image_rgb24.cpp.i
@@ -504,7 +504,7 @@ src/image_rgb24.i: src/image_rgb24.cpp.i
 
 # target to preprocess a source file
 src/image_rgb24.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.i
 .PHONY : src/image_rgb24.cpp.i
 
 src/image_rgb24.s: src/image_rgb24.cpp.s
@@ -513,7 +513,7 @@ src/image_rgb24.s: src/image_rgb24.cpp.s
 
 # target to generate assembly for a file
 src/image_rgb24.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_rgb24.cpp.s
 .PHONY : src/image_rgb24.cpp.s
 
 src/image_yuv422.o: src/image_yuv422.cpp.o
@@ -522,7 +522,7 @@ src/image_yuv422.o: src/image_yuv422.cpp.o
 
 # target to build an object file
 src/image_yuv422.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.o
 .PHONY : src/image_yuv422.cpp.o
 
 src/image_yuv422.i: src/image_yuv422.cpp.i
@@ -531,7 +531,7 @@ src/image_yuv422.i: src/image_yuv422.cpp.i
 
 # target to preprocess a source file
 src/image_yuv422.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.i
 .PHONY : src/image_yuv422.cpp.i
 
 src/image_yuv422.s: src/image_yuv422.cpp.s
@@ -540,7 +540,7 @@ src/image_yuv422.s: src/image_yuv422.cpp.s
 
 # target to generate assembly for a file
 src/image_yuv422.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/image_yuv422.cpp.s
 .PHONY : src/image_yuv422.cpp.s
 
 src/io_exception.o: src/io_exception.cpp.o
@@ -549,7 +549,7 @@ src/io_exception.o: src/io_exception.cpp.o
 
 # target to build an object file
 src/io_exception.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.o
 .PHONY : src/io_exception.cpp.o
 
 src/io_exception.i: src/io_exception.cpp.i
@@ -558,7 +558,7 @@ src/io_exception.i: src/io_exception.cpp.i
 
 # target to preprocess a source file
 src/io_exception.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.i
 .PHONY : src/io_exception.cpp.i
 
 src/io_exception.s: src/io_exception.cpp.s
@@ -567,7 +567,7 @@ src/io_exception.s: src/io_exception.cpp.s
 
 # target to generate assembly for a file
 src/io_exception.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.s
 .PHONY : src/io_exception.cpp.s
 
 src/libpng_wrapper.o: src/libpng_wrapper.cpp.o
@@ -576,7 +576,7 @@ src/libpng_wrapper.o: src/libpng_wrapper.cpp.o
 
 # target to build an object file
 src/libpng_wrapper.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.o
 .PHONY : src/libpng_wrapper.cpp.o
 
 src/libpng_wrapper.i: src/libpng_wrapper.cpp.i
@@ -585,7 +585,7 @@ src/libpng_wrapper.i: src/libpng_wrapper.cpp.i
 
 # target to preprocess a source file
 src/libpng_wrapper.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.i
 .PHONY : src/libpng_wrapper.cpp.i
 
 src/libpng_wrapper.s: src/libpng_wrapper.cpp.s
@@ -594,7 +594,7 @@ src/libpng_wrapper.s: src/libpng_wrapper.cpp.s
 
 # target to generate assembly for a file
 src/libpng_wrapper.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/libpng_wrapper.cpp.s
 .PHONY : src/libpng_wrapper.cpp.s
 
 src/lzf.o: src/lzf.cpp.o
@@ -603,7 +603,7 @@ src/lzf.o: src/lzf.cpp.o
 
 # target to build an object file
 src/lzf.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf.cpp.o
 .PHONY : src/lzf.cpp.o
 
 src/lzf.i: src/lzf.cpp.i
@@ -612,7 +612,7 @@ src/lzf.i: src/lzf.cpp.i
 
 # target to preprocess a source file
 src/lzf.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf.cpp.i
 .PHONY : src/lzf.cpp.i
 
 src/lzf.s: src/lzf.cpp.s
@@ -621,7 +621,7 @@ src/lzf.s: src/lzf.cpp.s
 
 # target to generate assembly for a file
 src/lzf.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf.cpp.s
 .PHONY : src/lzf.cpp.s
 
 src/lzf_image_io.o: src/lzf_image_io.cpp.o
@@ -630,7 +630,7 @@ src/lzf_image_io.o: src/lzf_image_io.cpp.o
 
 # target to build an object file
 src/lzf_image_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o
 .PHONY : src/lzf_image_io.cpp.o
 
 src/lzf_image_io.i: src/lzf_image_io.cpp.i
@@ -639,7 +639,7 @@ src/lzf_image_io.i: src/lzf_image_io.cpp.i
 
 # target to preprocess a source file
 src/lzf_image_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.i
 .PHONY : src/lzf_image_io.cpp.i
 
 src/lzf_image_io.s: src/lzf_image_io.cpp.s
@@ -648,7 +648,7 @@ src/lzf_image_io.s: src/lzf_image_io.cpp.s
 
 # target to generate assembly for a file
 src/lzf_image_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.s
 .PHONY : src/lzf_image_io.cpp.s
 
 src/obj_io.o: src/obj_io.cpp.o
@@ -657,7 +657,7 @@ src/obj_io.o: src/obj_io.cpp.o
 
 # target to build an object file
 src/obj_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.o
 .PHONY : src/obj_io.cpp.o
 
 src/obj_io.i: src/obj_io.cpp.i
@@ -666,7 +666,7 @@ src/obj_io.i: src/obj_io.cpp.i
 
 # target to preprocess a source file
 src/obj_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.i
 .PHONY : src/obj_io.cpp.i
 
 src/obj_io.s: src/obj_io.cpp.s
@@ -675,7 +675,7 @@ src/obj_io.s: src/obj_io.cpp.s
 
 # target to generate assembly for a file
 src/obj_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.s
 .PHONY : src/obj_io.cpp.s
 
 src/oni_grabber.o: src/oni_grabber.cpp.o
@@ -684,7 +684,7 @@ src/oni_grabber.o: src/oni_grabber.cpp.o
 
 # target to build an object file
 src/oni_grabber.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.o
 .PHONY : src/oni_grabber.cpp.o
 
 src/oni_grabber.i: src/oni_grabber.cpp.i
@@ -693,7 +693,7 @@ src/oni_grabber.i: src/oni_grabber.cpp.i
 
 # target to preprocess a source file
 src/oni_grabber.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.i
 .PHONY : src/oni_grabber.cpp.i
 
 src/oni_grabber.s: src/oni_grabber.cpp.s
@@ -702,7 +702,7 @@ src/oni_grabber.s: src/oni_grabber.cpp.s
 
 # target to generate assembly for a file
 src/oni_grabber.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/oni_grabber.cpp.s
 .PHONY : src/oni_grabber.cpp.s
 
 src/openni_camera/openni_depth_image.o: src/openni_camera/openni_depth_image.cpp.o
@@ -711,7 +711,7 @@ src/openni_camera/openni_depth_image.o: src/openni_camera/openni_depth_image.cpp
 
 # target to build an object file
 src/openni_camera/openni_depth_image.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.o
 .PHONY : src/openni_camera/openni_depth_image.cpp.o
 
 src/openni_camera/openni_depth_image.i: src/openni_camera/openni_depth_image.cpp.i
@@ -720,7 +720,7 @@ src/openni_camera/openni_depth_image.i: src/openni_camera/openni_depth_image.cpp
 
 # target to preprocess a source file
 src/openni_camera/openni_depth_image.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.i
 .PHONY : src/openni_camera/openni_depth_image.cpp.i
 
 src/openni_camera/openni_depth_image.s: src/openni_camera/openni_depth_image.cpp.s
@@ -729,7 +729,7 @@ src/openni_camera/openni_depth_image.s: src/openni_camera/openni_depth_image.cpp
 
 # target to generate assembly for a file
 src/openni_camera/openni_depth_image.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_depth_image.cpp.s
 .PHONY : src/openni_camera/openni_depth_image.cpp.s
 
 src/openni_camera/openni_device.o: src/openni_camera/openni_device.cpp.o
@@ -738,7 +738,7 @@ src/openni_camera/openni_device.o: src/openni_camera/openni_device.cpp.o
 
 # target to build an object file
 src/openni_camera/openni_device.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.o
 .PHONY : src/openni_camera/openni_device.cpp.o
 
 src/openni_camera/openni_device.i: src/openni_camera/openni_device.cpp.i
@@ -747,7 +747,7 @@ src/openni_camera/openni_device.i: src/openni_camera/openni_device.cpp.i
 
 # target to preprocess a source file
 src/openni_camera/openni_device.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.i
 .PHONY : src/openni_camera/openni_device.cpp.i
 
 src/openni_camera/openni_device.s: src/openni_camera/openni_device.cpp.s
@@ -756,7 +756,7 @@ src/openni_camera/openni_device.s: src/openni_camera/openni_device.cpp.s
 
 # target to generate assembly for a file
 src/openni_camera/openni_device.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device.cpp.s
 .PHONY : src/openni_camera/openni_device.cpp.s
 
 src/openni_camera/openni_device_kinect.o: src/openni_camera/openni_device_kinect.cpp.o
@@ -765,7 +765,7 @@ src/openni_camera/openni_device_kinect.o: src/openni_camera/openni_device_kinect
 
 # target to build an object file
 src/openni_camera/openni_device_kinect.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.o
 .PHONY : src/openni_camera/openni_device_kinect.cpp.o
 
 src/openni_camera/openni_device_kinect.i: src/openni_camera/openni_device_kinect.cpp.i
@@ -774,7 +774,7 @@ src/openni_camera/openni_device_kinect.i: src/openni_camera/openni_device_kinect
 
 # target to preprocess a source file
 src/openni_camera/openni_device_kinect.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.i
 .PHONY : src/openni_camera/openni_device_kinect.cpp.i
 
 src/openni_camera/openni_device_kinect.s: src/openni_camera/openni_device_kinect.cpp.s
@@ -783,7 +783,7 @@ src/openni_camera/openni_device_kinect.s: src/openni_camera/openni_device_kinect
 
 # target to generate assembly for a file
 src/openni_camera/openni_device_kinect.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_kinect.cpp.s
 .PHONY : src/openni_camera/openni_device_kinect.cpp.s
 
 src/openni_camera/openni_device_oni.o: src/openni_camera/openni_device_oni.cpp.o
@@ -792,7 +792,7 @@ src/openni_camera/openni_device_oni.o: src/openni_camera/openni_device_oni.cpp.o
 
 # target to build an object file
 src/openni_camera/openni_device_oni.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.o
 .PHONY : src/openni_camera/openni_device_oni.cpp.o
 
 src/openni_camera/openni_device_oni.i: src/openni_camera/openni_device_oni.cpp.i
@@ -801,7 +801,7 @@ src/openni_camera/openni_device_oni.i: src/openni_camera/openni_device_oni.cpp.i
 
 # target to preprocess a source file
 src/openni_camera/openni_device_oni.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.i
 .PHONY : src/openni_camera/openni_device_oni.cpp.i
 
 src/openni_camera/openni_device_oni.s: src/openni_camera/openni_device_oni.cpp.s
@@ -810,7 +810,7 @@ src/openni_camera/openni_device_oni.s: src/openni_camera/openni_device_oni.cpp.s
 
 # target to generate assembly for a file
 src/openni_camera/openni_device_oni.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_oni.cpp.s
 .PHONY : src/openni_camera/openni_device_oni.cpp.s
 
 src/openni_camera/openni_device_primesense.o: src/openni_camera/openni_device_primesense.cpp.o
@@ -819,7 +819,7 @@ src/openni_camera/openni_device_primesense.o: src/openni_camera/openni_device_pr
 
 # target to build an object file
 src/openni_camera/openni_device_primesense.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.o
 .PHONY : src/openni_camera/openni_device_primesense.cpp.o
 
 src/openni_camera/openni_device_primesense.i: src/openni_camera/openni_device_primesense.cpp.i
@@ -828,7 +828,7 @@ src/openni_camera/openni_device_primesense.i: src/openni_camera/openni_device_pr
 
 # target to preprocess a source file
 src/openni_camera/openni_device_primesense.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.i
 .PHONY : src/openni_camera/openni_device_primesense.cpp.i
 
 src/openni_camera/openni_device_primesense.s: src/openni_camera/openni_device_primesense.cpp.s
@@ -837,7 +837,7 @@ src/openni_camera/openni_device_primesense.s: src/openni_camera/openni_device_pr
 
 # target to generate assembly for a file
 src/openni_camera/openni_device_primesense.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_primesense.cpp.s
 .PHONY : src/openni_camera/openni_device_primesense.cpp.s
 
 src/openni_camera/openni_device_xtion.o: src/openni_camera/openni_device_xtion.cpp.o
@@ -846,7 +846,7 @@ src/openni_camera/openni_device_xtion.o: src/openni_camera/openni_device_xtion.c
 
 # target to build an object file
 src/openni_camera/openni_device_xtion.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.o
 .PHONY : src/openni_camera/openni_device_xtion.cpp.o
 
 src/openni_camera/openni_device_xtion.i: src/openni_camera/openni_device_xtion.cpp.i
@@ -855,7 +855,7 @@ src/openni_camera/openni_device_xtion.i: src/openni_camera/openni_device_xtion.c
 
 # target to preprocess a source file
 src/openni_camera/openni_device_xtion.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.i
 .PHONY : src/openni_camera/openni_device_xtion.cpp.i
 
 src/openni_camera/openni_device_xtion.s: src/openni_camera/openni_device_xtion.cpp.s
@@ -864,7 +864,7 @@ src/openni_camera/openni_device_xtion.s: src/openni_camera/openni_device_xtion.c
 
 # target to generate assembly for a file
 src/openni_camera/openni_device_xtion.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_device_xtion.cpp.s
 .PHONY : src/openni_camera/openni_device_xtion.cpp.s
 
 src/openni_camera/openni_driver.o: src/openni_camera/openni_driver.cpp.o
@@ -873,7 +873,7 @@ src/openni_camera/openni_driver.o: src/openni_camera/openni_driver.cpp.o
 
 # target to build an object file
 src/openni_camera/openni_driver.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.o
 .PHONY : src/openni_camera/openni_driver.cpp.o
 
 src/openni_camera/openni_driver.i: src/openni_camera/openni_driver.cpp.i
@@ -882,7 +882,7 @@ src/openni_camera/openni_driver.i: src/openni_camera/openni_driver.cpp.i
 
 # target to preprocess a source file
 src/openni_camera/openni_driver.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.i
 .PHONY : src/openni_camera/openni_driver.cpp.i
 
 src/openni_camera/openni_driver.s: src/openni_camera/openni_driver.cpp.s
@@ -891,7 +891,7 @@ src/openni_camera/openni_driver.s: src/openni_camera/openni_driver.cpp.s
 
 # target to generate assembly for a file
 src/openni_camera/openni_driver.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_driver.cpp.s
 .PHONY : src/openni_camera/openni_driver.cpp.s
 
 src/openni_camera/openni_exception.o: src/openni_camera/openni_exception.cpp.o
@@ -900,7 +900,7 @@ src/openni_camera/openni_exception.o: src/openni_camera/openni_exception.cpp.o
 
 # target to build an object file
 src/openni_camera/openni_exception.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.o
 .PHONY : src/openni_camera/openni_exception.cpp.o
 
 src/openni_camera/openni_exception.i: src/openni_camera/openni_exception.cpp.i
@@ -909,7 +909,7 @@ src/openni_camera/openni_exception.i: src/openni_camera/openni_exception.cpp.i
 
 # target to preprocess a source file
 src/openni_camera/openni_exception.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.i
 .PHONY : src/openni_camera/openni_exception.cpp.i
 
 src/openni_camera/openni_exception.s: src/openni_camera/openni_exception.cpp.s
@@ -918,7 +918,7 @@ src/openni_camera/openni_exception.s: src/openni_camera/openni_exception.cpp.s
 
 # target to generate assembly for a file
 src/openni_camera/openni_exception.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_exception.cpp.s
 .PHONY : src/openni_camera/openni_exception.cpp.s
 
 src/openni_camera/openni_image_bayer_grbg.o: src/openni_camera/openni_image_bayer_grbg.cpp.o
@@ -927,7 +927,7 @@ src/openni_camera/openni_image_bayer_grbg.o: src/openni_camera/openni_image_baye
 
 # target to build an object file
 src/openni_camera/openni_image_bayer_grbg.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.o
 .PHONY : src/openni_camera/openni_image_bayer_grbg.cpp.o
 
 src/openni_camera/openni_image_bayer_grbg.i: src/openni_camera/openni_image_bayer_grbg.cpp.i
@@ -936,7 +936,7 @@ src/openni_camera/openni_image_bayer_grbg.i: src/openni_camera/openni_image_baye
 
 # target to preprocess a source file
 src/openni_camera/openni_image_bayer_grbg.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.i
 .PHONY : src/openni_camera/openni_image_bayer_grbg.cpp.i
 
 src/openni_camera/openni_image_bayer_grbg.s: src/openni_camera/openni_image_bayer_grbg.cpp.s
@@ -945,7 +945,7 @@ src/openni_camera/openni_image_bayer_grbg.s: src/openni_camera/openni_image_baye
 
 # target to generate assembly for a file
 src/openni_camera/openni_image_bayer_grbg.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_bayer_grbg.cpp.s
 .PHONY : src/openni_camera/openni_image_bayer_grbg.cpp.s
 
 src/openni_camera/openni_image_rgb24.o: src/openni_camera/openni_image_rgb24.cpp.o
@@ -954,7 +954,7 @@ src/openni_camera/openni_image_rgb24.o: src/openni_camera/openni_image_rgb24.cpp
 
 # target to build an object file
 src/openni_camera/openni_image_rgb24.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.o
 .PHONY : src/openni_camera/openni_image_rgb24.cpp.o
 
 src/openni_camera/openni_image_rgb24.i: src/openni_camera/openni_image_rgb24.cpp.i
@@ -963,7 +963,7 @@ src/openni_camera/openni_image_rgb24.i: src/openni_camera/openni_image_rgb24.cpp
 
 # target to preprocess a source file
 src/openni_camera/openni_image_rgb24.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.i
 .PHONY : src/openni_camera/openni_image_rgb24.cpp.i
 
 src/openni_camera/openni_image_rgb24.s: src/openni_camera/openni_image_rgb24.cpp.s
@@ -972,7 +972,7 @@ src/openni_camera/openni_image_rgb24.s: src/openni_camera/openni_image_rgb24.cpp
 
 # target to generate assembly for a file
 src/openni_camera/openni_image_rgb24.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_rgb24.cpp.s
 .PHONY : src/openni_camera/openni_image_rgb24.cpp.s
 
 src/openni_camera/openni_image_yuv_422.o: src/openni_camera/openni_image_yuv_422.cpp.o
@@ -981,7 +981,7 @@ src/openni_camera/openni_image_yuv_422.o: src/openni_camera/openni_image_yuv_422
 
 # target to build an object file
 src/openni_camera/openni_image_yuv_422.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.o
 .PHONY : src/openni_camera/openni_image_yuv_422.cpp.o
 
 src/openni_camera/openni_image_yuv_422.i: src/openni_camera/openni_image_yuv_422.cpp.i
@@ -990,7 +990,7 @@ src/openni_camera/openni_image_yuv_422.i: src/openni_camera/openni_image_yuv_422
 
 # target to preprocess a source file
 src/openni_camera/openni_image_yuv_422.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.i
 .PHONY : src/openni_camera/openni_image_yuv_422.cpp.i
 
 src/openni_camera/openni_image_yuv_422.s: src/openni_camera/openni_image_yuv_422.cpp.s
@@ -999,7 +999,7 @@ src/openni_camera/openni_image_yuv_422.s: src/openni_camera/openni_image_yuv_422
 
 # target to generate assembly for a file
 src/openni_camera/openni_image_yuv_422.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_image_yuv_422.cpp.s
 .PHONY : src/openni_camera/openni_image_yuv_422.cpp.s
 
 src/openni_camera/openni_ir_image.o: src/openni_camera/openni_ir_image.cpp.o
@@ -1008,7 +1008,7 @@ src/openni_camera/openni_ir_image.o: src/openni_camera/openni_ir_image.cpp.o
 
 # target to build an object file
 src/openni_camera/openni_ir_image.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.o
 .PHONY : src/openni_camera/openni_ir_image.cpp.o
 
 src/openni_camera/openni_ir_image.i: src/openni_camera/openni_ir_image.cpp.i
@@ -1017,7 +1017,7 @@ src/openni_camera/openni_ir_image.i: src/openni_camera/openni_ir_image.cpp.i
 
 # target to preprocess a source file
 src/openni_camera/openni_ir_image.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.i
 .PHONY : src/openni_camera/openni_ir_image.cpp.i
 
 src/openni_camera/openni_ir_image.s: src/openni_camera/openni_ir_image.cpp.s
@@ -1026,7 +1026,7 @@ src/openni_camera/openni_ir_image.s: src/openni_camera/openni_ir_image.cpp.s
 
 # target to generate assembly for a file
 src/openni_camera/openni_ir_image.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_camera/openni_ir_image.cpp.s
 .PHONY : src/openni_camera/openni_ir_image.cpp.s
 
 src/openni_grabber.o: src/openni_grabber.cpp.o
@@ -1035,7 +1035,7 @@ src/openni_grabber.o: src/openni_grabber.cpp.o
 
 # target to build an object file
 src/openni_grabber.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.o
 .PHONY : src/openni_grabber.cpp.o
 
 src/openni_grabber.i: src/openni_grabber.cpp.i
@@ -1044,7 +1044,7 @@ src/openni_grabber.i: src/openni_grabber.cpp.i
 
 # target to preprocess a source file
 src/openni_grabber.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.i
 .PHONY : src/openni_grabber.cpp.i
 
 src/openni_grabber.s: src/openni_grabber.cpp.s
@@ -1053,7 +1053,7 @@ src/openni_grabber.s: src/openni_grabber.cpp.s
 
 # target to generate assembly for a file
 src/openni_grabber.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/openni_grabber.cpp.s
 .PHONY : src/openni_grabber.cpp.s
 
 src/pcd_grabber.o: src/pcd_grabber.cpp.o
@@ -1062,7 +1062,7 @@ src/pcd_grabber.o: src/pcd_grabber.cpp.o
 
 # target to build an object file
 src/pcd_grabber.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o
 .PHONY : src/pcd_grabber.cpp.o
 
 src/pcd_grabber.i: src/pcd_grabber.cpp.i
@@ -1071,7 +1071,7 @@ src/pcd_grabber.i: src/pcd_grabber.cpp.i
 
 # target to preprocess a source file
 src/pcd_grabber.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.i
 .PHONY : src/pcd_grabber.cpp.i
 
 src/pcd_grabber.s: src/pcd_grabber.cpp.s
@@ -1080,7 +1080,7 @@ src/pcd_grabber.s: src/pcd_grabber.cpp.s
 
 # target to generate assembly for a file
 src/pcd_grabber.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.s
 .PHONY : src/pcd_grabber.cpp.s
 
 src/pcd_io.o: src/pcd_io.cpp.o
@@ -1089,7 +1089,7 @@ src/pcd_io.o: src/pcd_io.cpp.o
 
 # target to build an object file
 src/pcd_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o
 .PHONY : src/pcd_io.cpp.o
 
 src/pcd_io.i: src/pcd_io.cpp.i
@@ -1098,7 +1098,7 @@ src/pcd_io.i: src/pcd_io.cpp.i
 
 # target to preprocess a source file
 src/pcd_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.i
 .PHONY : src/pcd_io.cpp.i
 
 src/pcd_io.s: src/pcd_io.cpp.s
@@ -1107,7 +1107,7 @@ src/pcd_io.s: src/pcd_io.cpp.s
 
 # target to generate assembly for a file
 src/pcd_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.s
 .PHONY : src/pcd_io.cpp.s
 
 src/ply/ply_parser.o: src/ply/ply_parser.cpp.o
@@ -1116,7 +1116,7 @@ src/ply/ply_parser.o: src/ply/ply_parser.cpp.o
 
 # target to build an object file
 src/ply/ply_parser.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/src/ply/ply_parser.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/src/ply/ply_parser.cpp.o
 .PHONY : src/ply/ply_parser.cpp.o
 
 src/ply/ply_parser.i: src/ply/ply_parser.cpp.i
@@ -1125,7 +1125,7 @@ src/ply/ply_parser.i: src/ply/ply_parser.cpp.i
 
 # target to preprocess a source file
 src/ply/ply_parser.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/src/ply/ply_parser.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/src/ply/ply_parser.cpp.i
 .PHONY : src/ply/ply_parser.cpp.i
 
 src/ply/ply_parser.s: src/ply/ply_parser.cpp.s
@@ -1134,7 +1134,7 @@ src/ply/ply_parser.s: src/ply/ply_parser.cpp.s
 
 # target to generate assembly for a file
 src/ply/ply_parser.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/src/ply/ply_parser.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io_ply.dir/build.make io/CMakeFiles/pcl_io_ply.dir/src/ply/ply_parser.cpp.s
 .PHONY : src/ply/ply_parser.cpp.s
 
 src/ply_io.o: src/ply_io.cpp.o
@@ -1143,7 +1143,7 @@ src/ply_io.o: src/ply_io.cpp.o
 
 # target to build an object file
 src/ply_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.o
 .PHONY : src/ply_io.cpp.o
 
 src/ply_io.i: src/ply_io.cpp.i
@@ -1152,7 +1152,7 @@ src/ply_io.i: src/ply_io.cpp.i
 
 # target to preprocess a source file
 src/ply_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.i
 .PHONY : src/ply_io.cpp.i
 
 src/ply_io.s: src/ply_io.cpp.s
@@ -1161,7 +1161,7 @@ src/ply_io.s: src/ply_io.cpp.s
 
 # target to generate assembly for a file
 src/ply_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.s
 .PHONY : src/ply_io.cpp.s
 
 src/png_io.o: src/png_io.cpp.o
@@ -1170,7 +1170,7 @@ src/png_io.o: src/png_io.cpp.o
 
 # target to build an object file
 src/png_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/png_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/png_io.cpp.o
 .PHONY : src/png_io.cpp.o
 
 src/png_io.i: src/png_io.cpp.i
@@ -1179,7 +1179,7 @@ src/png_io.i: src/png_io.cpp.i
 
 # target to preprocess a source file
 src/png_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/png_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/png_io.cpp.i
 .PHONY : src/png_io.cpp.i
 
 src/png_io.s: src/png_io.cpp.s
@@ -1188,7 +1188,7 @@ src/png_io.s: src/png_io.cpp.s
 
 # target to generate assembly for a file
 src/png_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/png_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/png_io.cpp.s
 .PHONY : src/png_io.cpp.s
 
 src/robot_eye_grabber.o: src/robot_eye_grabber.cpp.o
@@ -1197,7 +1197,7 @@ src/robot_eye_grabber.o: src/robot_eye_grabber.cpp.o
 
 # target to build an object file
 src/robot_eye_grabber.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o
 .PHONY : src/robot_eye_grabber.cpp.o
 
 src/robot_eye_grabber.i: src/robot_eye_grabber.cpp.i
@@ -1206,7 +1206,7 @@ src/robot_eye_grabber.i: src/robot_eye_grabber.cpp.i
 
 # target to preprocess a source file
 src/robot_eye_grabber.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.i
 .PHONY : src/robot_eye_grabber.cpp.i
 
 src/robot_eye_grabber.s: src/robot_eye_grabber.cpp.s
@@ -1215,7 +1215,7 @@ src/robot_eye_grabber.s: src/robot_eye_grabber.cpp.s
 
 # target to generate assembly for a file
 src/robot_eye_grabber.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.s
 .PHONY : src/robot_eye_grabber.cpp.s
 
 src/vtk_io.o: src/vtk_io.cpp.o
@@ -1224,7 +1224,7 @@ src/vtk_io.o: src/vtk_io.cpp.o
 
 # target to build an object file
 src/vtk_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o
 .PHONY : src/vtk_io.cpp.o
 
 src/vtk_io.i: src/vtk_io.cpp.i
@@ -1233,7 +1233,7 @@ src/vtk_io.i: src/vtk_io.cpp.i
 
 # target to preprocess a source file
 src/vtk_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.i
 .PHONY : src/vtk_io.cpp.i
 
 src/vtk_io.s: src/vtk_io.cpp.s
@@ -1242,7 +1242,7 @@ src/vtk_io.s: src/vtk_io.cpp.s
 
 # target to generate assembly for a file
 src/vtk_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.s
 .PHONY : src/vtk_io.cpp.s
 
 src/vtk_lib_io.o: src/vtk_lib_io.cpp.o
@@ -1251,7 +1251,7 @@ src/vtk_lib_io.o: src/vtk_lib_io.cpp.o
 
 # target to build an object file
 src/vtk_lib_io.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.o
 .PHONY : src/vtk_lib_io.cpp.o
 
 src/vtk_lib_io.i: src/vtk_lib_io.cpp.i
@@ -1260,7 +1260,7 @@ src/vtk_lib_io.i: src/vtk_lib_io.cpp.i
 
 # target to preprocess a source file
 src/vtk_lib_io.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.i
 .PHONY : src/vtk_lib_io.cpp.i
 
 src/vtk_lib_io.s: src/vtk_lib_io.cpp.s
@@ -1269,7 +1269,7 @@ src/vtk_lib_io.s: src/vtk_lib_io.cpp.s
 
 # target to generate assembly for a file
 src/vtk_lib_io.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f io/CMakeFiles/pcl_io.dir/build.make io/CMakeFiles/pcl_io.dir/src/vtk_lib_io.cpp.s
 .PHONY : src/vtk_lib_io.cpp.s
 
 # Help Target
@@ -1417,6 +1417,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

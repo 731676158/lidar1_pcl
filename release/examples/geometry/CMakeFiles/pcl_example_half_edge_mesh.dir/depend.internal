@@ -16,7 +16,7 @@ examples/geometry/CMakeFiles/pcl_example_half_edge_mesh.dir/example_half_edge_me
  ../geometry/include/pcl/geometry/mesh_indices.h
  ../geometry/include/pcl/geometry/mesh_traits.h
  ../geometry/include/pcl/geometry/polygon_mesh.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/geometry/example_half_edge_mesh.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/geometry/example_half_edge_mesh.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

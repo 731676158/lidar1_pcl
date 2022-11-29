@@ -694,7 +694,7 @@ octree_pointcloud.h
 pcl/octree/impl/octree_search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/morph.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/morph.cpp
 pcl/point_types.h
 -
 pcl/io/pcd_io.h

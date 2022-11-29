@@ -648,7 +648,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/src/brute_force.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/src/brute_force.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -658,7 +658,7 @@ pcl/search/brute_force.h
 pcl/search/impl/brute_force.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/src/kdtree.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/src/kdtree.cpp
 pcl/search/impl/kdtree.hpp
 -
 pcl/impl/instantiate.hpp
@@ -666,7 +666,7 @@ pcl/impl/instantiate.hpp
 pcl/point_types.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/src/octree.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/src/octree.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -674,7 +674,7 @@ pcl/point_types.h
 pcl/search/octree.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/src/organized.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/src/organized.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -684,7 +684,7 @@ pcl/search/organized.h
 pcl/search/impl/organized.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/search/src/search.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/search/src/search.cpp
 pcl/search/impl/search.hpp
 -
 pcl/impl/instantiate.hpp

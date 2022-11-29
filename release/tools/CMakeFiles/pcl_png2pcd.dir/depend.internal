@@ -58,7 +58,7 @@ tools/CMakeFiles/pcl_png2pcd.dir/png2pcd.cpp.o
  ../io/include/pcl/io/lzf.h
  ../io/include/pcl/io/pcd_io.h
  ../io/include/pcl/io/vtk_lib_io.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/png2pcd.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/png2pcd.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

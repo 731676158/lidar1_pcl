@@ -1470,7 +1470,7 @@ vector
 vtkCommand.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/apps/main_ground_based_people_detection.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/apps/main_ground_based_people_detection.cpp
 pcl/console/parse.h
 -
 pcl/point_types.h

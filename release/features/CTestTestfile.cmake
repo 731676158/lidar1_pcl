@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/features
-# Build directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/features
+# Source directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/features
+# Build directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/features
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

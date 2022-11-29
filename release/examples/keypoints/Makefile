@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,7 +137,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/keypoints/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/keypoints/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/rule
 .PHONY : examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ pcl_example_get_keypoints_indices: examples/keypoints/CMakeFiles/pcl_example_get
 
 # fast build rule for target.
 pcl_example_get_keypoints_indices/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build
 .PHONY : pcl_example_get_keypoints_indices/fast
 
 # Convenience name for target.
 examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/rule
 .PHONY : examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ pcl_example_sift_z_keypoint_estimation: examples/keypoints/CMakeFiles/pcl_exampl
 
 # fast build rule for target.
 pcl_example_sift_z_keypoint_estimation/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build
 .PHONY : pcl_example_sift_z_keypoint_estimation/fast
 
 # Convenience name for target.
 examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/rule
 .PHONY : examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/rule
 
 # Convenience name for target.
@@ -231,12 +231,12 @@ pcl_example_sift_normal_keypoint_estimation: examples/keypoints/CMakeFiles/pcl_e
 
 # fast build rule for target.
 pcl_example_sift_normal_keypoint_estimation/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build
 .PHONY : pcl_example_sift_normal_keypoint_estimation/fast
 
 # Convenience name for target.
 examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/rule
 .PHONY : examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/rule
 
 # Convenience name for target.
@@ -246,7 +246,7 @@ pcl_example_sift_keypoint_estimation: examples/keypoints/CMakeFiles/pcl_example_
 
 # fast build rule for target.
 pcl_example_sift_keypoint_estimation/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build
 .PHONY : pcl_example_sift_keypoint_estimation/fast
 
 example_get_keypoints_indices.o: example_get_keypoints_indices.cpp.o
@@ -255,7 +255,7 @@ example_get_keypoints_indices.o: example_get_keypoints_indices.cpp.o
 
 # target to build an object file
 example_get_keypoints_indices.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/example_get_keypoints_indices.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/example_get_keypoints_indices.cpp.o
 .PHONY : example_get_keypoints_indices.cpp.o
 
 example_get_keypoints_indices.i: example_get_keypoints_indices.cpp.i
@@ -264,7 +264,7 @@ example_get_keypoints_indices.i: example_get_keypoints_indices.cpp.i
 
 # target to preprocess a source file
 example_get_keypoints_indices.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/example_get_keypoints_indices.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/example_get_keypoints_indices.cpp.i
 .PHONY : example_get_keypoints_indices.cpp.i
 
 example_get_keypoints_indices.s: example_get_keypoints_indices.cpp.s
@@ -273,7 +273,7 @@ example_get_keypoints_indices.s: example_get_keypoints_indices.cpp.s
 
 # target to generate assembly for a file
 example_get_keypoints_indices.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/example_get_keypoints_indices.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/build.make examples/keypoints/CMakeFiles/pcl_example_get_keypoints_indices.dir/example_get_keypoints_indices.cpp.s
 .PHONY : example_get_keypoints_indices.cpp.s
 
 example_sift_keypoint_estimation.o: example_sift_keypoint_estimation.cpp.o
@@ -282,7 +282,7 @@ example_sift_keypoint_estimation.o: example_sift_keypoint_estimation.cpp.o
 
 # target to build an object file
 example_sift_keypoint_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/example_sift_keypoint_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/example_sift_keypoint_estimation.cpp.o
 .PHONY : example_sift_keypoint_estimation.cpp.o
 
 example_sift_keypoint_estimation.i: example_sift_keypoint_estimation.cpp.i
@@ -291,7 +291,7 @@ example_sift_keypoint_estimation.i: example_sift_keypoint_estimation.cpp.i
 
 # target to preprocess a source file
 example_sift_keypoint_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/example_sift_keypoint_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/example_sift_keypoint_estimation.cpp.i
 .PHONY : example_sift_keypoint_estimation.cpp.i
 
 example_sift_keypoint_estimation.s: example_sift_keypoint_estimation.cpp.s
@@ -300,7 +300,7 @@ example_sift_keypoint_estimation.s: example_sift_keypoint_estimation.cpp.s
 
 # target to generate assembly for a file
 example_sift_keypoint_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/example_sift_keypoint_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_keypoint_estimation.dir/example_sift_keypoint_estimation.cpp.s
 .PHONY : example_sift_keypoint_estimation.cpp.s
 
 example_sift_normal_keypoint_estimation.o: example_sift_normal_keypoint_estimation.cpp.o
@@ -309,7 +309,7 @@ example_sift_normal_keypoint_estimation.o: example_sift_normal_keypoint_estimati
 
 # target to build an object file
 example_sift_normal_keypoint_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/example_sift_normal_keypoint_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/example_sift_normal_keypoint_estimation.cpp.o
 .PHONY : example_sift_normal_keypoint_estimation.cpp.o
 
 example_sift_normal_keypoint_estimation.i: example_sift_normal_keypoint_estimation.cpp.i
@@ -318,7 +318,7 @@ example_sift_normal_keypoint_estimation.i: example_sift_normal_keypoint_estimati
 
 # target to preprocess a source file
 example_sift_normal_keypoint_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/example_sift_normal_keypoint_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/example_sift_normal_keypoint_estimation.cpp.i
 .PHONY : example_sift_normal_keypoint_estimation.cpp.i
 
 example_sift_normal_keypoint_estimation.s: example_sift_normal_keypoint_estimation.cpp.s
@@ -327,7 +327,7 @@ example_sift_normal_keypoint_estimation.s: example_sift_normal_keypoint_estimati
 
 # target to generate assembly for a file
 example_sift_normal_keypoint_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/example_sift_normal_keypoint_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_normal_keypoint_estimation.dir/example_sift_normal_keypoint_estimation.cpp.s
 .PHONY : example_sift_normal_keypoint_estimation.cpp.s
 
 example_sift_z_keypoint_estimation.o: example_sift_z_keypoint_estimation.cpp.o
@@ -336,7 +336,7 @@ example_sift_z_keypoint_estimation.o: example_sift_z_keypoint_estimation.cpp.o
 
 # target to build an object file
 example_sift_z_keypoint_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/example_sift_z_keypoint_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/example_sift_z_keypoint_estimation.cpp.o
 .PHONY : example_sift_z_keypoint_estimation.cpp.o
 
 example_sift_z_keypoint_estimation.i: example_sift_z_keypoint_estimation.cpp.i
@@ -345,7 +345,7 @@ example_sift_z_keypoint_estimation.i: example_sift_z_keypoint_estimation.cpp.i
 
 # target to preprocess a source file
 example_sift_z_keypoint_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/example_sift_z_keypoint_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/example_sift_z_keypoint_estimation.cpp.i
 .PHONY : example_sift_z_keypoint_estimation.cpp.i
 
 example_sift_z_keypoint_estimation.s: example_sift_z_keypoint_estimation.cpp.s
@@ -354,7 +354,7 @@ example_sift_z_keypoint_estimation.s: example_sift_z_keypoint_estimation.cpp.s
 
 # target to generate assembly for a file
 example_sift_z_keypoint_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/example_sift_z_keypoint_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/build.make examples/keypoints/CMakeFiles/pcl_example_sift_z_keypoint_estimation.dir/example_sift_z_keypoint_estimation.cpp.s
 .PHONY : example_sift_z_keypoint_estimation.cpp.s
 
 # Help Target
@@ -399,6 +399,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

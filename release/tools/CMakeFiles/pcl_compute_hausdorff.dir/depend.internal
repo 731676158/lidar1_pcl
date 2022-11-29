@@ -45,7 +45,7 @@ tools/CMakeFiles/pcl_compute_hausdorff.dir/compute_hausdorff.cpp.o
  ../search/include/pcl/search/impl/search.hpp
  ../search/include/pcl/search/kdtree.h
  ../search/include/pcl/search/search.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/compute_hausdorff.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/compute_hausdorff.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

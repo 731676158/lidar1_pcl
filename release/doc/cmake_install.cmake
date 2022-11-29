@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/doc
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/doc/doxygen/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/doc/advanced/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/doc/tutorials/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/doc/doxygen/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/doc/advanced/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/doc/tutorials/cmake_install.cmake")
 
 endif()
 

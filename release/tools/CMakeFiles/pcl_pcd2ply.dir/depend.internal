@@ -41,7 +41,7 @@ tools/CMakeFiles/pcl_pcd2ply.dir/pcd2ply.cpp.o
  ../io/include/pcl/io/ply/ply.h
  ../io/include/pcl/io/ply/ply_parser.h
  ../io/include/pcl/io/ply_io.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/pcd2ply.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/pcd2ply.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

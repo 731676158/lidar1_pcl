@@ -72,8 +72,8 @@ tools/CMakeFiles/pcl_openni_save_image.dir/openni_save_image.cpp.o
  ../visualization/include/pcl/visualization/point_cloud_handlers.h
  ../visualization/include/pcl/visualization/point_picking_event.h
  ../visualization/include/pcl/visualization/vtk.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/boost.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/openni_save_image.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/boost.h
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/openni_save_image.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

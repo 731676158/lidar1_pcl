@@ -1000,7 +1000,7 @@ pcl/pcl_macros.h
 vtkImageCanvasSource2D.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/pcd_grabber_viewer.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/pcd_grabber_viewer.cpp
 pcl/io/pcd_grabber.h
 -
 pcl/console/parse.h

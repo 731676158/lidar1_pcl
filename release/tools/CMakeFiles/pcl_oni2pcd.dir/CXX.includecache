@@ -606,7 +606,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/oni2pcd.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/oni2pcd.cpp
 pcl/point_cloud.h
 -
 pcl/point_types.h

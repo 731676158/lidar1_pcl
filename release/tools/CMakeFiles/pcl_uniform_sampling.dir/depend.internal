@@ -73,7 +73,7 @@ tools/CMakeFiles/pcl_uniform_sampling.dir/uniform_sampling.cpp.o
  ../search/include/pcl/search/organized.h
  ../search/include/pcl/search/pcl_search.h
  ../search/include/pcl/search/search.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/uniform_sampling.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/uniform_sampling.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

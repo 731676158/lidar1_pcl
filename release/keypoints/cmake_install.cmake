@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_keypointsx" OR NOT CMAKE_INSTAL
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_keypoints.so.1.7.2"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_keypoints.so.1.7"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_keypoints.so.1.7.2"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_keypoints.so.1.7"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_keypoints.so.1.7.2"
@@ -61,7 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_keypointsx" OR NOT CMAKE_INSTAL
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:"
+           OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:"
            NEW_RPATH "/usr/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -77,12 +77,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_keypointsx" OR NOT CMAKE_INSTAL
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_keypoints.so"
          RPATH "/usr/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_keypoints.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_keypoints.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_keypoints.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_keypoints.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_keypoints.so"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:"
          NEW_RPATH "/usr/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_keypoints.so")
@@ -91,35 +91,35 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_keypointsx" OR NOT CMAKE_INSTAL
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_keypointsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/keypoints/pcl_keypoints-1.7.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/keypoints/pcl_keypoints-1.7.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_keypointsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/keypoints" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/keypoint.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/narf_keypoint.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/sift_keypoint.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/uniform_sampling.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/smoothed_surfaces_keypoint.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/agast_2d.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/harris_3d.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/harris_6d.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/susan.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/iss_3d.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/keypoint.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/narf_keypoint.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/sift_keypoint.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/uniform_sampling.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/smoothed_surfaces_keypoint.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/agast_2d.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/harris_3d.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/harris_6d.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/susan.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/iss_3d.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_keypointsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/keypoints/impl" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/keypoint.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/sift_keypoint.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/uniform_sampling.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/smoothed_surfaces_keypoint.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/agast_2d.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/harris_3d.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/harris_6d.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/susan.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/include/pcl/keypoints/impl/iss_3d.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/keypoint.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/sift_keypoint.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/uniform_sampling.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/smoothed_surfaces_keypoint.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/agast_2d.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/harris_3d.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/harris_6d.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/susan.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/include/pcl/keypoints/impl/iss_3d.hpp"
     )
 endif()
 

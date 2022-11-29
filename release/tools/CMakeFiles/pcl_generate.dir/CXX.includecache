@@ -500,7 +500,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/generate.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/generate.cpp
 pcl/point_types.h
 -
 pcl/io/pcd_io.h

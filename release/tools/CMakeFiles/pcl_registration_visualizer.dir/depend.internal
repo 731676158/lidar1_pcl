@@ -121,7 +121,7 @@ tools/CMakeFiles/pcl_registration_visualizer.dir/registration_visualizer.cpp.o
  ../visualization/include/pcl/visualization/point_cloud_handlers.h
  ../visualization/include/pcl/visualization/point_picking_event.h
  ../visualization/include/pcl/visualization/registration_visualizer.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/registration_visualizer.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/registration_visualizer.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 # Include any dependencies generated for this target.
 include recognition/CMakeFiles/pcl_recognition.dir/depend.make
@@ -59,198 +59,198 @@ include recognition/CMakeFiles/pcl_recognition.dir/flags.make
 
 recognition/CMakeFiles/pcl_recognition.dir/src/linemod.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/linemod.cpp.o: ../recognition/src/linemod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/linemod.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/linemod.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/linemod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/linemod.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/linemod.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/linemod.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/linemod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/linemod.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/linemod.cpp > CMakeFiles/pcl_recognition.dir/src/linemod.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/linemod.cpp > CMakeFiles/pcl_recognition.dir/src/linemod.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/linemod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/linemod.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/linemod.cpp -o CMakeFiles/pcl_recognition.dir/src/linemod.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/linemod.cpp -o CMakeFiles/pcl_recognition.dir/src/linemod.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.o: ../recognition/src/quantizable_modality.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/quantizable_modality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/quantizable_modality.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/quantizable_modality.cpp > CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/quantizable_modality.cpp > CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/quantizable_modality.cpp -o CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/quantizable_modality.cpp -o CMakeFiles/pcl_recognition.dir/src/quantizable_modality.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.o: ../recognition/src/dotmod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/dotmod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/dotmod.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/dotmod.cpp > CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/dotmod.cpp > CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/dotmod.cpp -o CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/dotmod.cpp -o CMakeFiles/pcl_recognition.dir/src/dotmod.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.o: ../recognition/src/mask_map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/mask_map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/mask_map.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/mask_map.cpp > CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/mask_map.cpp > CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/mask_map.cpp -o CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/mask_map.cpp -o CMakeFiles/pcl_recognition.dir/src/mask_map.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.o: ../recognition/src/hv/occlusion_reasoning.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/occlusion_reasoning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/occlusion_reasoning.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/occlusion_reasoning.cpp > CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/occlusion_reasoning.cpp > CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/occlusion_reasoning.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/occlusion_reasoning.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/occlusion_reasoning.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.o: ../recognition/src/hv/hv_papazov.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_papazov.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_papazov.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_papazov.cpp > CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_papazov.cpp > CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_papazov.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_papazov.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/hv_papazov.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.o: ../recognition/src/hv/hv_go.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_go.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_go.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_go.cpp > CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_go.cpp > CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_go.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_go.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/hv_go.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.o: ../recognition/src/hv/greedy_verification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/greedy_verification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/greedy_verification.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/greedy_verification.cpp > CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/greedy_verification.cpp > CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/greedy_verification.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/greedy_verification.cpp -o CMakeFiles/pcl_recognition.dir/src/hv/greedy_verification.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.o: ../recognition/src/cg/hough_3d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/hough_3d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/hough_3d.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/hough_3d.cpp > CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/hough_3d.cpp > CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/hough_3d.cpp -o CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/hough_3d.cpp -o CMakeFiles/pcl_recognition.dir/src/cg/hough_3d.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.o: ../recognition/src/cg/geometric_consistency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/geometric_consistency.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/geometric_consistency.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/geometric_consistency.cpp > CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/geometric_consistency.cpp > CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/geometric_consistency.cpp -o CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/geometric_consistency.cpp -o CMakeFiles/pcl_recognition.dir/src/cg/geometric_consistency.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.o: ../recognition/src/ransac_based/obj_rec_ransac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/obj_rec_ransac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/obj_rec_ransac.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/obj_rec_ransac.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/obj_rec_ransac.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/obj_rec_ransac.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/obj_rec_ransac.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/obj_rec_ransac.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.o: ../recognition/src/ransac_based/model_library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/model_library.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/model_library.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/model_library.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/model_library.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/model_library.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/model_library.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/model_library.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.o: ../recognition/src/ransac_based/orr_octree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.o: ../recognition/src/ransac_based/orr_octree_zprojection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree_zprojection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree_zprojection.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree_zprojection.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree_zprojection.cpp > CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree_zprojection.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree_zprojection.cpp -o CMakeFiles/pcl_recognition.dir/src/ransac_based/orr_octree_zprojection.cpp.s
 
 recognition/CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.o: recognition/CMakeFiles/pcl_recognition.dir/flags.make
 recognition/CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.o: ../recognition/src/implicit_shape_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/implicit_shape_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object recognition/CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/implicit_shape_model.cpp
 
 recognition/CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/implicit_shape_model.cpp > CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/implicit_shape_model.cpp > CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.i
 
 recognition/CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/implicit_shape_model.cpp -o CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/implicit_shape_model.cpp -o CMakeFiles/pcl_recognition.dir/src/implicit_shape_model.cpp.s
 
 # Object files for target pcl_recognition
 pcl_recognition_OBJECTS = \
@@ -436,9 +436,9 @@ lib/libpcl_recognition.so.1.7.2: /usr/lib/x86_64-linux-gnu/libpng.so
 lib/libpcl_recognition.so.1.7.2: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 lib/libpcl_recognition.so.1.7.2: /usr/lib/libOpenNI.so
 lib/libpcl_recognition.so.1.7.2: recognition/CMakeFiles/pcl_recognition.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ../lib/libpcl_recognition.so"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_recognition.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_recognition.so.1.7.2 ../lib/libpcl_recognition.so.1.7 ../lib/libpcl_recognition.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ../lib/libpcl_recognition.so"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_recognition.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_recognition.so.1.7.2 ../lib/libpcl_recognition.so.1.7 ../lib/libpcl_recognition.so
 
 lib/libpcl_recognition.so.1.7: lib/libpcl_recognition.so.1.7.2
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libpcl_recognition.so.1.7
@@ -452,10 +452,10 @@ recognition/CMakeFiles/pcl_recognition.dir/build: lib/libpcl_recognition.so
 .PHONY : recognition/CMakeFiles/pcl_recognition.dir/build
 
 recognition/CMakeFiles/pcl_recognition.dir/clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition && $(CMAKE_COMMAND) -P CMakeFiles/pcl_recognition.dir/cmake_clean.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition && $(CMAKE_COMMAND) -P CMakeFiles/pcl_recognition.dir/cmake_clean.cmake
 .PHONY : recognition/CMakeFiles/pcl_recognition.dir/clean
 
 recognition/CMakeFiles/pcl_recognition.dir/depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/recognition/CMakeFiles/pcl_recognition.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/recognition/CMakeFiles/pcl_recognition.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : recognition/CMakeFiles/pcl_recognition.dir/depend
 

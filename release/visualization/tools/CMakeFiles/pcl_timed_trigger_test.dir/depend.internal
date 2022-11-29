@@ -6,5 +6,5 @@ visualization/tools/CMakeFiles/pcl_timed_trigger_test.dir/timed_trigger_test.cpp
  ../common/include/pcl/common/time_trigger.h
  ../common/include/pcl/pcl_macros.h
  ../visualization/include/pcl/visualization/boost.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/timed_trigger_test.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/timed_trigger_test.cpp
  include/pcl/pcl_config.h

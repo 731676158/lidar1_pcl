@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 # Include any dependencies generated for this target.
 include io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/depend.make
@@ -59,16 +59,16 @@ include io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/flags.make
 
 io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.o: io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/flags.make
 io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.o: ../io/tools/openni_pcd_recorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/openni_pcd_recorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/openni_pcd_recorder.cpp
 
 io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/openni_pcd_recorder.cpp > CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/openni_pcd_recorder.cpp > CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.i
 
 io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/openni_pcd_recorder.cpp -o CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/openni_pcd_recorder.cpp -o CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.s
 
 # Object files for target pcl_openni_pcd_recorder
 pcl_openni_pcd_recorder_OBJECTS = \
@@ -218,8 +218,8 @@ bin/pcl_openni_pcd_recorder: /usr/lib/x86_64-linux-gnu/libpng.so
 bin/pcl_openni_pcd_recorder: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 bin/pcl_openni_pcd_recorder: /usr/lib/libOpenNI.so
 bin/pcl_openni_pcd_recorder: io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/pcl_openni_pcd_recorder"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_openni_pcd_recorder.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/pcl_openni_pcd_recorder"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_openni_pcd_recorder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/build: bin/pcl_openni_pcd_recorder
@@ -227,10 +227,10 @@ io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/build: bin/pcl_openni_pcd_record
 .PHONY : io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/build
 
 io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/tools && $(CMAKE_COMMAND) -P CMakeFiles/pcl_openni_pcd_recorder.dir/cmake_clean.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/tools && $(CMAKE_COMMAND) -P CMakeFiles/pcl_openni_pcd_recorder.dir/cmake_clean.cmake
 .PHONY : io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/clean
 
 io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/depend
 

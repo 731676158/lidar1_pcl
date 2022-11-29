@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,7 +116,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/features/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/features/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ pcl_example_point_feature_histograms: examples/features/CMakeFiles/pcl_example_p
 
 # fast build rule for target.
 pcl_example_point_feature_histograms/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build
 .PHONY : pcl_example_point_feature_histograms/fast
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ pcl_example_fast_point_feature_histograms: examples/features/CMakeFiles/pcl_exam
 
 # fast build rule for target.
 pcl_example_fast_point_feature_histograms/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build
 .PHONY : pcl_example_fast_point_feature_histograms/fast
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/rule
 
 # Convenience name for target.
@@ -231,12 +231,12 @@ pcl_example_principal_curvatures_estimation: examples/features/CMakeFiles/pcl_ex
 
 # fast build rule for target.
 pcl_example_principal_curvatures_estimation/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build
 .PHONY : pcl_example_principal_curvatures_estimation/fast
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_shape_contexts.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_shape_contexts.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_shape_contexts.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_shape_contexts.dir/rule
 
 # Convenience name for target.
@@ -246,12 +246,12 @@ pcl_example_shape_contexts: examples/features/CMakeFiles/pcl_example_shape_conte
 
 # fast build rule for target.
 pcl_example_shape_contexts/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build
 .PHONY : pcl_example_shape_contexts/fast
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_normal_estimation.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_normal_estimation.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_normal_estimation.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_normal_estimation.dir/rule
 
 # Convenience name for target.
@@ -261,12 +261,12 @@ pcl_example_normal_estimation: examples/features/CMakeFiles/pcl_example_normal_e
 
 # fast build rule for target.
 pcl_example_normal_estimation/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build
 .PHONY : pcl_example_normal_estimation/fast
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_spin_images.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_spin_images.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_spin_images.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_spin_images.dir/rule
 
 # Convenience name for target.
@@ -276,12 +276,12 @@ pcl_example_spin_images: examples/features/CMakeFiles/pcl_example_spin_images.di
 
 # fast build rule for target.
 pcl_example_spin_images/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/build
 .PHONY : pcl_example_spin_images/fast
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_rift_estimation.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_rift_estimation.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_rift_estimation.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_rift_estimation.dir/rule
 
 # Convenience name for target.
@@ -291,12 +291,12 @@ pcl_example_rift_estimation: examples/features/CMakeFiles/pcl_example_rift_estim
 
 # fast build rule for target.
 pcl_example_rift_estimation/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build
 .PHONY : pcl_example_rift_estimation/fast
 
 # Convenience name for target.
 examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/rule
 .PHONY : examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/rule
 
 # Convenience name for target.
@@ -306,7 +306,7 @@ pcl_example_difference_of_normals: examples/features/CMakeFiles/pcl_example_diff
 
 # fast build rule for target.
 pcl_example_difference_of_normals/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build
 .PHONY : pcl_example_difference_of_normals/fast
 
 example_difference_of_normals.o: example_difference_of_normals.cpp.o
@@ -315,7 +315,7 @@ example_difference_of_normals.o: example_difference_of_normals.cpp.o
 
 # target to build an object file
 example_difference_of_normals.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/example_difference_of_normals.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/example_difference_of_normals.cpp.o
 .PHONY : example_difference_of_normals.cpp.o
 
 example_difference_of_normals.i: example_difference_of_normals.cpp.i
@@ -324,7 +324,7 @@ example_difference_of_normals.i: example_difference_of_normals.cpp.i
 
 # target to preprocess a source file
 example_difference_of_normals.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/example_difference_of_normals.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/example_difference_of_normals.cpp.i
 .PHONY : example_difference_of_normals.cpp.i
 
 example_difference_of_normals.s: example_difference_of_normals.cpp.s
@@ -333,7 +333,7 @@ example_difference_of_normals.s: example_difference_of_normals.cpp.s
 
 # target to generate assembly for a file
 example_difference_of_normals.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/example_difference_of_normals.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/build.make examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/example_difference_of_normals.cpp.s
 .PHONY : example_difference_of_normals.cpp.s
 
 example_fast_point_feature_histograms.o: example_fast_point_feature_histograms.cpp.o
@@ -342,7 +342,7 @@ example_fast_point_feature_histograms.o: example_fast_point_feature_histograms.c
 
 # target to build an object file
 example_fast_point_feature_histograms.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/example_fast_point_feature_histograms.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/example_fast_point_feature_histograms.cpp.o
 .PHONY : example_fast_point_feature_histograms.cpp.o
 
 example_fast_point_feature_histograms.i: example_fast_point_feature_histograms.cpp.i
@@ -351,7 +351,7 @@ example_fast_point_feature_histograms.i: example_fast_point_feature_histograms.c
 
 # target to preprocess a source file
 example_fast_point_feature_histograms.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/example_fast_point_feature_histograms.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/example_fast_point_feature_histograms.cpp.i
 .PHONY : example_fast_point_feature_histograms.cpp.i
 
 example_fast_point_feature_histograms.s: example_fast_point_feature_histograms.cpp.s
@@ -360,7 +360,7 @@ example_fast_point_feature_histograms.s: example_fast_point_feature_histograms.c
 
 # target to generate assembly for a file
 example_fast_point_feature_histograms.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/example_fast_point_feature_histograms.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_fast_point_feature_histograms.dir/example_fast_point_feature_histograms.cpp.s
 .PHONY : example_fast_point_feature_histograms.cpp.s
 
 example_normal_estimation.o: example_normal_estimation.cpp.o
@@ -369,7 +369,7 @@ example_normal_estimation.o: example_normal_estimation.cpp.o
 
 # target to build an object file
 example_normal_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/example_normal_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/example_normal_estimation.cpp.o
 .PHONY : example_normal_estimation.cpp.o
 
 example_normal_estimation.i: example_normal_estimation.cpp.i
@@ -378,7 +378,7 @@ example_normal_estimation.i: example_normal_estimation.cpp.i
 
 # target to preprocess a source file
 example_normal_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/example_normal_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/example_normal_estimation.cpp.i
 .PHONY : example_normal_estimation.cpp.i
 
 example_normal_estimation.s: example_normal_estimation.cpp.s
@@ -387,7 +387,7 @@ example_normal_estimation.s: example_normal_estimation.cpp.s
 
 # target to generate assembly for a file
 example_normal_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/example_normal_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_normal_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_normal_estimation.dir/example_normal_estimation.cpp.s
 .PHONY : example_normal_estimation.cpp.s
 
 example_point_feature_histograms.o: example_point_feature_histograms.cpp.o
@@ -396,7 +396,7 @@ example_point_feature_histograms.o: example_point_feature_histograms.cpp.o
 
 # target to build an object file
 example_point_feature_histograms.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/example_point_feature_histograms.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/example_point_feature_histograms.cpp.o
 .PHONY : example_point_feature_histograms.cpp.o
 
 example_point_feature_histograms.i: example_point_feature_histograms.cpp.i
@@ -405,7 +405,7 @@ example_point_feature_histograms.i: example_point_feature_histograms.cpp.i
 
 # target to preprocess a source file
 example_point_feature_histograms.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/example_point_feature_histograms.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/example_point_feature_histograms.cpp.i
 .PHONY : example_point_feature_histograms.cpp.i
 
 example_point_feature_histograms.s: example_point_feature_histograms.cpp.s
@@ -414,7 +414,7 @@ example_point_feature_histograms.s: example_point_feature_histograms.cpp.s
 
 # target to generate assembly for a file
 example_point_feature_histograms.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/example_point_feature_histograms.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/build.make examples/features/CMakeFiles/pcl_example_point_feature_histograms.dir/example_point_feature_histograms.cpp.s
 .PHONY : example_point_feature_histograms.cpp.s
 
 example_principal_curvatures_estimation.o: example_principal_curvatures_estimation.cpp.o
@@ -423,7 +423,7 @@ example_principal_curvatures_estimation.o: example_principal_curvatures_estimati
 
 # target to build an object file
 example_principal_curvatures_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/example_principal_curvatures_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/example_principal_curvatures_estimation.cpp.o
 .PHONY : example_principal_curvatures_estimation.cpp.o
 
 example_principal_curvatures_estimation.i: example_principal_curvatures_estimation.cpp.i
@@ -432,7 +432,7 @@ example_principal_curvatures_estimation.i: example_principal_curvatures_estimati
 
 # target to preprocess a source file
 example_principal_curvatures_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/example_principal_curvatures_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/example_principal_curvatures_estimation.cpp.i
 .PHONY : example_principal_curvatures_estimation.cpp.i
 
 example_principal_curvatures_estimation.s: example_principal_curvatures_estimation.cpp.s
@@ -441,7 +441,7 @@ example_principal_curvatures_estimation.s: example_principal_curvatures_estimati
 
 # target to generate assembly for a file
 example_principal_curvatures_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/example_principal_curvatures_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_principal_curvatures_estimation.dir/example_principal_curvatures_estimation.cpp.s
 .PHONY : example_principal_curvatures_estimation.cpp.s
 
 example_rift_estimation.o: example_rift_estimation.cpp.o
@@ -450,7 +450,7 @@ example_rift_estimation.o: example_rift_estimation.cpp.o
 
 # target to build an object file
 example_rift_estimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/example_rift_estimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/example_rift_estimation.cpp.o
 .PHONY : example_rift_estimation.cpp.o
 
 example_rift_estimation.i: example_rift_estimation.cpp.i
@@ -459,7 +459,7 @@ example_rift_estimation.i: example_rift_estimation.cpp.i
 
 # target to preprocess a source file
 example_rift_estimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/example_rift_estimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/example_rift_estimation.cpp.i
 .PHONY : example_rift_estimation.cpp.i
 
 example_rift_estimation.s: example_rift_estimation.cpp.s
@@ -468,7 +468,7 @@ example_rift_estimation.s: example_rift_estimation.cpp.s
 
 # target to generate assembly for a file
 example_rift_estimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/example_rift_estimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_rift_estimation.dir/build.make examples/features/CMakeFiles/pcl_example_rift_estimation.dir/example_rift_estimation.cpp.s
 .PHONY : example_rift_estimation.cpp.s
 
 example_shape_contexts.o: example_shape_contexts.cpp.o
@@ -477,7 +477,7 @@ example_shape_contexts.o: example_shape_contexts.cpp.o
 
 # target to build an object file
 example_shape_contexts.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/example_shape_contexts.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/example_shape_contexts.cpp.o
 .PHONY : example_shape_contexts.cpp.o
 
 example_shape_contexts.i: example_shape_contexts.cpp.i
@@ -486,7 +486,7 @@ example_shape_contexts.i: example_shape_contexts.cpp.i
 
 # target to preprocess a source file
 example_shape_contexts.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/example_shape_contexts.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/example_shape_contexts.cpp.i
 .PHONY : example_shape_contexts.cpp.i
 
 example_shape_contexts.s: example_shape_contexts.cpp.s
@@ -495,7 +495,7 @@ example_shape_contexts.s: example_shape_contexts.cpp.s
 
 # target to generate assembly for a file
 example_shape_contexts.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/example_shape_contexts.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_shape_contexts.dir/build.make examples/features/CMakeFiles/pcl_example_shape_contexts.dir/example_shape_contexts.cpp.s
 .PHONY : example_shape_contexts.cpp.s
 
 example_spin_images.o: example_spin_images.cpp.o
@@ -504,7 +504,7 @@ example_spin_images.o: example_spin_images.cpp.o
 
 # target to build an object file
 example_spin_images.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/example_spin_images.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/example_spin_images.cpp.o
 .PHONY : example_spin_images.cpp.o
 
 example_spin_images.i: example_spin_images.cpp.i
@@ -513,7 +513,7 @@ example_spin_images.i: example_spin_images.cpp.i
 
 # target to preprocess a source file
 example_spin_images.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/example_spin_images.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/example_spin_images.cpp.i
 .PHONY : example_spin_images.cpp.i
 
 example_spin_images.s: example_spin_images.cpp.s
@@ -522,7 +522,7 @@ example_spin_images.s: example_spin_images.cpp.s
 
 # target to generate assembly for a file
 example_spin_images.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/example_spin_images.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f examples/features/CMakeFiles/pcl_example_spin_images.dir/build.make examples/features/CMakeFiles/pcl_example_spin_images.dir/example_spin_images.cpp.s
 .PHONY : example_spin_images.cpp.s
 
 # Help Target
@@ -583,6 +583,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

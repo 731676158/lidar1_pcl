@@ -1352,7 +1352,7 @@ vector
 vtkCommand.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/segmentation/example_supervoxels.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/segmentation/example_supervoxels.cpp
 pcl/common/time.h
 -
 pcl/console/parse.h

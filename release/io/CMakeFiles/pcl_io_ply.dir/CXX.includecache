@@ -132,7 +132,7 @@ pcl/io/ply/io_operators.h
 pcl/pcl_macros.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/src/ply/ply_parser.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/src/ply/ply_parser.cpp
 pcl/io/ply/ply_parser.h
 -
 

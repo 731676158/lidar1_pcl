@@ -532,7 +532,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/passthrough_filter.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/passthrough_filter.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/point_types.h

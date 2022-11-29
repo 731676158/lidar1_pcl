@@ -888,7 +888,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/outlier_removal.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/outlier_removal.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/point_types.h

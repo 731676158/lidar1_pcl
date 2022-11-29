@@ -1028,7 +1028,7 @@ pcl/tracking/impl/tracking.hpp
 pcl/tracking/impl/tracking.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tracking/src/coherence.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tracking/src/coherence.cpp
 pcl/tracking/impl/approx_nearest_pair_point_cloud_coherence.hpp
 -
 pcl/tracking/impl/distance_coherence.hpp
@@ -1044,7 +1044,7 @@ pcl/impl/instantiate.hpp
 pcl/point_types.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tracking/src/kld_adaptive_particle_filter.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tracking/src/kld_adaptive_particle_filter.cpp
 pcl/tracking/impl/kld_adaptive_particle_filter.hpp
 -
 pcl/tracking/impl/kld_adaptive_particle_filter_omp.hpp
@@ -1054,7 +1054,7 @@ pcl/impl/instantiate.hpp
 pcl/point_types.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tracking/src/particle_filter.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tracking/src/particle_filter.cpp
 pcl/tracking/impl/particle_filter.hpp
 -
 pcl/tracking/impl/particle_filter_omp.hpp
@@ -1064,7 +1064,7 @@ pcl/impl/instantiate.hpp
 pcl/point_types.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tracking/src/tracking.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tracking/src/tracking.cpp
 pcl/tracking/tracking.h
 -
 

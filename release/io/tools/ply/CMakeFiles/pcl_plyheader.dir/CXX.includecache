@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/ply/plyheader.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/ply/plyheader.cpp
 fstream
 -
 iostream

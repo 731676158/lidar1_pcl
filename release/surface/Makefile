@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,7 +137,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/surface/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 surface/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/surface/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 surface/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 surface/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 surface/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 surface/CMakeFiles/pcl_surface.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 surface/CMakeFiles/pcl_surface.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 surface/CMakeFiles/pcl_surface.dir/rule
 .PHONY : surface/CMakeFiles/pcl_surface.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ pcl_surface: surface/CMakeFiles/pcl_surface.dir/rule
 
 # fast build rule for target.
 pcl_surface/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/build
 .PHONY : pcl_surface/fast
 
 src/3rdparty/poisson4/factor.o: src/3rdparty/poisson4/factor.cpp.o
@@ -210,7 +210,7 @@ src/3rdparty/poisson4/factor.o: src/3rdparty/poisson4/factor.cpp.o
 
 # target to build an object file
 src/3rdparty/poisson4/factor.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/factor.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/factor.cpp.o
 .PHONY : src/3rdparty/poisson4/factor.cpp.o
 
 src/3rdparty/poisson4/factor.i: src/3rdparty/poisson4/factor.cpp.i
@@ -219,7 +219,7 @@ src/3rdparty/poisson4/factor.i: src/3rdparty/poisson4/factor.cpp.i
 
 # target to preprocess a source file
 src/3rdparty/poisson4/factor.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/factor.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/factor.cpp.i
 .PHONY : src/3rdparty/poisson4/factor.cpp.i
 
 src/3rdparty/poisson4/factor.s: src/3rdparty/poisson4/factor.cpp.s
@@ -228,7 +228,7 @@ src/3rdparty/poisson4/factor.s: src/3rdparty/poisson4/factor.cpp.s
 
 # target to generate assembly for a file
 src/3rdparty/poisson4/factor.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/factor.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/factor.cpp.s
 .PHONY : src/3rdparty/poisson4/factor.cpp.s
 
 src/3rdparty/poisson4/geometry.o: src/3rdparty/poisson4/geometry.cpp.o
@@ -237,7 +237,7 @@ src/3rdparty/poisson4/geometry.o: src/3rdparty/poisson4/geometry.cpp.o
 
 # target to build an object file
 src/3rdparty/poisson4/geometry.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/geometry.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/geometry.cpp.o
 .PHONY : src/3rdparty/poisson4/geometry.cpp.o
 
 src/3rdparty/poisson4/geometry.i: src/3rdparty/poisson4/geometry.cpp.i
@@ -246,7 +246,7 @@ src/3rdparty/poisson4/geometry.i: src/3rdparty/poisson4/geometry.cpp.i
 
 # target to preprocess a source file
 src/3rdparty/poisson4/geometry.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/geometry.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/geometry.cpp.i
 .PHONY : src/3rdparty/poisson4/geometry.cpp.i
 
 src/3rdparty/poisson4/geometry.s: src/3rdparty/poisson4/geometry.cpp.s
@@ -255,7 +255,7 @@ src/3rdparty/poisson4/geometry.s: src/3rdparty/poisson4/geometry.cpp.s
 
 # target to generate assembly for a file
 src/3rdparty/poisson4/geometry.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/geometry.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/geometry.cpp.s
 .PHONY : src/3rdparty/poisson4/geometry.cpp.s
 
 src/3rdparty/poisson4/marching_cubes_poisson.o: src/3rdparty/poisson4/marching_cubes_poisson.cpp.o
@@ -264,7 +264,7 @@ src/3rdparty/poisson4/marching_cubes_poisson.o: src/3rdparty/poisson4/marching_c
 
 # target to build an object file
 src/3rdparty/poisson4/marching_cubes_poisson.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/marching_cubes_poisson.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/marching_cubes_poisson.cpp.o
 .PHONY : src/3rdparty/poisson4/marching_cubes_poisson.cpp.o
 
 src/3rdparty/poisson4/marching_cubes_poisson.i: src/3rdparty/poisson4/marching_cubes_poisson.cpp.i
@@ -273,7 +273,7 @@ src/3rdparty/poisson4/marching_cubes_poisson.i: src/3rdparty/poisson4/marching_c
 
 # target to preprocess a source file
 src/3rdparty/poisson4/marching_cubes_poisson.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/marching_cubes_poisson.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/marching_cubes_poisson.cpp.i
 .PHONY : src/3rdparty/poisson4/marching_cubes_poisson.cpp.i
 
 src/3rdparty/poisson4/marching_cubes_poisson.s: src/3rdparty/poisson4/marching_cubes_poisson.cpp.s
@@ -282,7 +282,7 @@ src/3rdparty/poisson4/marching_cubes_poisson.s: src/3rdparty/poisson4/marching_c
 
 # target to generate assembly for a file
 src/3rdparty/poisson4/marching_cubes_poisson.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/marching_cubes_poisson.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/marching_cubes_poisson.cpp.s
 .PHONY : src/3rdparty/poisson4/marching_cubes_poisson.cpp.s
 
 src/bilateral_upsampling.o: src/bilateral_upsampling.cpp.o
@@ -291,7 +291,7 @@ src/bilateral_upsampling.o: src/bilateral_upsampling.cpp.o
 
 # target to build an object file
 src/bilateral_upsampling.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/bilateral_upsampling.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/bilateral_upsampling.cpp.o
 .PHONY : src/bilateral_upsampling.cpp.o
 
 src/bilateral_upsampling.i: src/bilateral_upsampling.cpp.i
@@ -300,7 +300,7 @@ src/bilateral_upsampling.i: src/bilateral_upsampling.cpp.i
 
 # target to preprocess a source file
 src/bilateral_upsampling.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/bilateral_upsampling.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/bilateral_upsampling.cpp.i
 .PHONY : src/bilateral_upsampling.cpp.i
 
 src/bilateral_upsampling.s: src/bilateral_upsampling.cpp.s
@@ -309,7 +309,7 @@ src/bilateral_upsampling.s: src/bilateral_upsampling.cpp.s
 
 # target to generate assembly for a file
 src/bilateral_upsampling.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/bilateral_upsampling.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/bilateral_upsampling.cpp.s
 .PHONY : src/bilateral_upsampling.cpp.s
 
 src/concave_hull.o: src/concave_hull.cpp.o
@@ -318,7 +318,7 @@ src/concave_hull.o: src/concave_hull.cpp.o
 
 # target to build an object file
 src/concave_hull.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/concave_hull.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/concave_hull.cpp.o
 .PHONY : src/concave_hull.cpp.o
 
 src/concave_hull.i: src/concave_hull.cpp.i
@@ -327,7 +327,7 @@ src/concave_hull.i: src/concave_hull.cpp.i
 
 # target to preprocess a source file
 src/concave_hull.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/concave_hull.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/concave_hull.cpp.i
 .PHONY : src/concave_hull.cpp.i
 
 src/concave_hull.s: src/concave_hull.cpp.s
@@ -336,7 +336,7 @@ src/concave_hull.s: src/concave_hull.cpp.s
 
 # target to generate assembly for a file
 src/concave_hull.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/concave_hull.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/concave_hull.cpp.s
 .PHONY : src/concave_hull.cpp.s
 
 src/convex_hull.o: src/convex_hull.cpp.o
@@ -345,7 +345,7 @@ src/convex_hull.o: src/convex_hull.cpp.o
 
 # target to build an object file
 src/convex_hull.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/convex_hull.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/convex_hull.cpp.o
 .PHONY : src/convex_hull.cpp.o
 
 src/convex_hull.i: src/convex_hull.cpp.i
@@ -354,7 +354,7 @@ src/convex_hull.i: src/convex_hull.cpp.i
 
 # target to preprocess a source file
 src/convex_hull.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/convex_hull.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/convex_hull.cpp.i
 .PHONY : src/convex_hull.cpp.i
 
 src/convex_hull.s: src/convex_hull.cpp.s
@@ -363,7 +363,7 @@ src/convex_hull.s: src/convex_hull.cpp.s
 
 # target to generate assembly for a file
 src/convex_hull.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/convex_hull.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/convex_hull.cpp.s
 .PHONY : src/convex_hull.cpp.s
 
 src/ear_clipping.o: src/ear_clipping.cpp.o
@@ -372,7 +372,7 @@ src/ear_clipping.o: src/ear_clipping.cpp.o
 
 # target to build an object file
 src/ear_clipping.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/ear_clipping.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/ear_clipping.cpp.o
 .PHONY : src/ear_clipping.cpp.o
 
 src/ear_clipping.i: src/ear_clipping.cpp.i
@@ -381,7 +381,7 @@ src/ear_clipping.i: src/ear_clipping.cpp.i
 
 # target to preprocess a source file
 src/ear_clipping.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/ear_clipping.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/ear_clipping.cpp.i
 .PHONY : src/ear_clipping.cpp.i
 
 src/ear_clipping.s: src/ear_clipping.cpp.s
@@ -390,7 +390,7 @@ src/ear_clipping.s: src/ear_clipping.cpp.s
 
 # target to generate assembly for a file
 src/ear_clipping.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/ear_clipping.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/ear_clipping.cpp.s
 .PHONY : src/ear_clipping.cpp.s
 
 src/gp3.o: src/gp3.cpp.o
@@ -399,7 +399,7 @@ src/gp3.o: src/gp3.cpp.o
 
 # target to build an object file
 src/gp3.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/gp3.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/gp3.cpp.o
 .PHONY : src/gp3.cpp.o
 
 src/gp3.i: src/gp3.cpp.i
@@ -408,7 +408,7 @@ src/gp3.i: src/gp3.cpp.i
 
 # target to preprocess a source file
 src/gp3.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/gp3.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/gp3.cpp.i
 .PHONY : src/gp3.cpp.i
 
 src/gp3.s: src/gp3.cpp.s
@@ -417,7 +417,7 @@ src/gp3.s: src/gp3.cpp.s
 
 # target to generate assembly for a file
 src/gp3.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/gp3.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/gp3.cpp.s
 .PHONY : src/gp3.cpp.s
 
 src/grid_projection.o: src/grid_projection.cpp.o
@@ -426,7 +426,7 @@ src/grid_projection.o: src/grid_projection.cpp.o
 
 # target to build an object file
 src/grid_projection.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/grid_projection.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/grid_projection.cpp.o
 .PHONY : src/grid_projection.cpp.o
 
 src/grid_projection.i: src/grid_projection.cpp.i
@@ -435,7 +435,7 @@ src/grid_projection.i: src/grid_projection.cpp.i
 
 # target to preprocess a source file
 src/grid_projection.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/grid_projection.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/grid_projection.cpp.i
 .PHONY : src/grid_projection.cpp.i
 
 src/grid_projection.s: src/grid_projection.cpp.s
@@ -444,7 +444,7 @@ src/grid_projection.s: src/grid_projection.cpp.s
 
 # target to generate assembly for a file
 src/grid_projection.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/grid_projection.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/grid_projection.cpp.s
 .PHONY : src/grid_projection.cpp.s
 
 src/marching_cubes.o: src/marching_cubes.cpp.o
@@ -453,7 +453,7 @@ src/marching_cubes.o: src/marching_cubes.cpp.o
 
 # target to build an object file
 src/marching_cubes.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes.cpp.o
 .PHONY : src/marching_cubes.cpp.o
 
 src/marching_cubes.i: src/marching_cubes.cpp.i
@@ -462,7 +462,7 @@ src/marching_cubes.i: src/marching_cubes.cpp.i
 
 # target to preprocess a source file
 src/marching_cubes.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes.cpp.i
 .PHONY : src/marching_cubes.cpp.i
 
 src/marching_cubes.s: src/marching_cubes.cpp.s
@@ -471,7 +471,7 @@ src/marching_cubes.s: src/marching_cubes.cpp.s
 
 # target to generate assembly for a file
 src/marching_cubes.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes.cpp.s
 .PHONY : src/marching_cubes.cpp.s
 
 src/marching_cubes_hoppe.o: src/marching_cubes_hoppe.cpp.o
@@ -480,7 +480,7 @@ src/marching_cubes_hoppe.o: src/marching_cubes_hoppe.cpp.o
 
 # target to build an object file
 src/marching_cubes_hoppe.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_hoppe.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_hoppe.cpp.o
 .PHONY : src/marching_cubes_hoppe.cpp.o
 
 src/marching_cubes_hoppe.i: src/marching_cubes_hoppe.cpp.i
@@ -489,7 +489,7 @@ src/marching_cubes_hoppe.i: src/marching_cubes_hoppe.cpp.i
 
 # target to preprocess a source file
 src/marching_cubes_hoppe.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_hoppe.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_hoppe.cpp.i
 .PHONY : src/marching_cubes_hoppe.cpp.i
 
 src/marching_cubes_hoppe.s: src/marching_cubes_hoppe.cpp.s
@@ -498,7 +498,7 @@ src/marching_cubes_hoppe.s: src/marching_cubes_hoppe.cpp.s
 
 # target to generate assembly for a file
 src/marching_cubes_hoppe.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_hoppe.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_hoppe.cpp.s
 .PHONY : src/marching_cubes_hoppe.cpp.s
 
 src/marching_cubes_rbf.o: src/marching_cubes_rbf.cpp.o
@@ -507,7 +507,7 @@ src/marching_cubes_rbf.o: src/marching_cubes_rbf.cpp.o
 
 # target to build an object file
 src/marching_cubes_rbf.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_rbf.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_rbf.cpp.o
 .PHONY : src/marching_cubes_rbf.cpp.o
 
 src/marching_cubes_rbf.i: src/marching_cubes_rbf.cpp.i
@@ -516,7 +516,7 @@ src/marching_cubes_rbf.i: src/marching_cubes_rbf.cpp.i
 
 # target to preprocess a source file
 src/marching_cubes_rbf.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_rbf.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_rbf.cpp.i
 .PHONY : src/marching_cubes_rbf.cpp.i
 
 src/marching_cubes_rbf.s: src/marching_cubes_rbf.cpp.s
@@ -525,7 +525,7 @@ src/marching_cubes_rbf.s: src/marching_cubes_rbf.cpp.s
 
 # target to generate assembly for a file
 src/marching_cubes_rbf.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_rbf.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_rbf.cpp.s
 .PHONY : src/marching_cubes_rbf.cpp.s
 
 src/mls.o: src/mls.cpp.o
@@ -534,7 +534,7 @@ src/mls.o: src/mls.cpp.o
 
 # target to build an object file
 src/mls.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/mls.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/mls.cpp.o
 .PHONY : src/mls.cpp.o
 
 src/mls.i: src/mls.cpp.i
@@ -543,7 +543,7 @@ src/mls.i: src/mls.cpp.i
 
 # target to preprocess a source file
 src/mls.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/mls.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/mls.cpp.i
 .PHONY : src/mls.cpp.i
 
 src/mls.s: src/mls.cpp.s
@@ -552,7 +552,7 @@ src/mls.s: src/mls.cpp.s
 
 # target to generate assembly for a file
 src/mls.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/mls.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/mls.cpp.s
 .PHONY : src/mls.cpp.s
 
 src/organized_fast_mesh.o: src/organized_fast_mesh.cpp.o
@@ -561,7 +561,7 @@ src/organized_fast_mesh.o: src/organized_fast_mesh.cpp.o
 
 # target to build an object file
 src/organized_fast_mesh.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/organized_fast_mesh.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/organized_fast_mesh.cpp.o
 .PHONY : src/organized_fast_mesh.cpp.o
 
 src/organized_fast_mesh.i: src/organized_fast_mesh.cpp.i
@@ -570,7 +570,7 @@ src/organized_fast_mesh.i: src/organized_fast_mesh.cpp.i
 
 # target to preprocess a source file
 src/organized_fast_mesh.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/organized_fast_mesh.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/organized_fast_mesh.cpp.i
 .PHONY : src/organized_fast_mesh.cpp.i
 
 src/organized_fast_mesh.s: src/organized_fast_mesh.cpp.s
@@ -579,7 +579,7 @@ src/organized_fast_mesh.s: src/organized_fast_mesh.cpp.s
 
 # target to generate assembly for a file
 src/organized_fast_mesh.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/organized_fast_mesh.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/organized_fast_mesh.cpp.s
 .PHONY : src/organized_fast_mesh.cpp.s
 
 src/poisson.o: src/poisson.cpp.o
@@ -588,7 +588,7 @@ src/poisson.o: src/poisson.cpp.o
 
 # target to build an object file
 src/poisson.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/poisson.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/poisson.cpp.o
 .PHONY : src/poisson.cpp.o
 
 src/poisson.i: src/poisson.cpp.i
@@ -597,7 +597,7 @@ src/poisson.i: src/poisson.cpp.i
 
 # target to preprocess a source file
 src/poisson.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/poisson.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/poisson.cpp.i
 .PHONY : src/poisson.cpp.i
 
 src/poisson.s: src/poisson.cpp.s
@@ -606,7 +606,7 @@ src/poisson.s: src/poisson.cpp.s
 
 # target to generate assembly for a file
 src/poisson.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/poisson.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/poisson.cpp.s
 .PHONY : src/poisson.cpp.s
 
 src/processing.o: src/processing.cpp.o
@@ -615,7 +615,7 @@ src/processing.o: src/processing.cpp.o
 
 # target to build an object file
 src/processing.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/processing.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/processing.cpp.o
 .PHONY : src/processing.cpp.o
 
 src/processing.i: src/processing.cpp.i
@@ -624,7 +624,7 @@ src/processing.i: src/processing.cpp.i
 
 # target to preprocess a source file
 src/processing.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/processing.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/processing.cpp.i
 .PHONY : src/processing.cpp.i
 
 src/processing.s: src/processing.cpp.s
@@ -633,7 +633,7 @@ src/processing.s: src/processing.cpp.s
 
 # target to generate assembly for a file
 src/processing.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/processing.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/processing.cpp.s
 .PHONY : src/processing.cpp.s
 
 src/simplification_remove_unused_vertices.o: src/simplification_remove_unused_vertices.cpp.o
@@ -642,7 +642,7 @@ src/simplification_remove_unused_vertices.o: src/simplification_remove_unused_ve
 
 # target to build an object file
 src/simplification_remove_unused_vertices.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/simplification_remove_unused_vertices.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/simplification_remove_unused_vertices.cpp.o
 .PHONY : src/simplification_remove_unused_vertices.cpp.o
 
 src/simplification_remove_unused_vertices.i: src/simplification_remove_unused_vertices.cpp.i
@@ -651,7 +651,7 @@ src/simplification_remove_unused_vertices.i: src/simplification_remove_unused_ve
 
 # target to preprocess a source file
 src/simplification_remove_unused_vertices.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/simplification_remove_unused_vertices.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/simplification_remove_unused_vertices.cpp.i
 .PHONY : src/simplification_remove_unused_vertices.cpp.i
 
 src/simplification_remove_unused_vertices.s: src/simplification_remove_unused_vertices.cpp.s
@@ -660,7 +660,7 @@ src/simplification_remove_unused_vertices.s: src/simplification_remove_unused_ve
 
 # target to generate assembly for a file
 src/simplification_remove_unused_vertices.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/simplification_remove_unused_vertices.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/simplification_remove_unused_vertices.cpp.s
 .PHONY : src/simplification_remove_unused_vertices.cpp.s
 
 src/surfel_smoothing.o: src/surfel_smoothing.cpp.o
@@ -669,7 +669,7 @@ src/surfel_smoothing.o: src/surfel_smoothing.cpp.o
 
 # target to build an object file
 src/surfel_smoothing.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/surfel_smoothing.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/surfel_smoothing.cpp.o
 .PHONY : src/surfel_smoothing.cpp.o
 
 src/surfel_smoothing.i: src/surfel_smoothing.cpp.i
@@ -678,7 +678,7 @@ src/surfel_smoothing.i: src/surfel_smoothing.cpp.i
 
 # target to preprocess a source file
 src/surfel_smoothing.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/surfel_smoothing.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/surfel_smoothing.cpp.i
 .PHONY : src/surfel_smoothing.cpp.i
 
 src/surfel_smoothing.s: src/surfel_smoothing.cpp.s
@@ -687,7 +687,7 @@ src/surfel_smoothing.s: src/surfel_smoothing.cpp.s
 
 # target to generate assembly for a file
 src/surfel_smoothing.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/surfel_smoothing.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/surfel_smoothing.cpp.s
 .PHONY : src/surfel_smoothing.cpp.s
 
 src/texture_mapping.o: src/texture_mapping.cpp.o
@@ -696,7 +696,7 @@ src/texture_mapping.o: src/texture_mapping.cpp.o
 
 # target to build an object file
 src/texture_mapping.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/texture_mapping.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/texture_mapping.cpp.o
 .PHONY : src/texture_mapping.cpp.o
 
 src/texture_mapping.i: src/texture_mapping.cpp.i
@@ -705,7 +705,7 @@ src/texture_mapping.i: src/texture_mapping.cpp.i
 
 # target to preprocess a source file
 src/texture_mapping.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/texture_mapping.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/texture_mapping.cpp.i
 .PHONY : src/texture_mapping.cpp.i
 
 src/texture_mapping.s: src/texture_mapping.cpp.s
@@ -714,7 +714,7 @@ src/texture_mapping.s: src/texture_mapping.cpp.s
 
 # target to generate assembly for a file
 src/texture_mapping.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/texture_mapping.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/texture_mapping.cpp.s
 .PHONY : src/texture_mapping.cpp.s
 
 src/vtk_smoothing/vtk_mesh_quadric_decimation.o: src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.o
@@ -723,7 +723,7 @@ src/vtk_smoothing/vtk_mesh_quadric_decimation.o: src/vtk_smoothing/vtk_mesh_quad
 
 # target to build an object file
 src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.o
 .PHONY : src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.o
 
 src/vtk_smoothing/vtk_mesh_quadric_decimation.i: src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.i
@@ -732,7 +732,7 @@ src/vtk_smoothing/vtk_mesh_quadric_decimation.i: src/vtk_smoothing/vtk_mesh_quad
 
 # target to preprocess a source file
 src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.i
 .PHONY : src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.i
 
 src/vtk_smoothing/vtk_mesh_quadric_decimation.s: src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.s
@@ -741,7 +741,7 @@ src/vtk_smoothing/vtk_mesh_quadric_decimation.s: src/vtk_smoothing/vtk_mesh_quad
 
 # target to generate assembly for a file
 src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.s
 .PHONY : src/vtk_smoothing/vtk_mesh_quadric_decimation.cpp.s
 
 src/vtk_smoothing/vtk_mesh_smoothing_laplacian.o: src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.o
@@ -750,7 +750,7 @@ src/vtk_smoothing/vtk_mesh_smoothing_laplacian.o: src/vtk_smoothing/vtk_mesh_smo
 
 # target to build an object file
 src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.o
 .PHONY : src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.o
 
 src/vtk_smoothing/vtk_mesh_smoothing_laplacian.i: src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.i
@@ -759,7 +759,7 @@ src/vtk_smoothing/vtk_mesh_smoothing_laplacian.i: src/vtk_smoothing/vtk_mesh_smo
 
 # target to preprocess a source file
 src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.i
 .PHONY : src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.i
 
 src/vtk_smoothing/vtk_mesh_smoothing_laplacian.s: src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.s
@@ -768,7 +768,7 @@ src/vtk_smoothing/vtk_mesh_smoothing_laplacian.s: src/vtk_smoothing/vtk_mesh_smo
 
 # target to generate assembly for a file
 src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.s
 .PHONY : src/vtk_smoothing/vtk_mesh_smoothing_laplacian.cpp.s
 
 src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.o: src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.o
@@ -777,7 +777,7 @@ src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.o: src/vtk_smoothing/vtk_mesh
 
 # target to build an object file
 src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.o
 .PHONY : src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.o
 
 src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.i: src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.i
@@ -786,7 +786,7 @@ src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.i: src/vtk_smoothing/vtk_mesh
 
 # target to preprocess a source file
 src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.i
 .PHONY : src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.i
 
 src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.s: src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.s
@@ -795,7 +795,7 @@ src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.s: src/vtk_smoothing/vtk_mesh
 
 # target to generate assembly for a file
 src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.s
 .PHONY : src/vtk_smoothing/vtk_mesh_smoothing_windowed_sinc.cpp.s
 
 src/vtk_smoothing/vtk_mesh_subdivision.o: src/vtk_smoothing/vtk_mesh_subdivision.cpp.o
@@ -804,7 +804,7 @@ src/vtk_smoothing/vtk_mesh_subdivision.o: src/vtk_smoothing/vtk_mesh_subdivision
 
 # target to build an object file
 src/vtk_smoothing/vtk_mesh_subdivision.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_subdivision.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_subdivision.cpp.o
 .PHONY : src/vtk_smoothing/vtk_mesh_subdivision.cpp.o
 
 src/vtk_smoothing/vtk_mesh_subdivision.i: src/vtk_smoothing/vtk_mesh_subdivision.cpp.i
@@ -813,7 +813,7 @@ src/vtk_smoothing/vtk_mesh_subdivision.i: src/vtk_smoothing/vtk_mesh_subdivision
 
 # target to preprocess a source file
 src/vtk_smoothing/vtk_mesh_subdivision.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_subdivision.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_subdivision.cpp.i
 .PHONY : src/vtk_smoothing/vtk_mesh_subdivision.cpp.i
 
 src/vtk_smoothing/vtk_mesh_subdivision.s: src/vtk_smoothing/vtk_mesh_subdivision.cpp.s
@@ -822,7 +822,7 @@ src/vtk_smoothing/vtk_mesh_subdivision.s: src/vtk_smoothing/vtk_mesh_subdivision
 
 # target to generate assembly for a file
 src/vtk_smoothing/vtk_mesh_subdivision.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_subdivision.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_mesh_subdivision.cpp.s
 .PHONY : src/vtk_smoothing/vtk_mesh_subdivision.cpp.s
 
 src/vtk_smoothing/vtk_utils.o: src/vtk_smoothing/vtk_utils.cpp.o
@@ -831,7 +831,7 @@ src/vtk_smoothing/vtk_utils.o: src/vtk_smoothing/vtk_utils.cpp.o
 
 # target to build an object file
 src/vtk_smoothing/vtk_utils.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_utils.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_utils.cpp.o
 .PHONY : src/vtk_smoothing/vtk_utils.cpp.o
 
 src/vtk_smoothing/vtk_utils.i: src/vtk_smoothing/vtk_utils.cpp.i
@@ -840,7 +840,7 @@ src/vtk_smoothing/vtk_utils.i: src/vtk_smoothing/vtk_utils.cpp.i
 
 # target to preprocess a source file
 src/vtk_smoothing/vtk_utils.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_utils.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_utils.cpp.i
 .PHONY : src/vtk_smoothing/vtk_utils.cpp.i
 
 src/vtk_smoothing/vtk_utils.s: src/vtk_smoothing/vtk_utils.cpp.s
@@ -849,7 +849,7 @@ src/vtk_smoothing/vtk_utils.s: src/vtk_smoothing/vtk_utils.cpp.s
 
 # target to generate assembly for a file
 src/vtk_smoothing/vtk_utils.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_utils.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f surface/CMakeFiles/pcl_surface.dir/build.make surface/CMakeFiles/pcl_surface.dir/src/vtk_smoothing/vtk_utils.cpp.s
 .PHONY : src/vtk_smoothing/vtk_utils.cpp.s
 
 # Help Target
@@ -951,6 +951,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

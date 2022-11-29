@@ -89,8 +89,8 @@ tools/CMakeFiles/pcl_octree_viewer.dir/octree_viewer.cpp.o
  ../visualization/include/pcl/visualization/point_cloud_geometry_handlers.h
  ../visualization/include/pcl/visualization/point_cloud_handlers.h
  ../visualization/include/pcl/visualization/point_picking_event.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/boost.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/octree_viewer.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/boost.h
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/octree_viewer.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

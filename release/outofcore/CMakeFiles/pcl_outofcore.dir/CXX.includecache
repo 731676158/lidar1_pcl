@@ -406,7 +406,7 @@ pcl/common/eigen.h
 ostream
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/outofcore/src/cJSON.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/outofcore/src/cJSON.cpp
 string.h
 -
 stdio.h
@@ -424,7 +424,7 @@ ctype.h
 pcl/outofcore/cJSON.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/outofcore/src/outofcore_base_data.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/outofcore/src/outofcore_base_data.cpp
 pcl/outofcore/outofcore_base_data.h
 -
 pcl/pcl_macros.h
@@ -436,7 +436,7 @@ pcl/console/print.h
 fstream
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/outofcore/src/outofcore_node_data.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/outofcore/src/outofcore_node_data.cpp
 pcl/outofcore/outofcore_node_data.h
 -
 pcl/console/print.h

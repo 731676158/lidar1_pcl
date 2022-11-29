@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_sac_segmentation_plane"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_sac_segmentation_plane")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_sac_segmentation_plane")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_sac_segmentation_plane" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_sac_segmentation_plane")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_sac_segmentation_plane"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_sac_segmentation_plane")
@@ -64,12 +64,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_plane_projection"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_plane_projection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_plane_projection")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_plane_projection" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_plane_projection")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_plane_projection"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_plane_projection")
@@ -84,12 +84,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_normal_estimation"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_normal_estimation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_normal_estimation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_normal_estimation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_normal_estimation")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_normal_estimation"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_normal_estimation")
@@ -104,12 +104,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_uniform_sampling"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_uniform_sampling")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_uniform_sampling")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_uniform_sampling" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_uniform_sampling")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_uniform_sampling"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_uniform_sampling")
@@ -124,12 +124,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_boundary_estimation"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_boundary_estimation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_boundary_estimation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_boundary_estimation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_boundary_estimation")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_boundary_estimation"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_boundary_estimation")
@@ -144,12 +144,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_cluster_extraction"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_cluster_extraction")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_cluster_extraction")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_cluster_extraction" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_cluster_extraction")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_cluster_extraction"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_cluster_extraction")
@@ -164,12 +164,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fpfh_estimation"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_fpfh_estimation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_fpfh_estimation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fpfh_estimation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fpfh_estimation")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fpfh_estimation"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fpfh_estimation")
@@ -184,12 +184,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2ply"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_pcd2ply")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_pcd2ply")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2ply" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2ply")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2ply"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2ply")
@@ -204,12 +204,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_ply2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_ply2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2pcd")
@@ -224,12 +224,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_xyz2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_xyz2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_xyz2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_xyz2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_xyz2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_xyz2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_xyz2pcd")
@@ -244,12 +244,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pclzf2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_pclzf2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_pclzf2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pclzf2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pclzf2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pclzf2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pclzf2pcd")
@@ -264,12 +264,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2vtk"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_pcd2vtk")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_pcd2vtk")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2vtk" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2vtk")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2vtk"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2vtk")
@@ -284,12 +284,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vfh_estimation"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_vfh_estimation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_vfh_estimation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vfh_estimation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vfh_estimation")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vfh_estimation"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vfh_estimation")
@@ -304,12 +304,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_spin_estimation"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_spin_estimation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_spin_estimation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_spin_estimation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_spin_estimation")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_spin_estimation"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_spin_estimation")
@@ -324,12 +324,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_voxel_grid")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_voxel_grid")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid")
@@ -344,12 +344,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_passthrough_filter"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_passthrough_filter")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_passthrough_filter")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_passthrough_filter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_passthrough_filter")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_passthrough_filter"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_passthrough_filter")
@@ -364,12 +364,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_radius_filter"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_radius_filter")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_radius_filter")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_radius_filter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_radius_filter")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_radius_filter"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_radius_filter")
@@ -384,12 +384,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_extract_feature"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_extract_feature")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_extract_feature")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_extract_feature" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_extract_feature")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_extract_feature"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_extract_feature")
@@ -404,12 +404,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_cloud_error"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_compute_cloud_error")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_compute_cloud_error")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_cloud_error" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_cloud_error")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_cloud_error"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_cloud_error")
@@ -424,12 +424,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_add_gaussian_noise"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_add_gaussian_noise")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_add_gaussian_noise")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_add_gaussian_noise" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_add_gaussian_noise")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_add_gaussian_noise"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_add_gaussian_noise")
@@ -444,12 +444,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_outlier_removal"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_outlier_removal")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_outlier_removal")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_outlier_removal" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_outlier_removal")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_outlier_removal"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_outlier_removal")
@@ -464,12 +464,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mls_smoothing"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_mls_smoothing")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_mls_smoothing")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mls_smoothing" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mls_smoothing")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mls_smoothing"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mls_smoothing")
@@ -484,12 +484,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_marching_cubes_reconstruction"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_marching_cubes_reconstruction")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_marching_cubes_reconstruction")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_marching_cubes_reconstruction" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_marching_cubes_reconstruction")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_marching_cubes_reconstruction"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_marching_cubes_reconstruction")
@@ -504,12 +504,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_gp3_surface"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_gp3_surface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_gp3_surface")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_gp3_surface" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_gp3_surface")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_gp3_surface"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_gp3_surface")
@@ -524,12 +524,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_icp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_icp")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp")
@@ -544,12 +544,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp2d"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_icp2d")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_icp2d")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp2d" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp2d")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp2d"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_icp2d")
@@ -564,12 +564,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_elch"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_elch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_elch")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_elch" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_elch")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_elch"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_elch")
@@ -584,12 +584,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_lum"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_lum")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_lum")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_lum" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_lum")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_lum"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_lum")
@@ -604,12 +604,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt2d"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_ndt2d")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_ndt2d")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt2d" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt2d")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt2d"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt2d")
@@ -624,12 +624,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt3d"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_ndt3d")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_ndt3d")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt3d" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt3d")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt3d"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ndt3d")
@@ -644,12 +644,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd_change_viewpoint"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_pcd_change_viewpoint")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_pcd_change_viewpoint")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd_change_viewpoint" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd_change_viewpoint")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd_change_viewpoint"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd_change_viewpoint")
@@ -664,12 +664,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_concatenate_points_pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_concatenate_points_pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_concatenate_points_pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_concatenate_points_pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_concatenate_points_pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_concatenate_points_pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_concatenate_points_pcd")
@@ -684,12 +684,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_poisson_reconstruction"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_poisson_reconstruction")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_poisson_reconstruction")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_poisson_reconstruction" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_poisson_reconstruction")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_poisson_reconstruction"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_poisson_reconstruction")
@@ -704,12 +704,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_train_linemod_template"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_train_linemod_template")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_train_linemod_template")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_train_linemod_template" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_train_linemod_template")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_train_linemod_template"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_train_linemod_template")
@@ -724,12 +724,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_match_linemod_template"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_match_linemod_template")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_match_linemod_template")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_match_linemod_template" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_match_linemod_template")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_match_linemod_template"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_match_linemod_template")
@@ -744,12 +744,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_linemod_detection"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_linemod_detection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_linemod_detection")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_linemod_detection" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_linemod_detection")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_linemod_detection"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_linemod_detection")
@@ -764,12 +764,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fast_bilateral_filter"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_fast_bilateral_filter")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_fast_bilateral_filter")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fast_bilateral_filter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fast_bilateral_filter")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fast_bilateral_filter"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_fast_bilateral_filter")
@@ -784,12 +784,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_demean_cloud"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_demean_cloud")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_demean_cloud")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_demean_cloud" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_demean_cloud")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_demean_cloud"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_demean_cloud")
@@ -804,12 +804,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hausdorff"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_compute_hausdorff")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_compute_hausdorff")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hausdorff" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hausdorff")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hausdorff"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hausdorff")
@@ -824,12 +824,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_morph"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_morph")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_morph")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_morph" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_morph")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_morph"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_morph")
@@ -844,12 +844,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_progressive_morphological_filter"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_progressive_morphological_filter")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_progressive_morphological_filter")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_progressive_morphological_filter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_progressive_morphological_filter")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_progressive_morphological_filter"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_progressive_morphological_filter")
@@ -864,12 +864,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_generate"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_generate")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_generate")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_generate" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_generate")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_generate"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_generate")
@@ -884,12 +884,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_local_max"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_local_max")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_local_max")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_local_max" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_local_max")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_local_max"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_local_max")
@@ -904,12 +904,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_grid_min"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_grid_min")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_grid_min")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_grid_min" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_grid_min")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_grid_min"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_grid_min")
@@ -924,12 +924,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_oni2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_oni2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_oni2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_oni2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_oni2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_oni2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_oni2pcd")
@@ -944,12 +944,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_crop_to_hull"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_crop_to_hull")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_crop_to_hull")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_crop_to_hull" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_crop_to_hull")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_crop_to_hull"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_crop_to_hull")
@@ -964,12 +964,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hull"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_compute_hull")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_compute_hull")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hull" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hull")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hull"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_compute_hull")
@@ -984,12 +984,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_png2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_png2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_png2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_png2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_png2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_png2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_png2pcd")
@@ -1004,12 +1004,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2png"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_pcd2png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_pcd2png")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2png" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2png")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2png"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_pcd2png")
@@ -1024,12 +1024,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_organized_pcd_to_png"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_organized_pcd_to_png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_organized_pcd_to_png")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_organized_pcd_to_png" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_organized_pcd_to_png")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_organized_pcd_to_png"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_organized_pcd_to_png")
@@ -1044,12 +1044,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_tiff2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_tiff2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_tiff2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_tiff2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_tiff2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_tiff2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_tiff2pcd")
@@ -1064,12 +1064,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2vtk"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_ply2vtk")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_ply2vtk")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2vtk" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2vtk")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2vtk"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ply2vtk")
@@ -1084,12 +1084,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2ply"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_vtk2ply")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_vtk2ply")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2ply" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2ply")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2ply"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2ply")
@@ -1104,12 +1104,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2obj"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_vtk2obj")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_vtk2obj")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2obj" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2obj")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2obj"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2obj")
@@ -1124,12 +1124,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2vtk"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj2vtk")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj2vtk")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2vtk" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2vtk")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2vtk"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2vtk")
@@ -1144,12 +1144,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj2pcd")
@@ -1164,12 +1164,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_vtk2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_vtk2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_vtk2pcd")
@@ -1184,12 +1184,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_model_opps"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj_rec_ransac_model_opps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj_rec_ransac_model_opps")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_model_opps" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_model_opps")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_model_opps"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_model_opps")
@@ -1204,12 +1204,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_hash_table"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj_rec_ransac_hash_table")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj_rec_ransac_hash_table")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_hash_table" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_hash_table")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_hash_table"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_hash_table")
@@ -1224,12 +1224,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_scene_opps"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj_rec_ransac_scene_opps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj_rec_ransac_scene_opps")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_scene_opps" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_scene_opps")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_scene_opps"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_scene_opps")
@@ -1244,12 +1244,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_accepted_hypotheses"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj_rec_ransac_accepted_hypotheses")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj_rec_ransac_accepted_hypotheses")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_accepted_hypotheses" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_accepted_hypotheses")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_accepted_hypotheses"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_accepted_hypotheses")
@@ -1264,12 +1264,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj_rec_ransac_orr_octree")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj_rec_ransac_orr_octree")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree")
@@ -1284,12 +1284,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree_zprojection"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj_rec_ransac_orr_octree_zprojection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj_rec_ransac_orr_octree_zprojection")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree_zprojection" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree_zprojection")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree_zprojection"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_orr_octree_zprojection")
@@ -1304,12 +1304,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_result"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_obj_rec_ransac_result")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_obj_rec_ransac_result")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_result" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_result")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_result"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_obj_rec_ransac_result")
@@ -1324,12 +1324,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_registration_visualizer"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_registration_visualizer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_registration_visualizer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_registration_visualizer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_registration_visualizer")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_registration_visualizer"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_registration_visualizer")
@@ -1344,12 +1344,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_octree_viewer"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_octree_viewer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_octree_viewer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_octree_viewer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_octree_viewer")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_octree_viewer"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_octree_viewer")
@@ -1364,12 +1364,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh2pcd"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_mesh2pcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_mesh2pcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh2pcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh2pcd")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh2pcd"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh2pcd")
@@ -1384,12 +1384,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh_sampling"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_mesh_sampling")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_mesh_sampling")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh_sampling" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh_sampling")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh_sampling"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_mesh_sampling")
@@ -1404,12 +1404,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_virtual_scanner"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_virtual_scanner")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_virtual_scanner")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_virtual_scanner" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_virtual_scanner")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_virtual_scanner"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_virtual_scanner")
@@ -1424,12 +1424,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid_occlusion_estimation"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_voxel_grid_occlusion_estimation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_voxel_grid_occlusion_estimation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid_occlusion_estimation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid_occlusion_estimation")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid_occlusion_estimation"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_voxel_grid_occlusion_estimation")
@@ -1444,12 +1444,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_openni_save_image"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_openni_save_image")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_openni_save_image")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_openni_save_image" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_openni_save_image")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_openni_save_image"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_openni_save_image")
@@ -1464,12 +1464,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_point_cloud"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_transform_point_cloud")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_transform_point_cloud")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_point_cloud" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_point_cloud")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_point_cloud"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_point_cloud")
@@ -1484,12 +1484,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_toolsx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_from_viewpoint"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_transform_from_viewpoint")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_transform_from_viewpoint")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_from_viewpoint" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_from_viewpoint")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_from_viewpoint"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_transform_from_viewpoint")

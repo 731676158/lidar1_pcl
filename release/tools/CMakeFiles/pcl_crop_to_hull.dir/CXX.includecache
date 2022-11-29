@@ -1048,7 +1048,7 @@ pcl/surface/boost.h
 pcl/surface/impl/reconstruction.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/crop_to_hull.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/crop_to_hull.cpp
 pcl/filters/crop_hull.h
 -
 pcl/io/pcd_io.h

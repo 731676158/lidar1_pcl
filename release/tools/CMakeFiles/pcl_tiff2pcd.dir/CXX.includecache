@@ -696,7 +696,7 @@ vtkPolyDataNormals.h
 pcl/io/impl/vtk_lib_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/tiff2pcd.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/tiff2pcd.cpp
 iostream
 -
 boost/filesystem.hpp

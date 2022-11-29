@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_peoplex" OR NOT CMAKE_INSTALL_C
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_people.so.1.7.2"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_people.so.1.7"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_people.so.1.7.2"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_people.so.1.7"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_people.so.1.7.2"
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_peoplex" OR NOT CMAKE_INSTALL_C
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_people.so"
          RPATH "/usr/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_people.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_people.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_people.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_people.so")
     file(RPATH_CHANGE
@@ -91,27 +91,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_peoplex" OR NOT CMAKE_INSTALL_C
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_peoplex" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people/pcl_people-1.7.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people/pcl_people-1.7.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_peoplex" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/people" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/ground_based_people_detection_app.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/head_based_subcluster.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/height_map_2d.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/person_classifier.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/person_cluster.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/hog.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/ground_based_people_detection_app.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/head_based_subcluster.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/height_map_2d.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/person_classifier.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/person_cluster.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/hog.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_peoplex" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/people/impl" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/impl/ground_based_people_detection_app.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/impl/head_based_subcluster.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/impl/height_map_2d.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/impl/person_classifier.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/include/pcl/people/impl/person_cluster.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/impl/ground_based_people_detection_app.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/impl/head_based_subcluster.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/impl/height_map_2d.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/impl/person_classifier.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/include/pcl/people/impl/person_cluster.hpp"
     )
 endif()
 
@@ -122,12 +122,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_peoplex" OR NOT CMAKE_INSTALL_C
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ground_based_rgbd_people_detector"
          RPATH "/usr/lib:/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/bin/pcl_ground_based_rgbd_people_detector")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/bin/pcl_ground_based_rgbd_people_detector")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ground_based_rgbd_people_detector" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ground_based_rgbd_people_detector")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ground_based_rgbd_people_detector"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:/usr/local/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:/usr/local/lib:"
          NEW_RPATH "/usr/lib:/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pcl_ground_based_rgbd_people_detector")

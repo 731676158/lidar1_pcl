@@ -83,7 +83,7 @@ tools/CMakeFiles/pcl_compute_hull.dir/compute_hull.cpp.o
  ../surface/include/pcl/surface/impl/reconstruction.hpp
  ../surface/include/pcl/surface/qhull.h
  ../surface/include/pcl/surface/reconstruction.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/compute_hull.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/compute_hull.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

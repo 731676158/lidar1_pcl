@@ -500,7 +500,7 @@ pcl/PCLImage.h
 pcl/io/impl/point_cloud_image_extractors.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/organized_pcd_to_png.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/organized_pcd_to_png.cpp
 pcl/io/pcd_io.h
 -
 pcl/console/print.h

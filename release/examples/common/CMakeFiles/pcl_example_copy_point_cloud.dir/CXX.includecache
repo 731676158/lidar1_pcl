@@ -304,7 +304,7 @@ boost/type_traits.hpp
 stddef.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/common/example_copy_point_cloud.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/common/example_copy_point_cloud.cpp
 iostream
 -
 pcl/point_cloud.h

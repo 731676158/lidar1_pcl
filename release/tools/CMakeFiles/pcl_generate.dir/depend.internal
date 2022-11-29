@@ -40,7 +40,7 @@ tools/CMakeFiles/pcl_generate.dir/generate.cpp.o
  ../io/include/pcl/io/impl/pcd_io.hpp
  ../io/include/pcl/io/lzf.h
  ../io/include/pcl/io/pcd_io.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/generate.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/generate.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

@@ -910,7 +910,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/extract_feature.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/extract_feature.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/point_types.h

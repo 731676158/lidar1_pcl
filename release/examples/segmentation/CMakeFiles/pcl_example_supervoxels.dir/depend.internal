@@ -122,7 +122,7 @@ examples/segmentation/CMakeFiles/pcl_example_supervoxels.dir/example_supervoxels
  ../visualization/include/pcl/visualization/point_cloud_geometry_handlers.h
  ../visualization/include/pcl/visualization/point_cloud_handlers.h
  ../visualization/include/pcl/visualization/point_picking_event.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/segmentation/example_supervoxels.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/segmentation/example_supervoxels.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/keypoints
-# Build directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/keypoints
+# Source directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/keypoints
+# Build directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/keypoints
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

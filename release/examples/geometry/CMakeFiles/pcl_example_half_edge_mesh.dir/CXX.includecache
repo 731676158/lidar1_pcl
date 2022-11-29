@@ -158,7 +158,7 @@ pcl/geometry/boost.h
 pcl/geometry/mesh_base.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/geometry/example_half_edge_mesh.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/geometry/example_half_edge_mesh.cpp
 iostream
 -
 pcl/geometry/polygon_mesh.h

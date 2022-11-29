@@ -1798,7 +1798,7 @@ pcl/common/time.h
 pcl/segmentation/impl/supervoxel_clustering.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/approximate_progressive_morphological_filter.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/approximate_progressive_morphological_filter.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1808,7 +1808,7 @@ pcl/segmentation/approximate_progressive_morphological_filter.h
 pcl/segmentation/impl/approximate_progressive_morphological_filter.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/conditional_euclidean_clustering.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/conditional_euclidean_clustering.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1816,7 +1816,7 @@ pcl/point_types.h
 pcl/segmentation/impl/conditional_euclidean_clustering.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/crf_normal_segmentation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/crf_normal_segmentation.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp
@@ -1826,7 +1826,7 @@ pcl/segmentation/crf_normal_segmentation.h
 pcl/segmentation/impl/crf_normal_segmentation.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_clusters.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_clusters.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1840,7 +1840,7 @@ pcl/segmentation/extract_labeled_clusters.h
 pcl/segmentation/impl/extract_labeled_clusters.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_polygonal_prism_data.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_polygonal_prism_data.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1850,7 +1850,7 @@ pcl/segmentation/extract_polygonal_prism_data.h
 pcl/segmentation/impl/extract_polygonal_prism_data.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/grabcut_segmentation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/grabcut_segmentation.cpp
 pcl/segmentation/grabcut_segmentation.h
 -
 cstdlib
@@ -1864,7 +1864,7 @@ map
 algorithm
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/min_cut_segmentation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/min_cut_segmentation.cpp
 boost/version.hpp
 -
 pcl/point_types.h
@@ -1876,7 +1876,7 @@ pcl/segmentation/min_cut_segmentation.h
 pcl/segmentation/impl/min_cut_segmentation.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_connected_component_segmentation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_connected_component_segmentation.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1886,7 +1886,7 @@ pcl/segmentation/organized_connected_component_segmentation.h
 pcl/segmentation/impl/organized_connected_component_segmentation.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_multi_plane_segmentation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_multi_plane_segmentation.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1896,7 +1896,7 @@ pcl/segmentation/organized_multi_plane_segmentation.h
 pcl/segmentation/impl/organized_multi_plane_segmentation.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/planar_polygon_fusion.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/planar_polygon_fusion.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1906,7 +1906,7 @@ pcl/segmentation/planar_polygon_fusion.h
 pcl/segmentation/impl/planar_polygon_fusion.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/progressive_morphological_filter.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/progressive_morphological_filter.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1916,7 +1916,7 @@ pcl/segmentation/progressive_morphological_filter.h
 pcl/segmentation/impl/progressive_morphological_filter.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp
@@ -1926,7 +1926,7 @@ pcl/segmentation/region_growing.h
 pcl/segmentation/impl/region_growing.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing_rgb.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing_rgb.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp
@@ -1936,7 +1936,7 @@ pcl/segmentation/region_growing_rgb.h
 pcl/segmentation/impl/region_growing_rgb.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/sac_segmentation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/sac_segmentation.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1946,7 +1946,7 @@ pcl/segmentation/sac_segmentation.h
 pcl/segmentation/impl/sac_segmentation.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/seeded_hue_segmentation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/seeded_hue_segmentation.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1956,7 +1956,7 @@ pcl/segmentation/seeded_hue_segmentation.h
 pcl/segmentation/impl/seeded_hue_segmentation.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/segment_differences.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/segment_differences.cpp
 pcl/impl/instantiate.hpp
 -
 pcl/point_types.h
@@ -1966,7 +1966,7 @@ pcl/segmentation/segment_differences.h
 pcl/segmentation/impl/segment_differences.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/supervoxel_clustering.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/supervoxel_clustering.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp

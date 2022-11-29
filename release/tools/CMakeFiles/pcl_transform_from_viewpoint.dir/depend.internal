@@ -79,7 +79,7 @@ tools/CMakeFiles/pcl_transform_from_viewpoint.dir/transform_from_viewpoint.cpp.o
  ../search/include/pcl/search/organized.h
  ../search/include/pcl/search/pcl_search.h
  ../search/include/pcl/search/search.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/transform_from_viewpoint.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/transform_from_viewpoint.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

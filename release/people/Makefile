@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 people/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 people/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 people/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 people/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 people/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 people/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 people/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 people/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/rule
 .PHONY : people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ pcl_ground_based_rgbd_people_detector: people/CMakeFiles/pcl_ground_based_rgbd_p
 
 # fast build rule for target.
 pcl_ground_based_rgbd_people_detector/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build
 .PHONY : pcl_ground_based_rgbd_people_detector/fast
 
 # Convenience name for target.
 people/CMakeFiles/pcl_people.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 people/CMakeFiles/pcl_people.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 people/CMakeFiles/pcl_people.dir/rule
 .PHONY : people/CMakeFiles/pcl_people.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ pcl_people: people/CMakeFiles/pcl_people.dir/rule
 
 # fast build rule for target.
 pcl_people/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/build
 .PHONY : pcl_people/fast
 
 apps/main_ground_based_people_detection.o: apps/main_ground_based_people_detection.cpp.o
@@ -225,7 +225,7 @@ apps/main_ground_based_people_detection.o: apps/main_ground_based_people_detecti
 
 # target to build an object file
 apps/main_ground_based_people_detection.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/apps/main_ground_based_people_detection.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/apps/main_ground_based_people_detection.cpp.o
 .PHONY : apps/main_ground_based_people_detection.cpp.o
 
 apps/main_ground_based_people_detection.i: apps/main_ground_based_people_detection.cpp.i
@@ -234,7 +234,7 @@ apps/main_ground_based_people_detection.i: apps/main_ground_based_people_detecti
 
 # target to preprocess a source file
 apps/main_ground_based_people_detection.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/apps/main_ground_based_people_detection.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/apps/main_ground_based_people_detection.cpp.i
 .PHONY : apps/main_ground_based_people_detection.cpp.i
 
 apps/main_ground_based_people_detection.s: apps/main_ground_based_people_detection.cpp.s
@@ -243,7 +243,7 @@ apps/main_ground_based_people_detection.s: apps/main_ground_based_people_detecti
 
 # target to generate assembly for a file
 apps/main_ground_based_people_detection.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/apps/main_ground_based_people_detection.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/build.make people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/apps/main_ground_based_people_detection.cpp.s
 .PHONY : apps/main_ground_based_people_detection.cpp.s
 
 src/hog.o: src/hog.cpp.o
@@ -252,7 +252,7 @@ src/hog.o: src/hog.cpp.o
 
 # target to build an object file
 src/hog.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/src/hog.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/src/hog.cpp.o
 .PHONY : src/hog.cpp.o
 
 src/hog.i: src/hog.cpp.i
@@ -261,7 +261,7 @@ src/hog.i: src/hog.cpp.i
 
 # target to preprocess a source file
 src/hog.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/src/hog.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/src/hog.cpp.i
 .PHONY : src/hog.cpp.i
 
 src/hog.s: src/hog.cpp.s
@@ -270,7 +270,7 @@ src/hog.s: src/hog.cpp.s
 
 # target to generate assembly for a file
 src/hog.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/src/hog.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f people/CMakeFiles/pcl_people.dir/build.make people/CMakeFiles/pcl_people.dir/src/hog.cpp.s
 .PHONY : src/hog.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

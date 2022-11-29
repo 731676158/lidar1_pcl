@@ -71,7 +71,7 @@ visualization/tools/CMakeFiles/pcl_oni_viewer.dir/oni_viewer_simple.cpp.o
  ../visualization/include/pcl/visualization/point_cloud_geometry_handlers.h
  ../visualization/include/pcl/visualization/point_cloud_handlers.h
  ../visualization/include/pcl/visualization/point_picking_event.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/oni_viewer_simple.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/oni_viewer_simple.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

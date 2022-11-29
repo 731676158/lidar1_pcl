@@ -456,7 +456,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/concatenate_points_pcd.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/concatenate_points_pcd.cpp
 iostream
 -
 pcl/console/time.h

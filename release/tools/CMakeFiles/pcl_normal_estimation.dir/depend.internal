@@ -80,7 +80,7 @@ tools/CMakeFiles/pcl_normal_estimation.dir/normal_estimation.cpp.o
  ../search/include/pcl/search/organized.h
  ../search/include/pcl/search/pcl_search.h
  ../search/include/pcl/search/search.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/normal_estimation.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/normal_estimation.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

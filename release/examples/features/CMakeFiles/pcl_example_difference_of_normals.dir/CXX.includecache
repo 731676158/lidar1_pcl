@@ -1398,7 +1398,7 @@ pcl/search/search.h
 pcl/segmentation/impl/sac_segmentation.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/features/example_difference_of_normals.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/features/example_difference_of_normals.cpp
 string
 -
 pcl/point_types.h

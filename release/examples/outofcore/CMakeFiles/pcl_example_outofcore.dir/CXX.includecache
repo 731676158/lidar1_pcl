@@ -906,7 +906,7 @@ Eigen/Geometry
 Eigen/Dense
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/outofcore/example_outofcore.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/outofcore/example_outofcore.cpp
 pcl/io/pcd_io.h
 -
 pcl/console/print.h

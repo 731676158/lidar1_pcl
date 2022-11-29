@@ -372,7 +372,7 @@ pcl/pcl_macros.h
 pcl/filters/filter_indices.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/filters/example_extract_indices.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/filters/example_extract_indices.cpp
 iostream
 -
 pcl/point_types.h

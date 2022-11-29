@@ -1056,7 +1056,7 @@ pcl/pcl_macros.h
 vtkImageCanvasSource2D.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/pcd_viewer.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/pcd_viewer.cpp
 pcl/common/common.h
 -
 pcl/io/pcd_io.h

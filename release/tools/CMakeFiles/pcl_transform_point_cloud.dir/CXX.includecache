@@ -578,7 +578,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/transform_point_cloud.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/transform_point_cloud.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/conversions.h

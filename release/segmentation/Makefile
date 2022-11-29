@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CPackSourceConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation/CMakeFiles/progress.marks
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation/CMakeFiles/progress.marks
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/clean
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/preinstall
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 segmentation/CMakeFiles/pcl_segmentation.dir/rule:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/CMakeFiles/pcl_segmentation.dir/rule
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f CMakeFiles/Makefile2 segmentation/CMakeFiles/pcl_segmentation.dir/rule
 .PHONY : segmentation/CMakeFiles/pcl_segmentation.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ pcl_segmentation: segmentation/CMakeFiles/pcl_segmentation.dir/rule
 
 # fast build rule for target.
 pcl_segmentation/fast:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/build
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/build
 .PHONY : pcl_segmentation/fast
 
 src/approximate_progressive_morphological_filter.o: src/approximate_progressive_morphological_filter.cpp.o
@@ -210,7 +210,7 @@ src/approximate_progressive_morphological_filter.o: src/approximate_progressive_
 
 # target to build an object file
 src/approximate_progressive_morphological_filter.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o
 .PHONY : src/approximate_progressive_morphological_filter.cpp.o
 
 src/approximate_progressive_morphological_filter.i: src/approximate_progressive_morphological_filter.cpp.i
@@ -219,7 +219,7 @@ src/approximate_progressive_morphological_filter.i: src/approximate_progressive_
 
 # target to preprocess a source file
 src/approximate_progressive_morphological_filter.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.i
 .PHONY : src/approximate_progressive_morphological_filter.cpp.i
 
 src/approximate_progressive_morphological_filter.s: src/approximate_progressive_morphological_filter.cpp.s
@@ -228,7 +228,7 @@ src/approximate_progressive_morphological_filter.s: src/approximate_progressive_
 
 # target to generate assembly for a file
 src/approximate_progressive_morphological_filter.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.s
 .PHONY : src/approximate_progressive_morphological_filter.cpp.s
 
 src/conditional_euclidean_clustering.o: src/conditional_euclidean_clustering.cpp.o
@@ -237,7 +237,7 @@ src/conditional_euclidean_clustering.o: src/conditional_euclidean_clustering.cpp
 
 # target to build an object file
 src/conditional_euclidean_clustering.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o
 .PHONY : src/conditional_euclidean_clustering.cpp.o
 
 src/conditional_euclidean_clustering.i: src/conditional_euclidean_clustering.cpp.i
@@ -246,7 +246,7 @@ src/conditional_euclidean_clustering.i: src/conditional_euclidean_clustering.cpp
 
 # target to preprocess a source file
 src/conditional_euclidean_clustering.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.i
 .PHONY : src/conditional_euclidean_clustering.cpp.i
 
 src/conditional_euclidean_clustering.s: src/conditional_euclidean_clustering.cpp.s
@@ -255,7 +255,7 @@ src/conditional_euclidean_clustering.s: src/conditional_euclidean_clustering.cpp
 
 # target to generate assembly for a file
 src/conditional_euclidean_clustering.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.s
 .PHONY : src/conditional_euclidean_clustering.cpp.s
 
 src/crf_normal_segmentation.o: src/crf_normal_segmentation.cpp.o
@@ -264,7 +264,7 @@ src/crf_normal_segmentation.o: src/crf_normal_segmentation.cpp.o
 
 # target to build an object file
 src/crf_normal_segmentation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o
 .PHONY : src/crf_normal_segmentation.cpp.o
 
 src/crf_normal_segmentation.i: src/crf_normal_segmentation.cpp.i
@@ -273,7 +273,7 @@ src/crf_normal_segmentation.i: src/crf_normal_segmentation.cpp.i
 
 # target to preprocess a source file
 src/crf_normal_segmentation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.i
 .PHONY : src/crf_normal_segmentation.cpp.i
 
 src/crf_normal_segmentation.s: src/crf_normal_segmentation.cpp.s
@@ -282,7 +282,7 @@ src/crf_normal_segmentation.s: src/crf_normal_segmentation.cpp.s
 
 # target to generate assembly for a file
 src/crf_normal_segmentation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.s
 .PHONY : src/crf_normal_segmentation.cpp.s
 
 src/extract_clusters.o: src/extract_clusters.cpp.o
@@ -291,7 +291,7 @@ src/extract_clusters.o: src/extract_clusters.cpp.o
 
 # target to build an object file
 src/extract_clusters.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o
 .PHONY : src/extract_clusters.cpp.o
 
 src/extract_clusters.i: src/extract_clusters.cpp.i
@@ -300,7 +300,7 @@ src/extract_clusters.i: src/extract_clusters.cpp.i
 
 # target to preprocess a source file
 src/extract_clusters.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.i
 .PHONY : src/extract_clusters.cpp.i
 
 src/extract_clusters.s: src/extract_clusters.cpp.s
@@ -309,7 +309,7 @@ src/extract_clusters.s: src/extract_clusters.cpp.s
 
 # target to generate assembly for a file
 src/extract_clusters.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.s
 .PHONY : src/extract_clusters.cpp.s
 
 src/extract_polygonal_prism_data.o: src/extract_polygonal_prism_data.cpp.o
@@ -318,7 +318,7 @@ src/extract_polygonal_prism_data.o: src/extract_polygonal_prism_data.cpp.o
 
 # target to build an object file
 src/extract_polygonal_prism_data.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o
 .PHONY : src/extract_polygonal_prism_data.cpp.o
 
 src/extract_polygonal_prism_data.i: src/extract_polygonal_prism_data.cpp.i
@@ -327,7 +327,7 @@ src/extract_polygonal_prism_data.i: src/extract_polygonal_prism_data.cpp.i
 
 # target to preprocess a source file
 src/extract_polygonal_prism_data.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.i
 .PHONY : src/extract_polygonal_prism_data.cpp.i
 
 src/extract_polygonal_prism_data.s: src/extract_polygonal_prism_data.cpp.s
@@ -336,7 +336,7 @@ src/extract_polygonal_prism_data.s: src/extract_polygonal_prism_data.cpp.s
 
 # target to generate assembly for a file
 src/extract_polygonal_prism_data.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.s
 .PHONY : src/extract_polygonal_prism_data.cpp.s
 
 src/grabcut_segmentation.o: src/grabcut_segmentation.cpp.o
@@ -345,7 +345,7 @@ src/grabcut_segmentation.o: src/grabcut_segmentation.cpp.o
 
 # target to build an object file
 src/grabcut_segmentation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o
 .PHONY : src/grabcut_segmentation.cpp.o
 
 src/grabcut_segmentation.i: src/grabcut_segmentation.cpp.i
@@ -354,7 +354,7 @@ src/grabcut_segmentation.i: src/grabcut_segmentation.cpp.i
 
 # target to preprocess a source file
 src/grabcut_segmentation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.i
 .PHONY : src/grabcut_segmentation.cpp.i
 
 src/grabcut_segmentation.s: src/grabcut_segmentation.cpp.s
@@ -363,7 +363,7 @@ src/grabcut_segmentation.s: src/grabcut_segmentation.cpp.s
 
 # target to generate assembly for a file
 src/grabcut_segmentation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.s
 .PHONY : src/grabcut_segmentation.cpp.s
 
 src/min_cut_segmentation.o: src/min_cut_segmentation.cpp.o
@@ -372,7 +372,7 @@ src/min_cut_segmentation.o: src/min_cut_segmentation.cpp.o
 
 # target to build an object file
 src/min_cut_segmentation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o
 .PHONY : src/min_cut_segmentation.cpp.o
 
 src/min_cut_segmentation.i: src/min_cut_segmentation.cpp.i
@@ -381,7 +381,7 @@ src/min_cut_segmentation.i: src/min_cut_segmentation.cpp.i
 
 # target to preprocess a source file
 src/min_cut_segmentation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.i
 .PHONY : src/min_cut_segmentation.cpp.i
 
 src/min_cut_segmentation.s: src/min_cut_segmentation.cpp.s
@@ -390,7 +390,7 @@ src/min_cut_segmentation.s: src/min_cut_segmentation.cpp.s
 
 # target to generate assembly for a file
 src/min_cut_segmentation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.s
 .PHONY : src/min_cut_segmentation.cpp.s
 
 src/organized_connected_component_segmentation.o: src/organized_connected_component_segmentation.cpp.o
@@ -399,7 +399,7 @@ src/organized_connected_component_segmentation.o: src/organized_connected_compon
 
 # target to build an object file
 src/organized_connected_component_segmentation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o
 .PHONY : src/organized_connected_component_segmentation.cpp.o
 
 src/organized_connected_component_segmentation.i: src/organized_connected_component_segmentation.cpp.i
@@ -408,7 +408,7 @@ src/organized_connected_component_segmentation.i: src/organized_connected_compon
 
 # target to preprocess a source file
 src/organized_connected_component_segmentation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.i
 .PHONY : src/organized_connected_component_segmentation.cpp.i
 
 src/organized_connected_component_segmentation.s: src/organized_connected_component_segmentation.cpp.s
@@ -417,7 +417,7 @@ src/organized_connected_component_segmentation.s: src/organized_connected_compon
 
 # target to generate assembly for a file
 src/organized_connected_component_segmentation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.s
 .PHONY : src/organized_connected_component_segmentation.cpp.s
 
 src/organized_multi_plane_segmentation.o: src/organized_multi_plane_segmentation.cpp.o
@@ -426,7 +426,7 @@ src/organized_multi_plane_segmentation.o: src/organized_multi_plane_segmentation
 
 # target to build an object file
 src/organized_multi_plane_segmentation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o
 .PHONY : src/organized_multi_plane_segmentation.cpp.o
 
 src/organized_multi_plane_segmentation.i: src/organized_multi_plane_segmentation.cpp.i
@@ -435,7 +435,7 @@ src/organized_multi_plane_segmentation.i: src/organized_multi_plane_segmentation
 
 # target to preprocess a source file
 src/organized_multi_plane_segmentation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.i
 .PHONY : src/organized_multi_plane_segmentation.cpp.i
 
 src/organized_multi_plane_segmentation.s: src/organized_multi_plane_segmentation.cpp.s
@@ -444,7 +444,7 @@ src/organized_multi_plane_segmentation.s: src/organized_multi_plane_segmentation
 
 # target to generate assembly for a file
 src/organized_multi_plane_segmentation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.s
 .PHONY : src/organized_multi_plane_segmentation.cpp.s
 
 src/planar_polygon_fusion.o: src/planar_polygon_fusion.cpp.o
@@ -453,7 +453,7 @@ src/planar_polygon_fusion.o: src/planar_polygon_fusion.cpp.o
 
 # target to build an object file
 src/planar_polygon_fusion.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o
 .PHONY : src/planar_polygon_fusion.cpp.o
 
 src/planar_polygon_fusion.i: src/planar_polygon_fusion.cpp.i
@@ -462,7 +462,7 @@ src/planar_polygon_fusion.i: src/planar_polygon_fusion.cpp.i
 
 # target to preprocess a source file
 src/planar_polygon_fusion.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.i
 .PHONY : src/planar_polygon_fusion.cpp.i
 
 src/planar_polygon_fusion.s: src/planar_polygon_fusion.cpp.s
@@ -471,7 +471,7 @@ src/planar_polygon_fusion.s: src/planar_polygon_fusion.cpp.s
 
 # target to generate assembly for a file
 src/planar_polygon_fusion.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.s
 .PHONY : src/planar_polygon_fusion.cpp.s
 
 src/progressive_morphological_filter.o: src/progressive_morphological_filter.cpp.o
@@ -480,7 +480,7 @@ src/progressive_morphological_filter.o: src/progressive_morphological_filter.cpp
 
 # target to build an object file
 src/progressive_morphological_filter.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o
 .PHONY : src/progressive_morphological_filter.cpp.o
 
 src/progressive_morphological_filter.i: src/progressive_morphological_filter.cpp.i
@@ -489,7 +489,7 @@ src/progressive_morphological_filter.i: src/progressive_morphological_filter.cpp
 
 # target to preprocess a source file
 src/progressive_morphological_filter.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.i
 .PHONY : src/progressive_morphological_filter.cpp.i
 
 src/progressive_morphological_filter.s: src/progressive_morphological_filter.cpp.s
@@ -498,7 +498,7 @@ src/progressive_morphological_filter.s: src/progressive_morphological_filter.cpp
 
 # target to generate assembly for a file
 src/progressive_morphological_filter.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.s
 .PHONY : src/progressive_morphological_filter.cpp.s
 
 src/region_growing.o: src/region_growing.cpp.o
@@ -507,7 +507,7 @@ src/region_growing.o: src/region_growing.cpp.o
 
 # target to build an object file
 src/region_growing.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o
 .PHONY : src/region_growing.cpp.o
 
 src/region_growing.i: src/region_growing.cpp.i
@@ -516,7 +516,7 @@ src/region_growing.i: src/region_growing.cpp.i
 
 # target to preprocess a source file
 src/region_growing.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.i
 .PHONY : src/region_growing.cpp.i
 
 src/region_growing.s: src/region_growing.cpp.s
@@ -525,7 +525,7 @@ src/region_growing.s: src/region_growing.cpp.s
 
 # target to generate assembly for a file
 src/region_growing.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.s
 .PHONY : src/region_growing.cpp.s
 
 src/region_growing_rgb.o: src/region_growing_rgb.cpp.o
@@ -534,7 +534,7 @@ src/region_growing_rgb.o: src/region_growing_rgb.cpp.o
 
 # target to build an object file
 src/region_growing_rgb.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o
 .PHONY : src/region_growing_rgb.cpp.o
 
 src/region_growing_rgb.i: src/region_growing_rgb.cpp.i
@@ -543,7 +543,7 @@ src/region_growing_rgb.i: src/region_growing_rgb.cpp.i
 
 # target to preprocess a source file
 src/region_growing_rgb.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.i
 .PHONY : src/region_growing_rgb.cpp.i
 
 src/region_growing_rgb.s: src/region_growing_rgb.cpp.s
@@ -552,7 +552,7 @@ src/region_growing_rgb.s: src/region_growing_rgb.cpp.s
 
 # target to generate assembly for a file
 src/region_growing_rgb.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.s
 .PHONY : src/region_growing_rgb.cpp.s
 
 src/sac_segmentation.o: src/sac_segmentation.cpp.o
@@ -561,7 +561,7 @@ src/sac_segmentation.o: src/sac_segmentation.cpp.o
 
 # target to build an object file
 src/sac_segmentation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o
 .PHONY : src/sac_segmentation.cpp.o
 
 src/sac_segmentation.i: src/sac_segmentation.cpp.i
@@ -570,7 +570,7 @@ src/sac_segmentation.i: src/sac_segmentation.cpp.i
 
 # target to preprocess a source file
 src/sac_segmentation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.i
 .PHONY : src/sac_segmentation.cpp.i
 
 src/sac_segmentation.s: src/sac_segmentation.cpp.s
@@ -579,7 +579,7 @@ src/sac_segmentation.s: src/sac_segmentation.cpp.s
 
 # target to generate assembly for a file
 src/sac_segmentation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.s
 .PHONY : src/sac_segmentation.cpp.s
 
 src/seeded_hue_segmentation.o: src/seeded_hue_segmentation.cpp.o
@@ -588,7 +588,7 @@ src/seeded_hue_segmentation.o: src/seeded_hue_segmentation.cpp.o
 
 # target to build an object file
 src/seeded_hue_segmentation.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o
 .PHONY : src/seeded_hue_segmentation.cpp.o
 
 src/seeded_hue_segmentation.i: src/seeded_hue_segmentation.cpp.i
@@ -597,7 +597,7 @@ src/seeded_hue_segmentation.i: src/seeded_hue_segmentation.cpp.i
 
 # target to preprocess a source file
 src/seeded_hue_segmentation.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.i
 .PHONY : src/seeded_hue_segmentation.cpp.i
 
 src/seeded_hue_segmentation.s: src/seeded_hue_segmentation.cpp.s
@@ -606,7 +606,7 @@ src/seeded_hue_segmentation.s: src/seeded_hue_segmentation.cpp.s
 
 # target to generate assembly for a file
 src/seeded_hue_segmentation.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.s
 .PHONY : src/seeded_hue_segmentation.cpp.s
 
 src/segment_differences.o: src/segment_differences.cpp.o
@@ -615,7 +615,7 @@ src/segment_differences.o: src/segment_differences.cpp.o
 
 # target to build an object file
 src/segment_differences.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o
 .PHONY : src/segment_differences.cpp.o
 
 src/segment_differences.i: src/segment_differences.cpp.i
@@ -624,7 +624,7 @@ src/segment_differences.i: src/segment_differences.cpp.i
 
 # target to preprocess a source file
 src/segment_differences.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.i
 .PHONY : src/segment_differences.cpp.i
 
 src/segment_differences.s: src/segment_differences.cpp.s
@@ -633,7 +633,7 @@ src/segment_differences.s: src/segment_differences.cpp.s
 
 # target to generate assembly for a file
 src/segment_differences.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.s
 .PHONY : src/segment_differences.cpp.s
 
 src/supervoxel_clustering.o: src/supervoxel_clustering.cpp.o
@@ -642,7 +642,7 @@ src/supervoxel_clustering.o: src/supervoxel_clustering.cpp.o
 
 # target to build an object file
 src/supervoxel_clustering.cpp.o:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o
 .PHONY : src/supervoxel_clustering.cpp.o
 
 src/supervoxel_clustering.i: src/supervoxel_clustering.cpp.i
@@ -651,7 +651,7 @@ src/supervoxel_clustering.i: src/supervoxel_clustering.cpp.i
 
 # target to preprocess a source file
 src/supervoxel_clustering.cpp.i:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.i
 .PHONY : src/supervoxel_clustering.cpp.i
 
 src/supervoxel_clustering.s: src/supervoxel_clustering.cpp.s
@@ -660,7 +660,7 @@ src/supervoxel_clustering.s: src/supervoxel_clustering.cpp.s
 
 # target to generate assembly for a file
 src/supervoxel_clustering.cpp.s:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(MAKE) -f segmentation/CMakeFiles/pcl_segmentation.dir/build.make segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.s
 .PHONY : src/supervoxel_clustering.cpp.s
 
 # Help Target
@@ -741,6 +741,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

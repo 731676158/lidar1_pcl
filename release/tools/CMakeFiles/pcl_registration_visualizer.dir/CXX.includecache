@@ -1300,7 +1300,7 @@ pcl/visualization/pcl_visualizer.h
 pcl/visualization/impl/registration_visualizer.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/registration_visualizer.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/registration_visualizer.cpp
 pcl/io/pcd_io.h
 -
 pcl/filters/voxel_grid.h

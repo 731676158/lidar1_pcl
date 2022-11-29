@@ -900,7 +900,7 @@ vector
 vtkCommand.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/oni_viewer_simple.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/oni_viewer_simple.cpp
 pcl/point_cloud.h
 -
 pcl/point_types.h

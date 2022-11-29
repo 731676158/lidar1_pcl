@@ -960,7 +960,7 @@ pcl/PolygonMesh.h
 pcl/surface/impl/processing.hpp
 ../surface/include/pcl/surface/pcl/surface/impl/processing.hpp
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/mls_smoothing.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/mls_smoothing.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/point_types.h

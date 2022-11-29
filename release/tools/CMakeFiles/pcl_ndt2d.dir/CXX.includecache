@@ -818,7 +818,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/ndt2d.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/ndt2d.cpp
 pcl/console/parse.h
 -
 pcl/console/print.h

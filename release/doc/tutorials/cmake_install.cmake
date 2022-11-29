@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/doc/tutorials
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/doc/tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

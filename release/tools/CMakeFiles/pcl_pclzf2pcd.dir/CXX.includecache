@@ -486,7 +486,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/pclzf2pcd.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/pclzf2pcd.cpp
 pcl/io/pcd_io.h
 -
 pcl/io/lzf_image_io.h

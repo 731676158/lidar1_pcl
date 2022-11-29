@@ -140,7 +140,7 @@ tools/CMakeFiles/pcl_train_linemod_template.dir/train_linemod_template.cpp.o
  ../search/include/pcl/search/search.h
  ../segmentation/include/pcl/segmentation/impl/sac_segmentation.hpp
  ../segmentation/include/pcl/segmentation/sac_segmentation.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/train_linemod_template.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/train_linemod_template.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

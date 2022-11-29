@@ -39,7 +39,7 @@ tools/CMakeFiles/pcl_pcd2png.dir/pcd2png.cpp.o
  ../io/include/pcl/io/pcd_io.h
  ../io/include/pcl/io/png_io.h
  ../io/include/pcl/io/point_cloud_image_extractors.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/pcd2png.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/pcd2png.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

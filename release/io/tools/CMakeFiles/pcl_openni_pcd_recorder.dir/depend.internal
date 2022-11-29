@@ -49,7 +49,7 @@ io/tools/CMakeFiles/pcl_openni_pcd_recorder.dir/openni_pcd_recorder.cpp.o
  ../io/include/pcl/io/openni_camera/openni_ir_image.h
  ../io/include/pcl/io/openni_grabber.h
  ../io/include/pcl/io/pcd_io.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/openni_pcd_recorder.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/openni_pcd_recorder.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

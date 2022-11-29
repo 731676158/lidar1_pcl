@@ -75,7 +75,7 @@ tools/CMakeFiles/pcl_gp3_surface.dir/gp3_surface.cpp.o
  ../surface/include/pcl/surface/impl/gp3.hpp
  ../surface/include/pcl/surface/impl/reconstruction.hpp
  ../surface/include/pcl/surface/reconstruction.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/gp3_surface.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/gp3_surface.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

@@ -80,7 +80,7 @@ examples/segmentation/CMakeFiles/pcl_example_region_growing.dir/example_region_g
  ../search/include/pcl/search/search.h
  ../segmentation/include/pcl/segmentation/impl/region_growing.hpp
  ../segmentation/include/pcl/segmentation/region_growing.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/segmentation/example_region_growing.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/segmentation/example_region_growing.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

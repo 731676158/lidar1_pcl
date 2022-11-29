@@ -1052,7 +1052,7 @@ pcl/pcl_macros.h
 vtkImageCanvasSource2D.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/openni_viewer.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/openni_viewer.cpp
 pcl/common/time.h
 -
 pcl/io/openni_grabber.h

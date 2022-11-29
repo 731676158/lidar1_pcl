@@ -114,7 +114,7 @@ boost/type_traits.hpp
 stddef.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/common/example_check_if_point_is_valid.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/common/example_check_if_point_is_valid.cpp
 iostream
 -
 limits

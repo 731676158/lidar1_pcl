@@ -516,7 +516,7 @@ pcl/PolygonMesh.h
 sstream
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/ply2pcd.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/ply2pcd.cpp
 pcl/io/pcd_io.h
 -
 pcl/io/ply_io.h

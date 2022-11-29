@@ -64,8 +64,8 @@ tools/CMakeFiles/pcl_virtual_scanner.dir/virtual_scanner.cpp.o
  ../io/include/pcl/io/vtk_lib_io.h
  ../visualization/include/pcl/visualization/interactor.h
  ../visualization/include/pcl/visualization/vtk.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/boost.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/virtual_scanner.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/boost.h
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/virtual_scanner.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

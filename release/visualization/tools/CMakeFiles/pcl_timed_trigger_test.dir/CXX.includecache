@@ -82,7 +82,7 @@ boost/date_time/posix_time/posix_time.hpp
 boost/filesystem.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/timed_trigger_test.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/timed_trigger_test.cpp
 iostream
 -
 pcl/common/time_trigger.h

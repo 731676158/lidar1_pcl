@@ -80,7 +80,7 @@ visualization/tools/CMakeFiles/pcl_pcd_grabber_viewer.dir/pcd_grabber_viewer.cpp
  ../visualization/include/pcl/visualization/point_picking_event.h
  ../visualization/include/pcl/visualization/vtk/pcl_context_item.h
  ../visualization/include/pcl/visualization/vtk/pcl_image_canvas_source_2d.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/pcd_grabber_viewer.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/pcd_grabber_viewer.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

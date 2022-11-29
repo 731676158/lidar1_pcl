@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/install_manifest.txt\"")
-endif(NOT EXISTS "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/install_manifest.txt")
+if(NOT EXISTS "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/install_manifest.txt\"")
+endif(NOT EXISTS "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/install_manifest.txt")
 
-file(READ "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/install_manifest.txt" files)
+file(READ "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

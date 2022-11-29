@@ -528,7 +528,7 @@ boost/shared_array.hpp
 pcl/kdtree/impl/kdtree_flann.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/compute_cloud_error.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/compute_cloud_error.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/point_types.h

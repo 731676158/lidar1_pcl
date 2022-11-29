@@ -76,7 +76,7 @@ tools/CMakeFiles/pcl_pcd_change_viewpoint.dir/pcd_change_viewpoint.cpp.o
  ../search/include/pcl/search/organized.h
  ../search/include/pcl/search/pcl_search.h
  ../search/include/pcl/search/search.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/pcd_change_viewpoint.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/pcd_change_viewpoint.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

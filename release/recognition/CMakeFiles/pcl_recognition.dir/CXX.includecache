@@ -1552,33 +1552,33 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/geometric_consistency.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/geometric_consistency.cpp
 pcl/point_types.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/point_types.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/point_types.h
 pcl/impl/instantiate.hpp
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/impl/instantiate.hpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/impl/instantiate.hpp
 pcl/recognition/cg/geometric_consistency.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/recognition/cg/geometric_consistency.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/recognition/cg/geometric_consistency.h
 pcl/recognition/impl/cg/geometric_consistency.hpp
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/recognition/impl/cg/geometric_consistency.hpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/recognition/impl/cg/geometric_consistency.hpp
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/hough_3d.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/hough_3d.cpp
 pcl/point_types.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/point_types.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/point_types.h
 pcl/impl/instantiate.hpp
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/impl/instantiate.hpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/impl/instantiate.hpp
 pcl/recognition/cg/hough_3d.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/recognition/cg/hough_3d.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/recognition/cg/hough_3d.h
 pcl/recognition/impl/cg/hough_3d.hpp
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/cg/pcl/recognition/impl/cg/hough_3d.hpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/cg/pcl/recognition/impl/cg/hough_3d.hpp
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/dotmod.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/dotmod.cpp
 pcl/recognition/dotmod.h
 -
 fstream
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/greedy_verification.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/greedy_verification.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp
@@ -1588,7 +1588,7 @@ pcl/recognition/hv/greedy_verification.h
 pcl/recognition/impl/hv/greedy_verification.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_go.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_go.cpp
 pcl/recognition/impl/hv/hv_go.hpp
 -
 pcl/impl/instantiate.hpp
@@ -1596,7 +1596,7 @@ pcl/impl/instantiate.hpp
 pcl/point_types.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/hv_papazov.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/hv_papazov.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp
@@ -1606,7 +1606,7 @@ pcl/recognition/hv/hv_papazov.h
 pcl/recognition/impl/hv/hv_papazov.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/hv/occlusion_reasoning.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/hv/occlusion_reasoning.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp
@@ -1616,7 +1616,7 @@ pcl/recognition/hv/occlusion_reasoning.h
 pcl/recognition/impl/hv/occlusion_reasoning.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/implicit_shape_model.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/implicit_shape_model.cpp
 pcl/point_types.h
 -
 pcl/impl/instantiate.hpp
@@ -1626,7 +1626,7 @@ pcl/recognition/implicit_shape_model.h
 pcl/recognition/impl/implicit_shape_model.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/linemod.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/linemod.cpp
 pcl/recognition/linemod.h
 -
 emmintrin.h
@@ -1634,13 +1634,13 @@ emmintrin.h
 fstream
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/mask_map.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/mask_map.cpp
 pcl/recognition/mask_map.h
 -
 assert.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/quantizable_modality.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/quantizable_modality.cpp
 pcl/recognition/quantizable_modality.h
 -
 cstddef
@@ -1648,7 +1648,7 @@ cstddef
 string.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/model_library.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/model_library.cpp
 pcl/recognition/ransac_based/model_library.h
 -
 pcl/recognition/ransac_based/obj_rec_ransac.h
@@ -1662,13 +1662,13 @@ pcl/console/print.h
 cmath
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/obj_rec_ransac.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/obj_rec_ransac.cpp
 pcl/common/random.h
 -
 pcl/recognition/ransac_based/obj_rec_ransac.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree.cpp
 pcl/recognition/ransac_based/orr_octree.h
 -
 pcl/common/common.h
@@ -1684,7 +1684,7 @@ algorithm
 list
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/recognition/src/ransac_based/orr_octree_zprojection.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/recognition/src/ransac_based/orr_octree_zprojection.cpp
 pcl/recognition/ransac_based/orr_octree_zprojection.h
 -
 vector

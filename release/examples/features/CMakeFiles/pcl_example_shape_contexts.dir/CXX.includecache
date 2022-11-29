@@ -894,7 +894,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/features/example_shape_contexts.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/features/example_shape_contexts.cpp
 iostream
 -
 vector

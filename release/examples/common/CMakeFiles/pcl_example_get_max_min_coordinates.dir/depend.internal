@@ -36,7 +36,7 @@ examples/common/CMakeFiles/pcl_example_get_max_min_coordinates.dir/example_get_m
  ../io/include/pcl/io/impl/pcd_io.hpp
  ../io/include/pcl/io/lzf.h
  ../io/include/pcl/io/pcd_io.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/common/example_get_max_min_coordinates.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/common/example_get_max_min_coordinates.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

@@ -90,7 +90,7 @@ tools/CMakeFiles/pcl_linemod_detection.dir/linemod_detection.cpp.o
  ../search/include/pcl/search/organized.h
  ../search/include/pcl/search/pcl_search.h
  ../search/include/pcl/search/search.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/linemod_detection.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/linemod_detection.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

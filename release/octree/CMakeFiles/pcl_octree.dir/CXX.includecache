@@ -458,7 +458,7 @@ octree_pointcloud.h
 pcl/octree/impl/octree_search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/octree/src/octree_inst.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/octree/src/octree_inst.cpp
 pcl/octree/octree.h
 -
 pcl/octree/octree_impl.h

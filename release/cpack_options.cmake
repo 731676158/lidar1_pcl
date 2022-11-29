@@ -2,8 +2,8 @@ set(CPACK_PACKAGE_NAME "PCL")
 set(CPACK_PACKAGE_VENDOR "PointClouds.org")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Point Cloud Library (PCL)")
 set(CPACK_PACKAGE_INSTALL_DIRECTORY "PCL 1.7.2")
-set(CPACK_RESOURCE_FILE_LICENSE "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/LICENSE.txt")
-set(CPACK_RESOURCE_FILE_README "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/AUTHORS.txt")
+set(CPACK_RESOURCE_FILE_LICENSE "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/LICENSE.txt")
+set(CPACK_RESOURCE_FILE_README "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/AUTHORS.txt")
 
 set(CPACK_COMPONENT_PCL_COMMON_DISPLAY_NAME "common")
 set(CPACK_COMPONENT_PCL_COMMON_DESCRIPTION "Point cloud common library")
@@ -93,8 +93,8 @@ set(CPACK_COMPONENTS_ALL pcl_common pcl_geometry pcl_octree pcl_io pcl_kdtree pc
 
 IF ((WIN32 OR UNIX) AND (CPACK_GENERATOR STREQUAL "NSIS"))
     set(CPACK_NSIS_DISPLAY_NAME "PCL-1.7.2")
-    set(CPACK_NSIS_MUI_ICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/cmake/images/pcl.ico")
-    set(CPACK_NSIS_MUI_UNIICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/cmake/images/pcl.ico")
+    set(CPACK_NSIS_MUI_ICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/cmake/images/pcl.ico")
+    set(CPACK_NSIS_MUI_UNIICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/cmake/images/pcl.ico")
     set(CPACK_NSIS_HELP_LINK "http:\\\\\\\\www.pointclouds.org")
     set(CPACK_NSIS_URL_INFO_ABOUT "http:\\\\\\\\www.pointclouds.org")
     set(CPACK_NSIS_MODIFY_PATH ON)
@@ -109,9 +109,9 @@ IF ((WIN32 OR UNIX) AND (CPACK_GENERATOR STREQUAL "NSIS"))
     if(WIN32 AND NOT UNIX)
       # There is a bug in NSI that does not handle full unix paths properly. Make
       # sure there is at least one set of four (4) backlasshes.
-      set(CPACK_PACKAGE_ICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/cmake/images\\\\pcl_horz_large_pos.bmp")
+      set(CPACK_PACKAGE_ICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/cmake/images\\\\pcl_horz_large_pos.bmp")
     else(WIN32 AND NOT UNIX)
-      set(CPACK_PACKAGE_ICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/cmake/images/pcl_horz_large_pos.bmp")
+      set(CPACK_PACKAGE_ICON "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/cmake/images/pcl_horz_large_pos.bmp")
     endif(WIN32 AND NOT UNIX)
 ENDIF ()
 

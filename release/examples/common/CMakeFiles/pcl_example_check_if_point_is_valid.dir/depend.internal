@@ -9,7 +9,7 @@ examples/common/CMakeFiles/pcl_example_check_if_point_is_valid.dir/example_check
  ../common/include/pcl/point_traits.h
  ../common/include/pcl/point_types.h
  ../common/include/pcl/register_point_struct.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/common/example_check_if_point_is_valid.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/common/example_check_if_point_is_valid.cpp
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/src/Core/Array.h
  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h

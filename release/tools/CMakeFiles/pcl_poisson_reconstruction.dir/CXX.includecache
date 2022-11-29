@@ -1022,7 +1022,7 @@ pcl/surface/boost.h
 pcl/surface/impl/reconstruction.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/poisson_reconstruction.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/poisson_reconstruction.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/io/pcd_io.h

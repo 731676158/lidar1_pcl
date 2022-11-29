@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/common/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/features/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/filters/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/geometry/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/keypoints/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/outofcore/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/segmentation/cmake_install.cmake")
-  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/examples/surface/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/common/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/features/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/filters/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/geometry/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/keypoints/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/outofcore/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/segmentation/cmake_install.cmake")
+  include("/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/examples/surface/cmake_install.cmake")
 
 endif()
 

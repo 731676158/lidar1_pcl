@@ -822,7 +822,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/uniform_sampling.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/uniform_sampling.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/io/pcd_io.h

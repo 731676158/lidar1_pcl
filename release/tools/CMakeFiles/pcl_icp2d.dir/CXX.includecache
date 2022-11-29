@@ -962,7 +962,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/icp2d.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/icp2d.cpp
 pcl/console/parse.h
 -
 pcl/io/pcd_io.h

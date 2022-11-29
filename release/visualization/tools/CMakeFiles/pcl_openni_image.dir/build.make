@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 # Include any dependencies generated for this target.
 include visualization/tools/CMakeFiles/pcl_openni_image.dir/depend.make
@@ -59,16 +59,16 @@ include visualization/tools/CMakeFiles/pcl_openni_image.dir/flags.make
 
 visualization/tools/CMakeFiles/pcl_openni_image.dir/openni_image.cpp.o: visualization/tools/CMakeFiles/pcl_openni_image.dir/flags.make
 visualization/tools/CMakeFiles/pcl_openni_image.dir/openni_image.cpp.o: ../visualization/tools/openni_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object visualization/tools/CMakeFiles/pcl_openni_image.dir/openni_image.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/visualization/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_openni_image.dir/openni_image.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/openni_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object visualization/tools/CMakeFiles/pcl_openni_image.dir/openni_image.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/visualization/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_openni_image.dir/openni_image.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/openni_image.cpp
 
 visualization/tools/CMakeFiles/pcl_openni_image.dir/openni_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_openni_image.dir/openni_image.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/visualization/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/openni_image.cpp > CMakeFiles/pcl_openni_image.dir/openni_image.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/visualization/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/openni_image.cpp > CMakeFiles/pcl_openni_image.dir/openni_image.cpp.i
 
 visualization/tools/CMakeFiles/pcl_openni_image.dir/openni_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_openni_image.dir/openni_image.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/visualization/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/openni_image.cpp -o CMakeFiles/pcl_openni_image.dir/openni_image.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/visualization/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/openni_image.cpp -o CMakeFiles/pcl_openni_image.dir/openni_image.cpp.s
 
 # Object files for target pcl_openni_image
 pcl_openni_image_OBJECTS = \
@@ -221,8 +221,8 @@ bin/pcl_openni_image: /usr/local/lib/libvtkzlib-6.2.so.1
 bin/pcl_openni_image: /usr/lib/x86_64-linux-gnu/libGL.so
 bin/pcl_openni_image: /usr/lib/x86_64-linux-gnu/libGLU.so
 bin/pcl_openni_image: visualization/tools/CMakeFiles/pcl_openni_image.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/pcl_openni_image"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/visualization/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_openni_image.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/pcl_openni_image"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/visualization/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_openni_image.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 visualization/tools/CMakeFiles/pcl_openni_image.dir/build: bin/pcl_openni_image
@@ -230,10 +230,10 @@ visualization/tools/CMakeFiles/pcl_openni_image.dir/build: bin/pcl_openni_image
 .PHONY : visualization/tools/CMakeFiles/pcl_openni_image.dir/build
 
 visualization/tools/CMakeFiles/pcl_openni_image.dir/clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/visualization/tools && $(CMAKE_COMMAND) -P CMakeFiles/pcl_openni_image.dir/cmake_clean.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/visualization/tools && $(CMAKE_COMMAND) -P CMakeFiles/pcl_openni_image.dir/cmake_clean.cmake
 .PHONY : visualization/tools/CMakeFiles/pcl_openni_image.dir/clean
 
 visualization/tools/CMakeFiles/pcl_openni_image.dir/depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/visualization/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/visualization/tools/CMakeFiles/pcl_openni_image.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/visualization/tools /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/visualization/tools/CMakeFiles/pcl_openni_image.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : visualization/tools/CMakeFiles/pcl_openni_image.dir/depend
 

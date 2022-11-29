@@ -540,7 +540,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/compute_hausdorff.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/compute_hausdorff.cpp
 pcl/point_types.h
 -
 pcl/io/pcd_io.h

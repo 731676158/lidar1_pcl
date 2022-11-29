@@ -140,7 +140,7 @@ examples/features/CMakeFiles/pcl_example_difference_of_normals.dir/example_diffe
  ../segmentation/include/pcl/segmentation/impl/extract_clusters.hpp
  ../segmentation/include/pcl/segmentation/impl/sac_segmentation.hpp
  ../segmentation/include/pcl/segmentation/sac_segmentation.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/features/example_difference_of_normals.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/features/example_difference_of_normals.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

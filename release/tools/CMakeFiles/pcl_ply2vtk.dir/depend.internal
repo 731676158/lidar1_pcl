@@ -57,7 +57,7 @@ tools/CMakeFiles/pcl_ply2vtk.dir/ply2vtk.cpp.o
  ../io/include/pcl/io/lzf.h
  ../io/include/pcl/io/pcd_io.h
  ../io/include/pcl/io/vtk_lib_io.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/ply2vtk.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/ply2vtk.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

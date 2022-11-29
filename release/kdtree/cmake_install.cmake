@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree
+# Install script for directory: /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_kdtreex" OR NOT CMAKE_INSTALL_C
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_kdtree.so.1.7.2"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_kdtree.so.1.7"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_kdtree.so.1.7.2"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_kdtree.so.1.7"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_kdtree.so.1.7.2"
@@ -61,7 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_kdtreex" OR NOT CMAKE_INSTALL_C
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:"
+           OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:"
            NEW_RPATH "/usr/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -77,12 +77,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_kdtreex" OR NOT CMAKE_INSTALL_C
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_kdtree.so"
          RPATH "/usr/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib/libpcl_kdtree.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib/libpcl_kdtree.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_kdtree.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_kdtree.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_kdtree.so"
-         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/lib:"
+         OLD_RPATH "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/lib:"
          NEW_RPATH "/usr/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpcl_kdtree.so")
@@ -91,22 +91,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_kdtreex" OR NOT CMAKE_INSTALL_C
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_kdtreex" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/kdtree/pcl_kdtree-1.7.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/kdtree/pcl_kdtree-1.7.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_kdtreex" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/kdtree" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree/include/pcl/kdtree/kdtree.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree/include/pcl/kdtree/io.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree/include/pcl/kdtree/flann.h"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree/include/pcl/kdtree/kdtree_flann.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree/include/pcl/kdtree/kdtree.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree/include/pcl/kdtree/io.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree/include/pcl/kdtree/flann.h"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree/include/pcl/kdtree/kdtree_flann.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpcl_kdtreex" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pcl-1.7/pcl/kdtree/impl" TYPE FILE FILES
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree/include/pcl/kdtree/impl/io.hpp"
-    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/kdtree/include/pcl/kdtree/impl/kdtree_flann.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree/include/pcl/kdtree/impl/io.hpp"
+    "/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/kdtree/include/pcl/kdtree/impl/kdtree_flann.hpp"
     )
 endif()
 

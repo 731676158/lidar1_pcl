@@ -910,7 +910,7 @@ pcl/segmentation/impl/extract_clusters.hpp
 pcl/segmentation/extract_clusters.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/sac_segmentation_plane.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/sac_segmentation_plane.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/io/pcd_io.h

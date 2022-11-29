@@ -922,7 +922,7 @@ pcl/segmentation/impl/extract_clusters.hpp
 pcl/segmentation/extract_clusters.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/segmentation/example_extract_clusters_normals.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/segmentation/example_extract_clusters_normals.cpp
 iostream
 -
 pcl/point_types.h

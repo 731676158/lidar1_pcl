@@ -133,7 +133,7 @@ people/CMakeFiles/pcl_ground_based_rgbd_people_detector.dir/apps/main_ground_bas
  ../visualization/include/pcl/visualization/point_cloud_geometry_handlers.h
  ../visualization/include/pcl/visualization/point_cloud_handlers.h
  ../visualization/include/pcl/visualization/point_picking_event.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/apps/main_ground_based_people_detection.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/apps/main_ground_based_people_detection.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

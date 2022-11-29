@@ -834,7 +834,7 @@ pcl/point_types.h
 pcl/segmentation/impl/progressive_morphological_filter.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/progressive_morphological_filter.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/progressive_morphological_filter.cpp
 pcl/point_types.h
 -
 pcl/io/pcd_io.h

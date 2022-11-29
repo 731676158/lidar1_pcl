@@ -38,13 +38,13 @@ kiss_fft.h
 
 ../common/include/pcl/pcl_exports.h
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/common/src/fft/kiss_fft.c
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/common/src/fft/kiss_fft.c
 pcl/common/fft/_kiss_fft_guts.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/common/src/fft/pcl/common/fft/_kiss_fft_guts.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/common/src/fft/pcl/common/fft/_kiss_fft_guts.h
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/common/src/fft/kiss_fftr.c
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/common/src/fft/kiss_fftr.c
 pcl/common/fft/kiss_fftr.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/common/src/fft/pcl/common/fft/kiss_fftr.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/common/src/fft/pcl/common/fft/kiss_fftr.h
 pcl/common/fft/_kiss_fft_guts.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/common/src/fft/pcl/common/fft/_kiss_fft_guts.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/common/src/fft/pcl/common/fft/_kiss_fft_guts.h
 

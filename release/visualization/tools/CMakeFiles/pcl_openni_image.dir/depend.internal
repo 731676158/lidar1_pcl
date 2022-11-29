@@ -81,7 +81,7 @@ visualization/tools/CMakeFiles/pcl_openni_image.dir/openni_image.cpp.o
  ../visualization/include/pcl/visualization/point_picking_event.h
  ../visualization/include/pcl/visualization/vtk/pcl_context_item.h
  ../visualization/include/pcl/visualization/vtk/pcl_image_canvas_source_2d.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/visualization/tools/openni_image.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/visualization/tools/openni_image.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

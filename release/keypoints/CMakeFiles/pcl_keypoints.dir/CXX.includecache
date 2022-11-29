@@ -1150,7 +1150,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/agast_2d.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/agast_2d.cpp
 pcl/keypoints/agast_2d.h
 -
 pcl/point_types.h
@@ -1158,7 +1158,7 @@ pcl/point_types.h
 pcl/impl/instantiate.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/harris_3d.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/harris_3d.cpp
 pcl/keypoints/sift_keypoint.h
 -
 pcl/keypoints/impl/harris_3d.hpp
@@ -1168,7 +1168,7 @@ pcl/point_types.h
 pcl/impl/instantiate.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/harris_6d.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/harris_6d.cpp
 pcl/keypoints/impl/harris_6d.hpp
 -
 pcl/point_types.h
@@ -1176,7 +1176,7 @@ pcl/point_types.h
 pcl/impl/instantiate.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/iss_3d.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/iss_3d.cpp
 pcl/keypoints/impl/iss_3d.hpp
 -
 pcl/point_types.h
@@ -1184,7 +1184,7 @@ pcl/point_types.h
 pcl/impl/instantiate.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/narf_keypoint.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/narf_keypoint.cpp
 iostream
 -
 vector
@@ -1200,7 +1200,7 @@ pcl/common/polynomial_calculations.h
 pcl/range_image/range_image.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/sift_keypoint.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/sift_keypoint.cpp
 pcl/keypoints/sift_keypoint.h
 -
 pcl/keypoints/impl/sift_keypoint.hpp
@@ -1210,7 +1210,7 @@ pcl/point_types.h
 pcl/impl/instantiate.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/smoothed_surfaces_keypoint.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/smoothed_surfaces_keypoint.cpp
 pcl/keypoints/smoothed_surfaces_keypoint.h
 -
 pcl/keypoints/impl/smoothed_surfaces_keypoint.hpp
@@ -1220,7 +1220,7 @@ pcl/point_types.h
 pcl/impl/instantiate.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/susan.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/susan.cpp
 pcl/keypoints/impl/susan.hpp
 -
 pcl/point_types.h
@@ -1228,7 +1228,7 @@ pcl/point_types.h
 pcl/impl/instantiate.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/keypoints/src/uniform_sampling.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/keypoints/src/uniform_sampling.cpp
 pcl/keypoints/uniform_sampling.h
 -
 pcl/keypoints/impl/uniform_sampling.hpp

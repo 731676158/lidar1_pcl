@@ -76,7 +76,7 @@ examples/features/CMakeFiles/pcl_example_spin_images.dir/example_spin_images.cpp
  ../search/include/pcl/search/organized.h
  ../search/include/pcl/search/pcl_search.h
  ../search/include/pcl/search/search.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/features/example_spin_images.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/features/example_spin_images.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

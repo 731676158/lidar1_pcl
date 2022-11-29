@@ -40,7 +40,7 @@ emmintrin.h
 pcl/pcl_macros.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/src/hog.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/src/hog.cpp
 pcl/people/hog.h
 -
 math.h

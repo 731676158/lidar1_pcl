@@ -464,7 +464,7 @@ pcl/io/file_io.h
 pcl/io/impl/pcd_io.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/add_gaussian_noise.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/add_gaussian_noise.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/point_types.h
@@ -478,9 +478,9 @@ pcl/console/parse.h
 pcl/console/time.h
 -
 boost.h
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/boost.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/boost.h
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/boost.h
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/boost.h
 boost/random.hpp
 -
 boost/random/normal_distribution.hpp

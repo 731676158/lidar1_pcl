@@ -472,7 +472,7 @@ pcl/PCLPointCloud2.h
 pcl/PolygonMesh.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/pcd2vtk.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/pcd2vtk.cpp
 pcl/io/pcd_io.h
 -
 pcl/io/vtk_io.h

@@ -43,7 +43,7 @@ tools/CMakeFiles/pcl_voxel_grid.dir/voxel_grid.cpp.o
  ../io/include/pcl/io/impl/pcd_io.hpp
  ../io/include/pcl/io/lzf.h
  ../io/include/pcl/io/pcd_io.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/voxel_grid.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/voxel_grid.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

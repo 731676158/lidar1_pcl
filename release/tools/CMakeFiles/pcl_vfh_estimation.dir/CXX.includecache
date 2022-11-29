@@ -868,7 +868,7 @@ pcl/common/copy_point.h
 pcl/search/impl/search.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/tools/vfh_estimation.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/tools/vfh_estimation.cpp
 pcl/PCLPointCloud2.h
 -
 pcl/io/pcd_io.h

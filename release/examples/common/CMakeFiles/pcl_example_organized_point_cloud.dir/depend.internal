@@ -12,7 +12,7 @@ examples/common/CMakeFiles/pcl_example_organized_point_cloud.dir/example_organiz
  ../common/include/pcl/point_traits.h
  ../common/include/pcl/point_types.h
  ../common/include/pcl/register_point_struct.h
- /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/common/example_organized_point_cloud.cpp
+ /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/common/example_organized_point_cloud.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry

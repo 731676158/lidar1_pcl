@@ -932,7 +932,7 @@ time.h
 pcl/segmentation/impl/region_growing.hpp
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/examples/segmentation/example_region_growing.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/examples/segmentation/example_region_growing.cpp
 iostream
 -
 pcl/filters/filter.h

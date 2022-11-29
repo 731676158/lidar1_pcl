@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 # Include any dependencies generated for this target.
 include segmentation/CMakeFiles/pcl_segmentation.dir/depend.make
@@ -59,224 +59,224 @@ include segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o: ../segmentation/src/extract_clusters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_clusters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_clusters.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_clusters.cpp > CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_clusters.cpp > CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_clusters.cpp -o CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_clusters.cpp -o CMakeFiles/pcl_segmentation.dir/src/extract_clusters.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o: ../segmentation/src/extract_polygonal_prism_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_polygonal_prism_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_polygonal_prism_data.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_polygonal_prism_data.cpp > CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_polygonal_prism_data.cpp > CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/extract_polygonal_prism_data.cpp -o CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/extract_polygonal_prism_data.cpp -o CMakeFiles/pcl_segmentation.dir/src/extract_polygonal_prism_data.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o: ../segmentation/src/sac_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/sac_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/sac_segmentation.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/sac_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/sac_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/sac_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/sac_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/sac_segmentation.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o: ../segmentation/src/seeded_hue_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/seeded_hue_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/seeded_hue_segmentation.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/seeded_hue_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/seeded_hue_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/seeded_hue_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/seeded_hue_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/seeded_hue_segmentation.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o: ../segmentation/src/segment_differences.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/segment_differences.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/segment_differences.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/segment_differences.cpp > CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/segment_differences.cpp > CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/segment_differences.cpp -o CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/segment_differences.cpp -o CMakeFiles/pcl_segmentation.dir/src/segment_differences.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o: ../segmentation/src/region_growing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing.cpp > CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing.cpp > CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing.cpp -o CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing.cpp -o CMakeFiles/pcl_segmentation.dir/src/region_growing.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o: ../segmentation/src/region_growing_rgb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing_rgb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing_rgb.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing_rgb.cpp > CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing_rgb.cpp > CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/region_growing_rgb.cpp -o CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/region_growing_rgb.cpp -o CMakeFiles/pcl_segmentation.dir/src/region_growing_rgb.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o: ../segmentation/src/organized_connected_component_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_connected_component_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_connected_component_segmentation.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_connected_component_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_connected_component_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_connected_component_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_connected_component_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/organized_connected_component_segmentation.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o: ../segmentation/src/organized_multi_plane_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_multi_plane_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_multi_plane_segmentation.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_multi_plane_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_multi_plane_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/organized_multi_plane_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/organized_multi_plane_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/organized_multi_plane_segmentation.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o: ../segmentation/src/planar_polygon_fusion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/planar_polygon_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/planar_polygon_fusion.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/planar_polygon_fusion.cpp > CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/planar_polygon_fusion.cpp > CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/planar_polygon_fusion.cpp -o CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/planar_polygon_fusion.cpp -o CMakeFiles/pcl_segmentation.dir/src/planar_polygon_fusion.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o: ../segmentation/src/crf_normal_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/crf_normal_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/crf_normal_segmentation.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/crf_normal_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/crf_normal_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/crf_normal_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/crf_normal_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/crf_normal_segmentation.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o: ../segmentation/src/conditional_euclidean_clustering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/conditional_euclidean_clustering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/conditional_euclidean_clustering.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/conditional_euclidean_clustering.cpp > CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/conditional_euclidean_clustering.cpp > CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/conditional_euclidean_clustering.cpp -o CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/conditional_euclidean_clustering.cpp -o CMakeFiles/pcl_segmentation.dir/src/conditional_euclidean_clustering.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o: ../segmentation/src/supervoxel_clustering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/supervoxel_clustering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/supervoxel_clustering.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/supervoxel_clustering.cpp > CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/supervoxel_clustering.cpp > CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/supervoxel_clustering.cpp -o CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/supervoxel_clustering.cpp -o CMakeFiles/pcl_segmentation.dir/src/supervoxel_clustering.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o: ../segmentation/src/grabcut_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/grabcut_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/grabcut_segmentation.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/grabcut_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/grabcut_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/grabcut_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/grabcut_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/grabcut_segmentation.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o: ../segmentation/src/progressive_morphological_filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/progressive_morphological_filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/progressive_morphological_filter.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/progressive_morphological_filter.cpp > CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/progressive_morphological_filter.cpp > CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/progressive_morphological_filter.cpp -o CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/progressive_morphological_filter.cpp -o CMakeFiles/pcl_segmentation.dir/src/progressive_morphological_filter.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o: ../segmentation/src/approximate_progressive_morphological_filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/approximate_progressive_morphological_filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/approximate_progressive_morphological_filter.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/approximate_progressive_morphological_filter.cpp > CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/approximate_progressive_morphological_filter.cpp > CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/approximate_progressive_morphological_filter.cpp -o CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/approximate_progressive_morphological_filter.cpp -o CMakeFiles/pcl_segmentation.dir/src/approximate_progressive_morphological_filter.cpp.s
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o: segmentation/CMakeFiles/pcl_segmentation.dir/flags.make
 segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o: ../segmentation/src/min_cut_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/min_cut_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/min_cut_segmentation.cpp
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/min_cut_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/min_cut_segmentation.cpp > CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.i
 
 segmentation/CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation/src/min_cut_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation/src/min_cut_segmentation.cpp -o CMakeFiles/pcl_segmentation.dir/src/min_cut_segmentation.cpp.s
 
 # Object files for target pcl_segmentation
 pcl_segmentation_OBJECTS = \
@@ -344,9 +344,9 @@ lib/libpcl_segmentation.so.1.7.2: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 lib/libpcl_segmentation.so.1.7.2: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 lib/libpcl_segmentation.so.1.7.2: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
 lib/libpcl_segmentation.so.1.7.2: segmentation/CMakeFiles/pcl_segmentation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ../lib/libpcl_segmentation.so"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_segmentation.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_segmentation.so.1.7.2 ../lib/libpcl_segmentation.so.1.7 ../lib/libpcl_segmentation.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ../lib/libpcl_segmentation.so"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_segmentation.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_segmentation.so.1.7.2 ../lib/libpcl_segmentation.so.1.7 ../lib/libpcl_segmentation.so
 
 lib/libpcl_segmentation.so.1.7: lib/libpcl_segmentation.so.1.7.2
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libpcl_segmentation.so.1.7
@@ -360,10 +360,10 @@ segmentation/CMakeFiles/pcl_segmentation.dir/build: lib/libpcl_segmentation.so
 .PHONY : segmentation/CMakeFiles/pcl_segmentation.dir/build
 
 segmentation/CMakeFiles/pcl_segmentation.dir/clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation && $(CMAKE_COMMAND) -P CMakeFiles/pcl_segmentation.dir/cmake_clean.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation && $(CMAKE_COMMAND) -P CMakeFiles/pcl_segmentation.dir/cmake_clean.cmake
 .PHONY : segmentation/CMakeFiles/pcl_segmentation.dir/clean
 
 segmentation/CMakeFiles/pcl_segmentation.dir/depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/segmentation /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/segmentation/CMakeFiles/pcl_segmentation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/segmentation /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/segmentation/CMakeFiles/pcl_segmentation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : segmentation/CMakeFiles/pcl_segmentation.dir/depend
 

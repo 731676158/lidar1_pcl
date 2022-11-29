@@ -132,7 +132,7 @@ pcl/io/ply/io_operators.h
 pcl/pcl_macros.h
 -
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/io/tools/ply/ply2ply.cpp
+/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/ply/ply2ply.cpp
 cstdlib
 -
 cstring

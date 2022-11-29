@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl
+CMAKE_SOURCE_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release
+CMAKE_BINARY_DIR = /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release
 
 # Include any dependencies generated for this target.
 include people/CMakeFiles/pcl_people.dir/depend.make
@@ -59,16 +59,16 @@ include people/CMakeFiles/pcl_people.dir/flags.make
 
 people/CMakeFiles/pcl_people.dir/src/hog.cpp.o: people/CMakeFiles/pcl_people.dir/flags.make
 people/CMakeFiles/pcl_people.dir/src/hog.cpp.o: ../people/src/hog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object people/CMakeFiles/pcl_people.dir/src/hog.cpp.o"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_people.dir/src/hog.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/src/hog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object people/CMakeFiles/pcl_people.dir/src/hog.cpp.o"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcl_people.dir/src/hog.cpp.o -c /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/src/hog.cpp
 
 people/CMakeFiles/pcl_people.dir/src/hog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_people.dir/src/hog.cpp.i"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/src/hog.cpp > CMakeFiles/pcl_people.dir/src/hog.cpp.i
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/src/hog.cpp > CMakeFiles/pcl_people.dir/src/hog.cpp.i
 
 people/CMakeFiles/pcl_people.dir/src/hog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_people.dir/src/hog.cpp.s"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people/src/hog.cpp -o CMakeFiles/pcl_people.dir/src/hog.cpp.s
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people/src/hog.cpp -o CMakeFiles/pcl_people.dir/src/hog.cpp.s
 
 # Object files for target pcl_people
 pcl_people_OBJECTS = \
@@ -88,9 +88,9 @@ lib/libpcl_people.so.1.7.2: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 lib/libpcl_people.so.1.7.2: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 lib/libpcl_people.so.1.7.2: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 lib/libpcl_people.so.1.7.2: people/CMakeFiles/pcl_people.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/libpcl_people.so"
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_people.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_people.so.1.7.2 ../lib/libpcl_people.so.1.7 ../lib/libpcl_people.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/libpcl_people.so"
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_people.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libpcl_people.so.1.7.2 ../lib/libpcl_people.so.1.7 ../lib/libpcl_people.so
 
 lib/libpcl_people.so.1.7: lib/libpcl_people.so.1.7.2
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libpcl_people.so.1.7
@@ -104,10 +104,10 @@ people/CMakeFiles/pcl_people.dir/build: lib/libpcl_people.so
 .PHONY : people/CMakeFiles/pcl_people.dir/build
 
 people/CMakeFiles/pcl_people.dir/clean:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people && $(CMAKE_COMMAND) -P CMakeFiles/pcl_people.dir/cmake_clean.cmake
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people && $(CMAKE_COMMAND) -P CMakeFiles/pcl_people.dir/cmake_clean.cmake
 .PHONY : people/CMakeFiles/pcl_people.dir/clean
 
 people/CMakeFiles/pcl_people.dir/depend:
-	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/people /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people /home/jeff/codes/lidar1/src/lidar_localization/third_party/pcl/release/people/CMakeFiles/pcl_people.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/people /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people /home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/release/people/CMakeFiles/pcl_people.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : people/CMakeFiles/pcl_people.dir/depend
 
