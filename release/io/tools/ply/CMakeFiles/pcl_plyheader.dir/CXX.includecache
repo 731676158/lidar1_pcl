@@ -6,15 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/jeff/codes/lidar1/src/lidar_localization/third_party/PCL/io/tools/ply/plyheader.cpp
-fstream
--
-iostream
--
-string.h
--
-string
--
-stdlib.h
--
-
