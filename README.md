@@ -53,3 +53,6 @@ If PCL cannot be found, we have to check to make sure that the path that cmake s
 sudo ln -s /usr/include/ /usr/lib/x86_64-linux-gnu/include/
 sudo ln -s /usr/lib/ /usr/lib/x86_64-linux-gnu/lib/
 ```
+
+If error occured with boost::uuid
+[link](https://blog.csdn.net/fffyyyhhh12/article/details/126889810)
