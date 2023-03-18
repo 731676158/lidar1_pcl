@@ -56,3 +56,5 @@ sudo ln -s /usr/lib/ /usr/lib/x86_64-linux-gnu/lib/
 
 If error occured with boost::uuid
 [link](https://blog.csdn.net/fffyyyhhh12/article/details/126889810)
+
+if error with "static boost::uuids::random_generator" replace it with "static boost::uuids::random_generator_mt19937"
